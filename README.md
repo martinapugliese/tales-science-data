@@ -2,7 +2,7 @@
 
 ## What's this
 
-This Gitbook is a personally elaborated collection of material on _Data Science_. 
+This book is a personally elaborated collection of material on _Data Science_. 
 
 The title refers to, without intention to be comparable by any means, Poe's _Tales of Mistery and Imagination_. Traditionally, _science_ has the reputation of something cryptic in the general public, while the enormous rise in data talk these days renders data itself a grandiose playground for imagination.
 
