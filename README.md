@@ -12,7 +12,11 @@ Truth is, I desired a platform where to order my personal elaboration of the mat
 
 Said material is a put-together of things I learned ages ago (at Uni), of things I learned more recently, of things I learn in my everyday job. I try, whenever possible to understand things from principles and dissect them into their components, that's what really interests me. 
 
-This is my personally worked presentation. 
+This is my personally worked presentation. I also take advantage, by writing all this, to keep track of all the great references which helped and still help me learn more in the area. 
+
+## How to read this
+
+GitHub renders Jupyter notebooks quite well, but nevertheless does some funny things, for instance with coloured text and internal links. The best, cleanest and most beautiful way to read this is using the Notebook Viewer [**here**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/).
 
 ## Structure and choices
 
@@ -41,6 +45,6 @@ Folder names are quite self-explanatory and names of the notebooks have also bee
 
 ## TOC
 
-* [Probability](probability/)
+* [**Probability**](probability/)
 	* [Power laws](probability/Power Laws!.ipynb)
 
