@@ -5,5 +5,6 @@ This repo contains a series of Jupyter notebook intended as a collection of pers
 ## TOC
 
 * [**Probability**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/probability/)
-    * [Power laws](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/Power%20Laws%21.ipynb)
-
+    * [The power of the power law](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/Power%20Law.ipynb)
+* [**Regression**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/regression/)
+    * [OLS evaluation](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/Power%20Laws%21.ipynb)
