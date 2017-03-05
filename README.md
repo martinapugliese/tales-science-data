@@ -10,3 +10,8 @@ This repo contains a series of Jupyter notebook intended as a collection of pers
 * [**Regression**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/regression/)
     * Regression Diagnostics
         * [What's in the residuals](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/regression/diagnostics/What's%20in%20the%20residuals.ipynb)
+
+* [**Natural Language Processing**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/nlp/)
+    * [Text as numerical features](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/Text%20as%20numerical%20feats.ipynb)
+    * [Linguistic Notions](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/linguistic-notions.ipynb)
+
