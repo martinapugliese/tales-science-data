@@ -4,6 +4,7 @@
 
 from IPython.core.display import HTML
 from IPython.core.interactiveshell import InteractiveShell
+from IPython.display import set_matplotlib_formats
 
 import json
 import matplotlib
@@ -14,6 +15,9 @@ def config_ipython():
 
     # Print vars on multiple lines in same cell without "print"
     InteractiveShell.ast_node_interactivity = "all"
+
+    # Setting retina dispay quality for plots
+    set_matplotlib_formats('retina')
 
 
 
