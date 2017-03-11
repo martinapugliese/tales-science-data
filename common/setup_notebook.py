@@ -7,8 +7,28 @@ from IPython.core.interactiveshell import InteractiveShell
 from IPython.display import set_matplotlib_formats
 
 import json
+import sys
 import matplotlib
 from matplotlib import pyplot as plt
+
+
+
+# Name of this repo
+REPO_NAME = 'tales-science-data/'
+
+# Relative paths to style files
+MATPLOTLIB_FILE = 'style-files/matplotlibrc.json'
+CSS_FILE = 'style-files/custom.css'
+
+
+
+def find_global_path():
+    """
+    Finds global path to this repo on machine.
+    """
+    for item in sys.path:
+        if REPO_NAME in item:
+            return item.split(REPO_NAME)[0] + REPO_NAME
 
 
 def config_ipython():
@@ -21,14 +41,16 @@ def config_ipython():
 
 
 
-def setup_matplotlib(matplotlib_file_path='../styles_files/matplotlibrc.json'):
+def setup_matplotlib(matplotlib_file_path=MATPLOTLIB_FILE):
     """
     Setup all the stylistic params of matplotlib.
     Pass the file path to the Matplotlib rcParams file.
     """
 
+    global_path = find_global_path()
+
     # Overwrite rcParams with the custom style file
-    params = json.load(open(matplotlib_file_path))
+    params = json.load(open(global_path + matplotlib_file_path, 'r'))
     matplotlib.rcParams.update(params)
 
     # Set ggplot style
@@ -36,13 +58,15 @@ def setup_matplotlib(matplotlib_file_path='../styles_files/matplotlibrc.json'):
 
 
 
-def set_css_style(css_file_path='../styles_files/custom.css'):
+def set_css_style(css_file_path=CSS_FILE):
     """
     Read the custom CSS file and load it into Jupyter.
     Pass the file path to the CSS file.
     """
 
-    styles = open(css_file_path, "r").read()
+    global_path = find_global_path()
+
+    styles = open(global_path + css_file_path, 'r').read()
     return HTML(styles)
 
 
