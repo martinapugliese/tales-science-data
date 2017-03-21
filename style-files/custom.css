@@ -70,7 +70,10 @@
         text-align: center;
     }
 
-
+    /* LIST ITEM */
+    li {
+        font-size: 16px !important;
+    }
 
 </style>
 
