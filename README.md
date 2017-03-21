@@ -4,6 +4,9 @@ This repo contains a series of Jupyter notebook intended as a collection of pers
 
 ## TOC
 
+* [**Algebra**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/algebra/)
+    * [Matrices](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/algebra/matrices.ipynb)
+
 * [**Probability**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/probability/)
     * [The power of the power law](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/power-law.ipynb)
     * [Moments of a distribution](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/moments.ipynb)
