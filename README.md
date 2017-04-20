@@ -8,12 +8,12 @@ This repo contains a series of Jupyter notebook intended as a collection of pers
     * [Matrices](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/algebra/matrices.ipynb)
 
 * [**Probability**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/probability/)
-    * [The power of the power law](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/power-law.ipynb)
+    * [Probability functions and histograms](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/probfunctions-histograms.ipynb)
     * [Moments of a distribution](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/moments.ipynb)
-    * [Probability functions and histograms](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/distributions-histograms.ipynb)
+    * [The power of the power law](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/power-law.ipynb)
 
 * [**Regression**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/regression/)
-    * Regression Diagnostics
+    * [Regression Diagnostics](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/regression/diagnostics/)
         * [What's in the residuals](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/regression/diagnostics/residuals.ipynb)
 
 * [**Natural Language Processing**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/nlp/)
