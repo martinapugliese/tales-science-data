@@ -4,9 +4,11 @@ This repo contains a series of Jupyter notebook intended as a collection of pers
 
 Topics span a quite large spectrum in the Data Science field: nothing will ever be fully comprehensive, but the purpose is keeping this continuously updated. Learning never ends!
 
+
 ## Algebra
 
 * [Matrices](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/algebra/matrices.ipynb)
+
 
 ## Probability & Statistics
 
@@ -23,15 +25,15 @@ Topics span a quite large spectrum in the Data Science field: nothing will ever 
 
 ### Testing data
 
-* [The z score](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/testing/binomial-param-sample-size.ipynb.ipynb)
+* [The minimum sample size in the binomial parameter](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/testing/binomial-param-sample-size.ipynb)
 
-* [The minimum sample size in the binomial parameter]()
 
 ## Regression
 
 ### Regression Diagnostics
 
 * [What's in the residuals](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/regression/diagnostics/residuals.ipynb)
+
 
 ## Natural Language Processing
 
