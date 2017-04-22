@@ -10,10 +10,14 @@ Topics span a quite large spectrum in the Data Science field: nothing will ever 
 
 ## Probability & Statistics
 
+### On distributions
+
 * [Probability functions and histograms](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/distributions-histograms.ipynb)
 * [Moments of a distribution](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/moments.ipynb)
 * [(Some of) the most famous distributions](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/famous-distributions.ipynb)
 * [The power of the power law](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/power-law.ipynb)
+
+### Some concepts
 
 ## Regression
 
