@@ -14,7 +14,7 @@ Topics span a quite large spectrum in the Data Science field: nothing will ever 
 
 ### On distributions
 
-* [Probability functions and histograms](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/distributions/distributions-histograms.ipynb)
+* [Probability functions and histograms](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/distributions/probfunctions-histograms.ipynb)
 * [Moments of a distribution](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/distributions/moments.ipynb)
 * [(Some of) the most famous distributions](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/distributions/famous-distributions.ipynb)
 * [The power of the power law](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/distributions/power-law.ipynb)
