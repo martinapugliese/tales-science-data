@@ -25,7 +25,7 @@ Topics span a quite large spectrum in the Data Science field: nothing will ever 
 
 ### Testing data
 
-* [The minimum sample size in the binomial parameter](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/testing/binomial-param-sample-size.ipynb)
+* [The minumum sample size in the binomial parameter](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/testing/binomial-param-sample-size.ipynb.ipynb)
 
 
 ## Regression
