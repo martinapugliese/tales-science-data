@@ -12,12 +12,20 @@ Topics span a quite large spectrum in the Data Science field: nothing will ever 
 
 ### On distributions
 
-* [Probability functions and histograms](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/distributions-histograms.ipynb)
-* [Moments of a distribution](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/moments.ipynb)
-* [(Some of) the most famous distributions](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/famous-distributions.ipynb)
-* [The power of the power law](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/power-law.ipynb)
+* [Probability functions and histograms](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/distributions/distributions-histograms.ipynb)
+* [Moments of a distribution](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/distributions/moments.ipynb)
+* [(Some of) the most famous distributions](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/distributions/famous-distributions.ipynb)
+* [The power of the power law](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/distributions/power-law.ipynb)
 
 ### Some concepts
+
+* [The z score](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/concepts/z-score.ipynb)
+
+### Testing data
+
+* [The z score](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/testing/binomial-param-sample-size.ipynb.ipynb)
+
+* [The minimum sample size in the binomial parameter]()
 
 ## Regression
 
@@ -29,4 +37,3 @@ Topics span a quite large spectrum in the Data Science field: nothing will ever 
 
 * [Text as numerical features](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/text-num-feats.ipynb)
 * [Linguistic Notions](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/linguistic-notions.ipynb)
-
