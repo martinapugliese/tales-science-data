@@ -49,12 +49,12 @@ def setup_matplotlib(matplotlib_file_path=MATPLOTLIB_FILE):
 
     global_path = find_global_path()
 
+    # Set ggplot style
+    plt.style.use('ggplot')
+
     # Overwrite rcParams with the custom style file
     params = json.load(open(global_path + matplotlib_file_path, 'r'))
     matplotlib.rcParams.update(params)
-
-    # Set ggplot style
-    plt.style.use('ggplot')
 
 
 
