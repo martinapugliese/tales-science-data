@@ -17,6 +17,7 @@ This contains notebooks around the usage of (some of) the Python libraries for w
 
 * [Some notes on Numpy and Scipy](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/pydata-notes/numpy-scipy.ipynb)
 * [Some notes on Pandas](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/pydata-notes/pandas.ipynb)
+* [Playing with NLTK](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/pydata-notes/nltk.ipynb)
 
 ## Probability & Statistics
 
