@@ -11,6 +11,10 @@ Mainly some algebraic results.
 
 * [Matrices](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/algebra/matrices.ipynb)
 
+## Algorithms
+
+* [The Gradient Descent method](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/algorithms/gradient-descent.ipynb)
+
 ## Python and data (pydata)
 
 This contains notebooks around the usage of (some of) the Python libraries for working with data. Quite basic stuff. Yes, I know *pydata* is also the name of a wonderful series of events, on the same topics.
@@ -36,12 +40,13 @@ This contains notebooks around the usage of (some of) the Python libraries for w
 
 * [The minumum sample size in the binomial parameter](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/testing/binomial-param-sample-size.ipynb.ipynb)
 
+## Machine Learning: Supervised Learning
 
-## Regression
+### Regression
 
-### Regression Diagnostics
+#### Regression Diagnostics
 
-* [What's in the residuals](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/regression/diagnostics/residuals.ipynb)
+* [What's in the residuals](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/regression/diagnostics/residuals.ipynb)
 
 
 ## Natural Language Processing
