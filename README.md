@@ -13,6 +13,8 @@ Mainly some algebraic results.
 
 ## Algorithms
 
+Things around mathematical algorithms used as building blocks of other, bigger things.
+
 * [The Gradient Descent method](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/algorithms/gradient-descent.ipynb)
 
 ## Python and data (pydata)
