@@ -11,11 +11,13 @@ Mainly some algebraic results.
 
 * [Matrices](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/algebra/matrices.ipynb)
 
+
 ## Algorithms
 
 Things around mathematical algorithms used as building blocks of other, bigger things.
 
 * [The Gradient Descent method](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/algorithms/gradient-descent.ipynb)
+
 
 ## Python and data (pydata)
 
@@ -24,6 +26,7 @@ This contains notebooks around the usage of (some of) the Python libraries for w
 * [Some notes on Numpy and Scipy](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/pydata-notes/numpy-scipy.ipynb)
 * [Some notes on Pandas](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/pydata-notes/pandas.ipynb)
 * [Playing with NLTK](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/pydata-notes/nltk.ipynb)
+* [Matplotlib intro notes](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/pydata-notes/matplotlib.ipynb)
 
 ## Probability & Statistics
 
@@ -41,6 +44,7 @@ This contains notebooks around the usage of (some of) the Python libraries for w
 ### Testing data
 
 * [The minumum sample size in the binomial parameter](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/testing/binomial-param-sample-size.ipynb.ipynb)
+
 
 ## Machine Learning: Supervised Learning
 
