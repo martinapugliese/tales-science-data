@@ -55,6 +55,13 @@ This contains notebooks around the usage of (some of) the Python libraries for w
 * [What's in the residuals](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/regression/diagnostics/residuals.ipynb)
 
 
+## Machine Learning: Unsupervised Learning
+
+### Clustering
+
+* [k-means](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/unsupervised-learning/regression/diagnostics/residuals.ipynb)
+
+
 ## Natural Language Processing
 
 * [Text as numerical features](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/text-num-feats.ipynb)
