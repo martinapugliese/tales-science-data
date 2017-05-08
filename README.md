@@ -32,18 +32,18 @@ This contains notebooks around the usage of (some of) the Python libraries for w
 
 ### On distributions
 
-* [Probability functions and histograms](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/distributions/probfunctions-histograms.ipynb)
-* [Moments of a distribution](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/distributions/moments.ipynb)
-* [(Some of) the most famous distributions](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/distributions/famous-distributions.ipynb)
-* [The power of the power law](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/distributions/power-law.ipynb)
+* [Probability functions and histograms](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions/probfunctions-histograms.ipynb)
+* [Moments of a distribution](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions/moments.ipynb)
+* [(Some of) the most famous distributions](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions/famous-distributions.ipynb)
+* [The power of the power law](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions/power-law.ipynb)
 
-### Some concepts
+### Foundational concepts
 
-* [The z score](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/concepts/z-score.ipynb)
+* [The z score](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/z-score.ipynb)
 
 ### Testing data
 
-* [The minumum sample size in the binomial parameter](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability/testing/binomial-param-sample-size.ipynb.ipynb)
+* [The minumum sample size in the binomial parameter](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/testing/binomial-param-sample-size.ipynb)
 
 
 ## Machine Learning: Supervised Learning
@@ -53,6 +53,13 @@ This contains notebooks around the usage of (some of) the Python libraries for w
 #### Regression Diagnostics
 
 * [What's in the residuals](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/regression/diagnostics/residuals.ipynb)
+
+
+## Machine Learning: Unsupervised Learning
+
+### Clustering
+
+* [k-means](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/unsupervised-learning/clustering/kmeans.ipynb)
 
 
 ## Natural Language Processing

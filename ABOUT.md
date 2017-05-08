@@ -47,3 +47,7 @@ Folder names are quite self-explanatory and names of the notebooks have also bee
 
 The CSS and the Matplotlib styles have been customised to suit needs, notebook in [Style demos](Style demos.ipnb) illustrates che choices. 
 They are loaded via wrapper methods in each notebook, a procedure mirrored from [this other book](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers).
+
+### The references
+
+References are indicated at the end of each notebook, rather than at the global level. This is because I find it much more effective to have a list of further material from within the topic I'm looking at rather than as a separate thing. Furthemore, this allows for a more ordered and structured situation.
