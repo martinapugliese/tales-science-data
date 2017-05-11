@@ -40,11 +40,12 @@ This contains notebooks around the usage of (some of) the Python libraries for w
 ### Foundational concepts
 
 * [The z score](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/z-score.ipynb)
+* [Standard error and standrd deviation](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/sd-se.ipynb)
 
 ### Testing data
 
 * [The minumum sample size in the binomial parameter](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/testing/binomial-param-sample-size.ipynb)
-
+* [The t test](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/testing/t-test.ipynb)
 
 ## Machine Learning: Supervised Learning
 
