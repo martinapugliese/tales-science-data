@@ -51,3 +51,11 @@ They are loaded via wrapper methods in each notebook, a procedure mirrored from 
 ### The references
 
 References are indicated at the end of each notebook, rather than at the global level. This is because I find it much more effective to have a list of further material from within the topic I'm looking at rather than as a separate thing. Furthemore, this allows for a more ordered and structured situation.
+
+### The images
+
+Images are of three types:
+
+* I create them in Matplotlib or something (graphs)
+* I take them from the Internet (always when reuse is allowed and I give attribution)
+* I draw them by hand, this because to illustrate concepts I find handdrawing to always be the most satisfying and clear mean; they also look nicer than if I did them with a software because I'm not a designer and couldn't do a good job
