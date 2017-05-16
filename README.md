@@ -30,17 +30,19 @@ This contains notebooks around the usage of (some of) the Python libraries for w
 
 ## Probability & Statistics
 
-### On distributions
+### Distributions and probability measures
 
-* [Probability functions and histograms](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions/probfunctions-histograms.ipynb)
-* [Moments of a distribution](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions/moments.ipynb)
-* [(Some of) the most famous distributions](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions/famous-distributions.ipynb)
-* [The power of the power law](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions/power-law.ipynb)
+* [Probability functions and histograms](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/probfunctions-histograms.ipynb)
+* [Moments of a distribution](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/moments.ipynb)
+* [Covariance and correlation](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/covariance-correlation.ipynb)
+* [(Some of) the most famous distributions](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/famous-distributions.ipynb)
+* [The power of the power law](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/power-law.ipynb)
 
 ### Foundational concepts
 
 * [The z score](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/z-score.ipynb)
 * [Standard error and standrd deviation](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/sd-se.ipynb)
+* [Statistical independence](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/independence.ipynb)
 
 ### Testing data
 
