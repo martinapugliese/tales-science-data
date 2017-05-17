@@ -36,7 +36,7 @@ This contains notebooks around the usage of (some of) the Python libraries for w
 * [Moments of a distribution](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/moments.ipynb)
 * [Covariance and correlation](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/covariance-correlation.ipynb)
 * [Joint, marginal and conditional probabilities](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/joint-marg-conditional-prob.ipynb)
-* [Bayes' theorem](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/covariance-correlation.ipynb)
+* [Bayes' theorem](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/bayes.ipynb)
 * [(Some of) the most famous distributions](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/famous-distributions.ipynb)
 * [The power of the power law](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/power-law.ipynb)
 
