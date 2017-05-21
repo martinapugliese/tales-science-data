@@ -50,6 +50,7 @@ This contains notebooks around the usage of (some of) the Python libraries for w
 
 ### Testing data
 
+* [The null hypothesis and errors in hypothesis testing](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/testing/null-hyp-error-types.ipynb)
 * [The minumum sample size in the binomial parameter](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/testing/binomial-param-sample-size.ipynb)
 * [The t test](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/testing/t-test.ipynb)
 * [The chi squared test](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/testing/chi-squared.ipynb)
