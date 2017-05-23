@@ -1,6 +1,6 @@
 # Tales of Science & Data: TOC
 
-This repo contains a series of Jupyter notebook intended as a collection of personally elaborated material on Data Science. Refer to the [ABOUT](ABOUT.md) for a detailed explanation from conception till realisation. Refer to the [ADMINY](adminy.md) for docs on the adminy folders here.
+This repo contains a series of Jupyter notebook intended as a collection of personally elaborated material on Data Science. Refer to the [ABOUT](about.md) for a detailed explanation from conception till realisation. Refer to the [ADMINY](adminy.md) for docs on the adminy folders here.
 
 Topics span a quite large spectrum in the Data Science field: nothing will ever be fully comprehensive, but the purpose is keeping this continuously updated. Learning never ends!
  
@@ -28,12 +28,18 @@ This contains notebooks around the usage of (some of) the Python libraries for w
 * [Playing with NLTK](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/pydata-notes/nltk.ipynb)
 * [Matplotlib intro notes](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/pydata-notes/matplotlib.ipynb)
 
+
 ## Probability & Statistics
+
+A collection of notes on topics regarding Probability and Statisitcs.
+
+* [Probability, its interpretations, and Statistics](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/prob-interpretations-stats.ipynb)
 
 ### Distributions and probability measures
 
 * [Probability functions and histograms](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/probfunctions-histograms.ipynb)
 * [Moments of a distribution](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/moments.ipynb)
+* [Quantiles](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/quantiles.ipynb)
 * [Covariance and correlation](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/covariance-correlation.ipynb)
 * [Joint, marginal and conditional probabilities](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/joint-marg-conditional-prob.ipynb)
 * [Bayes' theorem](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/bayes.ipynb)
@@ -48,7 +54,7 @@ This contains notebooks around the usage of (some of) the Python libraries for w
 * [The unbiased estimator of the variance](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/unbiased-estimator-varstd.ipynb)
 * [p-value and confidence level](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/p-value-confidence-level.ipynb)
 
-### Testing data
+### Hypothesis testing
 
 * [The null hypothesis and errors in hypothesis testing](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/testing/null-hyp-error-types.ipynb)
 * [The minumum sample size in the binomial parameter](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/testing/binomial-param-sample-size.ipynb)
@@ -58,6 +64,11 @@ This contains notebooks around the usage of (some of) the Python libraries for w
 ### Notable brain teasers
 
 * [The Monty Hall problem](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/prob-brain-teasers/monty-hall.ipynb)
+
+### Methods
+
+* [The Maximum Likelihood method](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods/mle.ipynb)
+
 
 ## Machine Learning: Supervised Learning
 
