@@ -68,6 +68,7 @@ A collection of notes on topics regarding Probability and Statisitcs.
 ### Methods
 
 * [The Maximum Likelihood method](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods/mle.ipynb)
+* [Propagation of uncertainty](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods/error-propagation.ipynb)
 
 
 ## Machine Learning: Supervised Learning
