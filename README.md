@@ -33,7 +33,7 @@ This contains notebooks around the usage of (some of) the Python libraries for w
 
 A collection of notes on topics regarding Probability and Statisitcs.
 
-* [Probability and its interpretations](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/prob-interpretations.ipynb)
+* [Probability, its interpretations, and Statistics](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/prob-interpretations-stats.ipynb)
 
 ### Distributions and probability measures
 
