@@ -39,7 +39,7 @@ A collection of notes on topics regarding Probability and Statisitcs.
 
 * [Probability functions and histograms](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/probfunctions-histograms.ipynb)
 * [Moments of a distribution](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/moments.ipynb)
-* [Quantiles](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/quantiles.ipynb)
+* [Quantiles and Mode](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/quantiles-mode.ipynb)
 * [Covariance and correlation](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/covariance-correlation.ipynb)
 * [Joint, marginal and conditional probabilities](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/joint-marg-conditional-prob.ipynb)
 * [Bayes' theorem](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/bayes.ipynb)
@@ -68,6 +68,8 @@ A collection of notes on topics regarding Probability and Statisitcs.
 ### Methods
 
 * [The Maximum Likelihood method](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods/mle.ipynb)
+* [The Maximum a Posteriori method](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods/map.ipynb)
+* [Propagation of uncertainty](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods/error-propagation.ipynb)
 
 
 ## Machine Learning: Supervised Learning
