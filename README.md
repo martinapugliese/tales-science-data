@@ -81,6 +81,10 @@ A collection of notes on topics regarding Probability and Statisitcs.
 
 * [What's in the residuals](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/regression/diagnostics/residuals.ipynb)
 
+### Classification
+
+* [Naive Bayes](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/classification/nb.ipynb)
+
 
 ## Machine Learning: Unsupervised Learning
 
