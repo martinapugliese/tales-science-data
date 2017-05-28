@@ -52,6 +52,7 @@ A collection of notes on topics regarding Probability and Statisitcs.
 * [The z score](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/z-score.ipynb)
 * [Standard error and standard deviation](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/sd-se.ipynb)
 * [Statistical independence](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/independence.ipynb)
+* [I.I.D. variables](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/iid.ipynb)
 * [The unbiased estimator of the variance](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/unbiased-estimator-varstd.ipynb)
 * [p-value and confidence level](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/p-value-confidence-level.ipynb)
 
