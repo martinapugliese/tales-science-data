@@ -79,6 +79,7 @@ A collection of notes on topics regarding Probability and Statisitcs.
 ### Regression
 
 * [Linear Regression](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/regression/linear-regression.ipynb)
+* [Polynomial Regression](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/regression/polynomial-regression.ipynb)
 
 #### Regression Diagnostics
 
