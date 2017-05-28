@@ -52,6 +52,8 @@ They are loaded via wrapper methods in each notebook, a procedure mirrored from 
 
 References are indicated at the end of each notebook, rather than at the global level. This is because I find it much more effective to have a list of further material from within the topic I'm looking at rather than as a separate thing. Furthemore, this allows for a more ordered and structured situation.
 
+The file about [beautiful internet](resources.md) contains an updated list of great comprehensive resources on the topics of this book, which are amazing per se.
+
 ### The images
 
 Images are of three types:
