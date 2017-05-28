@@ -77,6 +77,8 @@ A collection of notes on topics regarding Probability and Statisitcs.
 
 ### Regression
 
+* [Linear Regression](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/regression/linear-regression.ipynb)
+
 #### Regression Diagnostics
 
 * [What's in the residuals](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/regression/diagnostics/residuals.ipynb)
@@ -84,7 +86,7 @@ A collection of notes on topics regarding Probability and Statisitcs.
 ### Classification
 
 * [Naive Bayes](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/classification/nb.ipynb)
-
+* [Logistic Regression](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/classification/logit.ipynb)
 
 ## Machine Learning: Unsupervised Learning
 
