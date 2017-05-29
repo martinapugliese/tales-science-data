@@ -5,11 +5,12 @@ This repo contains a series of Jupyter notebook intended as a collection of pers
 Topics span a quite large spectrum in the Data Science field: nothing will ever be fully comprehensive, but the purpose is keeping this continuously updated. Learning never ends!
  
 
-## Algebra
+## Some Mathematical Results
 
-Mainly some algebraic results.
+A collection of mathematics used all over the place.
 
-* [Matrices](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/algebra/matrices.ipynb)
+* [Matrix Algebra](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/maths/matrices.ipynb)
+* [Functions](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/algebra/matrices.ipynb)
 
 
 ## Algorithms
@@ -101,3 +102,11 @@ A collection of notes on topics regarding Probability and Statisitcs.
 
 * [Text as numerical features](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/text-num-feats.ipynb)
 * [Linguistic Notions](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/linguistic-notions.ipynb)
+
+
+## Computer Vision
+
+### Image features and mathematical formalism
+
+* [Pixels, colour space and colour model, pixel connectivity](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-feats-maths/pixels-colour-connectivuty.ipynb)
+* [The Sobel operator](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-feats-maths/sobel.ipynb)
