@@ -106,12 +106,18 @@ A collection of notes on topics regarding Probability and Statisitcs.
 
 ## Computer Vision
 
+* [Some glossary](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/some-glossary.ipynb)
+
 ### Image features and mathematical formalism
 
-* [Pixels, colour space and colour model, pixel connectivity](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-feats-maths/pixels-colour-connectivuty.ipynb)
+* [Pixels, colour space and colour model, pixel connectivity](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-feats-maths/pixels-colour-connectivity.ipynb)
 * [The Sobel operator](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-feats-maths/sobel.ipynb)
 
 ### Image Processing
 
 * [Blurring](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/blurring.ipynb)
 * [Inverting](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/inverting.ipynb)
+
+### Finding things in images
+
+* [Edge detection](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/finding-things/edge-detection.ipynb)
