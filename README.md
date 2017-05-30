@@ -113,11 +113,13 @@ A collection of notes on topics regarding Probability and Statisitcs.
 * [Pixels, colour space and colour model, pixel connectivity](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-feats-maths/pixels-colour-connectivity.ipynb)
 * [The Sobel operator](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-feats-maths/sobel.ipynb)
 * [Image moments](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-feats-maths/moments.ipynb)
+* [Intensity histogram](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-feats-maths/intensity-histogram.ipynb)
 
 ### Image Processing
 
 * [Blurring](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/blurring.ipynb)
 * [Inverting](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/inverting.ipynb)
+* [Histogram equalisation](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/hist-equalisation.ipynb)
 
 ### Finding things in images
 

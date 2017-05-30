@@ -11,3 +11,7 @@ We already put references in every notebook created for details, more insight, c
 ## Machine Learning
 
 * [Notes from the **Stanford course on ML**, by A Ng](http://cs229.stanford.edu/materials.html)
+
+## Computer Vision
+
+* [The Hypermedia Image Processing Reference](https://homepages.inf.ed.ac.uk/rbf/HIPR2/index.htm), a website built by the University of Edinburgh
