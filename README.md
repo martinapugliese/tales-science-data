@@ -112,6 +112,7 @@ A collection of notes on topics regarding Probability and Statisitcs.
 
 * [Pixels, colour space and colour model, pixel connectivity](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-feats-maths/pixels-colour-connectivity.ipynb)
 * [The Sobel operator](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-feats-maths/sobel.ipynb)
+* [Image moments](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-feats-maths/moments.ipynb)
 
 ### Image Processing
 
