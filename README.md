@@ -120,6 +120,8 @@ A collection of notes on topics regarding Probability and Statisitcs.
 * [Blurring](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/blurring.ipynb)
 * [Inverting](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/inverting.ipynb)
 * [Histogram equalisation](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/hist-equalisation.ipynb)
+* [Thresholding](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/thresholding.ipynb)
+* [Morphology](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/morphology.ipynb)
 
 ### Finding things in images
 
