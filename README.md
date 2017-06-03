@@ -126,3 +126,4 @@ A collection of notes on topics regarding Probability and Statisitcs.
 * [Edge detection](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/finding-things/edge-detection.ipynb)
 * [Face recognition](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/finding-things/face-recognition.ipynb)
 * [Object detection: Haar cascades](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/finding-things/object-detection-haar-cascades.ipynb)
+* [Object detection: Histogram of Oriented Gradients](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/finding-things/object-detection-hog.ipynb)
