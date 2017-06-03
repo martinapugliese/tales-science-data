@@ -52,7 +52,9 @@ They are loaded via wrapper methods in each notebook, a procedure mirrored from 
 
 References are indicated at the end of each notebook, rather than at the global level. This is because I find it much more effective to have a list of further material from within the topic I'm looking at rather than as a separate thing. Furthemore, this allows for a more ordered and structured situation.
 
-The file about [beautiful internet](resources.md) contains an updated list of great comprehensive resources on the topics of this book, which are amazing per se.
+When accessible, a link to the PDF in the case of papers is always provided. Otherwise, when paper is not open access an not being made accessible elsewhere by the author, the link may just point to the journal source.
+
+The file about [beautiful internet](resources.md) contains an updated list of great comprehensive resources on the topics of this book, which are amazing per se and are highly recommended for use and peruse in general.
 
 ### The images
 
