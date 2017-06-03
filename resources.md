@@ -1,6 +1,6 @@
 # Beautiful internet
 
-Internet is a beautiful place, you can learn so much on it, for free. This document puts together some resources on or related to data sciencearound which are absolutely brilliant.
+Internet is a beautiful place, you can learn so much on it, for free. This document puts together some resources on or related to data science which are absolutely brilliant.
 
 We already put references in every notebook created for details, more insight, citation purposes. Here, we list material which is comprehensively good: online courses, books, blogs, and which span several of the topics we touch on.
 
