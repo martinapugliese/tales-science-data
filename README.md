@@ -129,3 +129,15 @@ A collection of notes on topics regarding Probability and Statisitcs.
 * [Face recognition](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/finding-things/face-recognition.ipynb)
 * [Object detection: Haar cascades](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/finding-things/object-detection-haar-cascades.ipynb)
 * [Object detection: Histogram of Oriented Gradients](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/finding-things/object-detection-hog.ipynb)
+
+
+## Tools, frameworks, workflow
+
+### Distributed Frameworks for computation on large datasets
+
+* [Apache Hadoop](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/tools/distrib-frameworks/hadoop.ipynb)
+* [Apache Spark](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/tools/distrib-frameworks/spark.ipynb)
+
+### Searching data
+
+* [Elasticsearch](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/tools/searching-data/elasticsearch.ipynb)
