@@ -10,8 +10,8 @@ Topics span a quite large spectrum in the Data Science field: nothing will ever 
 A collection of mathematics used all over the place.
 
 * [Matrix Algebra](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/maths/matrices.ipynb)
-* [Functions](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/algebra/matrices.ipynb)
-
+* [Functions](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/maths/functions.ipynb)
+* [Some geometrical things](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/maths/geometry.ipynb)
 
 ## Algorithms
 
