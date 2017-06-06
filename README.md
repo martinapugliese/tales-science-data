@@ -12,6 +12,8 @@ A collection of mathematics used all over the place.
 * [Matrix Algebra](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/maths/matrices.ipynb)
 * [Functions](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/maths/functions.ipynb)
 * [Some geometrical things](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/maths/geometry.ipynb)
+* [Cross-concepts](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/maths/cross-concepts.ipynb)
+
 
 ## Algorithms
 
@@ -90,6 +92,13 @@ A collection of notes on topics regarding Probability and Statisitcs.
 
 * [Naive Bayes](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/classification/nb.ipynb)
 * [Logistic Regression](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/classification/logit.ipynb)
+
+## Both Regression and Classification
+
+This section will outline the algorithms which can be used both in regression and in classification problems.
+
+* [Decision Tree](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/regr-class/dec-tree.ipynb)
+
 
 ## Machine Learning: Unsupervised Learning
 
