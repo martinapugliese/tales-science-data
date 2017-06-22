@@ -84,21 +84,18 @@ A collection of notes on topics regarding Probability and Statisitcs.
 * [Linear Regression](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/regression/linear-regression.ipynb)
 * [Polynomial Regression](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/regression/polynomial-regression.ipynb)
 
-#### Regression Diagnostics
-
-* [What's in the residuals](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/regression/diagnostics/residuals.ipynb)
-
 ### Classification
 
 * [Naive Bayes](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/classification/nb.ipynb)
 * [Logistic Regression](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/classification/logit.ipynb)
 
-## Both Regression and Classification
+### Both Regression and Classification
 
 This section will outline the algorithms which can be used both in regression and in classification problems.
 
 * [Decision Tree](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/regr-class/dec-tree.ipynb)
 * [Random Forest](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/regr-class/rf.ipynb)
+
 
 ## Machine Learning: Unsupervised Learning
 
@@ -106,6 +103,19 @@ This section will outline the algorithms which can be used both in regression an
 
 * [k-means](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/unsupervised-learning/clustering/kmeans.ipynb)
 
+
+## Machine Learning: Model Assessment
+
+Everything we can think of when we need to assess the quality of a Machine Learning model.
+
+### Regression Diagnostics
+
+* [What's in the residuals](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/model-assessment/regr-diagnostics/residuals.ipynb)
+
+### Performance Metrics
+
+* [In Regression]()
+* [In Classification]()
 
 ## Natural Language Processing
 
