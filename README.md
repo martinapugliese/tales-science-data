@@ -1,6 +1,6 @@
 # Tales of Science & Data: TOC
 
-This repo contains a series of Jupyter notebook intended as a collection of personally elaborated material on Data Science. Refer to the [ABOUT](about.md) for a detailed explanation from conception till realisation. Refer to the [ADMINY](adminy.md) for docs on the adminy folders here.
+This repo contains a series of Jupyter notebook intended as a collection of personally elaborated material on Data Science. Refer to the [ABOUT](about_book.md) for a detailed explanation from conception till realisation. Refer to the [ADMINY](adminy.md) for docs on the adminy folders here.
 
 Topics span a quite large spectrum in the Data Science field: nothing will ever be fully comprehensive, but the purpose is keeping this continuously updated. Learning never ends!
  
@@ -114,7 +114,7 @@ Everything we can think of when we need to assess the quality of a Machine Learn
 
 ### Performance Metrics
 
-* [In Classification]((http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/model-assessment/perf-metrics/classification.ipynb)
+* [In Classification](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/model-assessment/perf-metrics/classification.ipynb)
 
 ## Natural Language Processing
 
