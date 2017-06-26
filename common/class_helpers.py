@@ -1,6 +1,6 @@
 # Helper methods for classification jobs
 
-import pyplot as plt
+from matplotlib import pyplot as plt
 from sklearn.metrics import confusion_matrix
 import numpy as np
 import itertools

@@ -114,8 +114,7 @@ Everything we can think of when we need to assess the quality of a Machine Learn
 
 ### Performance Metrics
 
-* [In Regression]()
-* [In Classification]()
+* [In Classification]((http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/model-assessment/perf-metrics/classification.ipynb)
 
 ## Natural Language Processing
 
