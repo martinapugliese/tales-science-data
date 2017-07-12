@@ -1,16 +1,16 @@
-# About this book
+# About this thing
 
 ## What's this
 
-This book is a personally elaborated collection of material on _Data Science_. 
+This "book" is a personally elaborated collection of material on this thing called _Data Science_. 
 
 The title refers to, without intention to be comparable by any means, Poe's _Tales of Mistery and Imagination_. Traditionally, _science_ has the reputation of something cryptic in the general public, while the enormous rise in data talk these days renders data itself a grandiose playground for imagination.
 
 Data Science is an interdisciplinary field and a very broad one, somewhat ill-defined, and there is literally loads of good material in the web. Many of it I cannot read because (it's an old problem) I'm only human and my time is limited. There's also countless books I'd like to study, there's tons of MOOCs I'd like to take. 
 
-Truth is, I desired a platform where to order my personal elaboration of the material which, one way or the other, relates to Data Science, and to keep it clean. When I was at Uni pen and paper was great for the job but now there's much more "interactivity" involved into this, and also, I want a way to be able to go back to things, add new stuff, modify it.
+Truth is, I desired a platform where to order my personal elaboration of the material which, one way or the other, relates to Data Science, and to keep it clean. When I was a University student, pen and paper was great for the job but now there's much more "interactivity" involved into this, and also, I want a way to be able to go back to things, add new stuff, modify it.
 
-Said material is a put-together of things I learned ages ago (at Uni), of things I learned more recently, of things I learn in my everyday job. I try, whenever possible to understand things from principles and dissect them into their components, that's what really interests me. 
+Said material is a put-together of things I learned ages ago (when a student), of things I learned more recently, of things I learn in my everyday job. I try, whenever possible to understand things from principles and dissect them into their components, that's what really interests me. 
 
 This is my personally worked presentation. I also take advantage, by writing all this, to keep track of all the great references which helped and still help me learn more in the area. 
 
@@ -18,7 +18,7 @@ This is my personally worked presentation. I also take advantage, by writing all
 
 GitHub renders Jupyter notebooks quite well, but nevertheless does some funny things, for instance with coloured text and internal links. The best, cleanest and most beautiful way to read this is using the Notebook Viewer [**here**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/).
 
-## Structure and choices
+## Structure and stylistic choices
 
 After wandering around for a good while, I chose to adopt the [Jupyter notebook](http://jupyter.org) as my mean of communication. 
 
