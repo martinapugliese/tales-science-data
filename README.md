@@ -105,6 +105,14 @@ This section will outline the algorithms which can be used both in regression an
 * [k-means](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/unsupervised-learning/clustering/kmeans.ipynb)
 
 
+## Machine Learning: Artificial Neural Networks
+
+Decided to keep this separate from the other ML chapters, as it deserves its own.
+
+* [Artificial Neural Networks](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/neural-nets/anns.ipynb)
+* [The Perceptron](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/neural-nets/perceptron.ipynb)
+
+
 ## Machine Learning: Model Assessment
 
 Everything we can think of when we need to assess the quality of a Machine Learning model.
