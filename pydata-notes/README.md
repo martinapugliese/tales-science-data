@@ -6,3 +6,4 @@ This contains notebooks around the usage of (some of) the Python libraries for w
 * [Some notes on Pandas](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/pydata-notes/pandas.ipynb)
 * [Playing with NLTK](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/pydata-notes/nltk.ipynb)
 * [Matplotlib intro notes](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/pydata-notes/matplotlib.ipynb)
+* [The Zen of Python](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/pydata-notes/zen.ipynb)

@@ -1,15 +1,18 @@
 # Computer Vision
 
+## General Intro
+
+* [Intro to CV](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/intro-cv.ipynb)
 * [Some glossary](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/some-glossary.ipynb)
 
-### Image features and mathematical formalism
+## Image features and mathematical formalism
 
 * [Pixels, colour space and colour model, pixel connectivity](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-feats-maths/pixels-colour-connectivity.ipynb)
 * [The Sobel operator](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-feats-maths/sobel.ipynb)
 * [Image moments](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-feats-maths/moments.ipynb)
 * [Intensity histogram](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-feats-maths/intensity-histogram.ipynb)
 
-### Image Processing
+## Image Processing
 
 * [Blurring](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/blurring.ipynb)
 * [Inverting](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/inverting.ipynb)
@@ -17,7 +20,7 @@
 * [Thresholding](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/thresholding.ipynb)
 * [Morphology](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/morphology.ipynb)
 
-### Finding things in images
+## Finding things in images
 
 * [Edge detection](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/finding-things/edge-detection.ipynb)
 * [Face recognition](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/finding-things/face-recognition.ipynb)

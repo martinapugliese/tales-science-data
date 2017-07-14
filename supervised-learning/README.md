@@ -1,16 +1,16 @@
 # Machine Learning: Supervised Learning
 
-### Regression
+## Regression
 
 * [Linear Regression](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/regression/linear-regression.ipynb)
 * [Polynomial Regression](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/regression/polynomial-regression.ipynb)
 
-### Classification
+## Classification
 
 * [Naive Bayes](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/classification/nb.ipynb)
 * [Logistic Regression](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/classification/logit.ipynb)
 
-### Both Regression and Classification
+## Both Regression and Classification
 
 This section will outline the algorithms which can be used both in regression and in classification problems.
 

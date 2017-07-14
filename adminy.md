@@ -18,3 +18,7 @@ Some free data used in some notebooks for illustrative purposes.
 
 Contains supporting images used in the notebooks as illustrations. Some are hand-drawn and photographed. 
 
+### [Style files](style-files/)
+
+Files to style up the notebooks and plots.
+
