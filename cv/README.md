@@ -1,6 +1,6 @@
 # Computer Vision
 
-## General Intro
+## General Intro and glossary/jargon
 
 * [Intro to CV](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/intro-cv.ipynb)
 * [Some glossary](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/some-glossary.ipynb)
@@ -20,9 +20,9 @@
 * [Thresholding](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/thresholding.ipynb)
 * [Morphology](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/morphology.ipynb)
 
-## Finding things in images
+## Detection
 
-* [Edge detection](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/finding-things/edge-detection.ipynb)
-* [Face recognition](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/finding-things/face-recognition.ipynb)
-* [Object detection: Haar cascades](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/finding-things/object-detection-haar-cascades.ipynb)
-* [Object detection: Histogram of Oriented Gradients](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/finding-things/object-detection-hog.ipynb)
+* [Edge detection](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/edge-detection.ipynb)
+* [Face recognition](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/face-recognition.ipynb)
+* [Object detection: Haar cascades](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/object-detection-haar-cascades.ipynb)
+* [Object detection: Histogram of Oriented Gradients](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/object-detection-hog.ipynb)
