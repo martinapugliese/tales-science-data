@@ -19,6 +19,7 @@ What exactly is this? Why did I even bother doing this? How did I choose to do t
 
 Again, material span a quite large and insane set of topics. None of them is treated comprehensively, so your risk.
 
+
 ### [**Probability & Statistics**](prob-stats/README.md)
 
 * General Intro
@@ -28,43 +29,58 @@ Again, material span a quite large and insane set of topics. None of them is tre
 * Notable brain teasers
 * Methods
 
+
 ### [Machine Learning: Supervised Learning](supervised-learning/README.md)
 
 * Regression
 * Classification
 * Both Regression and Classification
 
+
 ### [Machine Learning: Unsupervised Learning](unsupervised-learning/README.md)
 
 * Clustering
+
 
 ### [Machine Learning: Artificial Neural Networks](neural-nets/README.md)
 
 * General Intro
 * Famous networks
 
+
 ### [Machine Learning: Model Assessment](model-assessment/README.md)
 
 * Performance metrics
 * Regression diagnostics
 
+
 ### [Natural Language Processing](nlp/README.md)
+
 
 ### [Computer Vision](cv/README.md)
 
+* General intro and glossary
 * Image features and mathematical formalism
 * Image processing
-* Finding things in images
+* Detection of things in images
+
+
+### [Computer Science](cs/README.md)
+
 
 ### [Some Mathematical Results](maths/README.md)
 
-### [Algorithms](algorithms/README.md)
+* Generic results
+* Mathematical algorithms
+
 
 ### [On Python, and data](pydata-notes/README.md)
+
 
 ### [Tools, frameworks, workflow](tools/README.md)
 
 * Distributed Frameworks for computation on large datasets
 * Searching data
+
 
 ### [History](history/README.md)
