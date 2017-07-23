@@ -74,7 +74,10 @@ Again, material span a quite large and insane set of topics. None of them is tre
 * Mathematical algorithms
 
 
-### [On Python, and data](pydata-notes/README.md)
+### [On Python, and data](python/README.md)
+
+* Python in general
+* The Python data stack
 
 
 ### [Tools, frameworks, workflow](tools/README.md)
