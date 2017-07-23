@@ -1,5 +1,7 @@
 # Computer Vision
 
+For code, we will use the brill library OpenCV.
+
 ## General Intro and glossary/jargon
 
 * [Intro to CV](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/intro-cv.ipynb)
@@ -20,9 +22,9 @@
 * [Thresholding](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/thresholding.ipynb)
 * [Morphology](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/morphology.ipynb)
 
-## Detection
+## Detection of things in images
 
 * [Edge detection](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/edge-detection.ipynb)
 * [Face recognition](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/face-recognition.ipynb)
-* [Object detection: Haar cascades](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/object-detection-haar-cascades.ipynb)
-* [Object detection: Histogram of Oriented Gradients](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/object-detection-hog.ipynb)
+* [Haar cascades](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/haar-cascades.ipynb)
+* [Object detection: Histogram of Oriented Gradients](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/hog.ipynb)
