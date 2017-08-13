@@ -70,11 +70,14 @@ Again, material span a quite large and insane set of topics. None of them is tre
 
 ### [Computer Science](cs/README.md)
 
+* Computers and programming languages
+
 
 ### [Some Mathematical Results](maths/README.md)
 
 * Generic results
 * Mathematical algorithms
+* Dimensionality Reduction
 
 
 ### [On Python, and data](python/README.md)
