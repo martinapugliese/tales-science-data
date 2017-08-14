@@ -16,6 +16,7 @@ Mathematical algorithms used as parts of bigger tasks, for instance in Machine L
 
 * [The Gradient Descent method](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/maths/algorithms/gradient-descent.ipynb)
 
-## Dimensionality reduction
+## Dimensionality reduction and Matrix Factorisation
 
 * [SVD]()
+* [NMF](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/maths/dim-reduction-factorisation/nmf.ipynb)
