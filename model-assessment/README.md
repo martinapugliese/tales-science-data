@@ -9,3 +9,7 @@ Everything we can think of when we need to assess the quality of a Machine Learn
 ## Regression Diagnostics
 
 * [What's in the residuals](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/model-assessment/regr-diagnostics/residuals.ipynb)
+
+## Problems of a model
+
+* [Overfitting](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/model-assessment/problems/overfitting.ipynb)

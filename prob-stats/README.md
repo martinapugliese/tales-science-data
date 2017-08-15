@@ -34,9 +34,10 @@ A collection of notes on topics regarding Probability and Statisitcs.
 * [The t test](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/testing/t-test.ipynb)
 * [The chi squared test](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/testing/chi-squared.ipynb)
 
-## Notable brain teasers
+## Notable brain teasers and Paradoxes
 
-* [The Monty Hall problem](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/prob-brain-teasers/monty-hall.ipynb)
+* [The Monty Hall problem](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/brain-teasers-paradoxes/monty-hall.ipynb)
+* [Paradoxes](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/brain-teasers-paradoxes/paradoxes.ipynb)
 
 ## Methods
 
