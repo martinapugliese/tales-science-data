@@ -39,14 +39,14 @@ A collection of notes on topics regarding Probability and Statisitcs.
 * [The Monty Hall problem](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/brain-teasers-paradoxes/monty-hall.ipynb)
 * [Paradoxes](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/brain-teasers-paradoxes/paradoxes.ipynb)
 
-## Methods
+## Methods, theorems and laws in Statistics
 
-* [The Maximum Likelihood method](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods/mle.ipynb)
-* [The Maximum a Posteriori method](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods/map.ipynb)
-* [Propagation of uncertainty](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods/error-propagation.ipynb)
-* [The Monte Carlo method](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods/monte-carlo.ipynb)
+* [The Maximum Likelihood method](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods-theorems-laws/mle.ipynb)
+* [The Maximum a Posteriori method](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods-theorems-laws/map.ipynb)
+* [Propagation of uncertainty](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods-theorems-laws/error-propagation.ipynb)
+* [The Monte Carlo method](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods-theorems-laws/monte-carlo.ipynb)
 
 
-## Statistical Models (type of)
+## Statistical Models (types of)
 
 * [Generative Statistical Model](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/models/generative.ipynb)
