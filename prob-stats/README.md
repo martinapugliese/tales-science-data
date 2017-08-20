@@ -25,7 +25,7 @@ A collection of notes on topics regarding Probability and Statisitcs.
 * [Statistical independence](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/independence.ipynb)
 * [I.I.D. variables](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/iid.ipynb)
 * [The unbiased estimator of the variance](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/unbiased-estimator-varstd.ipynb)
-* [p-value and confidence level](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/p-value-confidence-level.ipynb)
+* [Confidence level, p value and error margin](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/cl-p-error-margin.ipynb)
 
 ## Hypothesis testing
 
