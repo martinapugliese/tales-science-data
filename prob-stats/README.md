@@ -20,7 +20,7 @@ A collection of notes on topics regarding Probability and Statisitcs.
 
 ## Foundational concepts
 
-* [The z score](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/z-score.ipynb)
+* [The z score and the t score](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/z-score-t-score.ipynb)
 * [Standard error and standard deviation](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/sd-se.ipynb)
 * [Statistical independence](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/independence.ipynb)
 * [I.I.D. variables](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/iid.ipynb)
@@ -45,6 +45,8 @@ A collection of notes on topics regarding Probability and Statisitcs.
 * [The Maximum a Posteriori method](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods-theorems-laws/map.ipynb)
 * [Propagation of uncertainty](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods-theorems-laws/error-propagation.ipynb)
 * [The Monte Carlo method](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods-theorems-laws/monte-carlo.ipynb)
+* [The law of large numbers](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods-theorems-laws/lln.ipynb)
+* [The Central Limit Theorem](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods-theorems-laws/clt.ipynb)
 
 
 ## Statistical Models (types of)
