@@ -20,12 +20,12 @@ A collection of notes on topics regarding Probability and Statisitcs.
 
 ## Foundational concepts
 
-* [The z score](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/z-score.ipynb)
+* [The z score and the t score](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/z-score-t-score.ipynb)
 * [Standard error and standard deviation](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/sd-se.ipynb)
 * [Statistical independence](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/independence.ipynb)
 * [I.I.D. variables](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/iid.ipynb)
 * [The unbiased estimator of the variance](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/unbiased-estimator-varstd.ipynb)
-* [p-value and confidence level](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/p-value-confidence-level.ipynb)
+* [Confidence level, p value and error margin](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/cl-p-error-margin.ipynb)
 
 ## Hypothesis testing
 
@@ -34,13 +34,21 @@ A collection of notes on topics regarding Probability and Statisitcs.
 * [The t test](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/testing/t-test.ipynb)
 * [The chi squared test](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/testing/chi-squared.ipynb)
 
-## Notable brain teasers
+## Notable brain teasers and Paradoxes
 
-* [The Monty Hall problem](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/prob-brain-teasers/monty-hall.ipynb)
+* [The Monty Hall problem](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/brain-teasers-paradoxes/monty-hall.ipynb)
+* [Paradoxes](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/brain-teasers-paradoxes/paradoxes.ipynb)
 
-## Methods
+## Methods, theorems and laws in Statistics
 
-* [The Maximum Likelihood method](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods/mle.ipynb)
-* [The Maximum a Posteriori method](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods/map.ipynb)
-* [Propagation of uncertainty](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods/error-propagation.ipynb)
-* [The Monte Carlo method](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods/monte-carlo.ipynb)
+* [The Maximum Likelihood method](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods-theorems-laws/mle.ipynb)
+* [The Maximum a Posteriori method](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods-theorems-laws/map.ipynb)
+* [Propagation of uncertainty](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods-theorems-laws/error-propagation.ipynb)
+* [The Monte Carlo method](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods-theorems-laws/monte-carlo.ipynb)
+* [The law of large numbers](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods-theorems-laws/lln.ipynb)
+* [The Central Limit Theorem](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods-theorems-laws/clt.ipynb)
+
+
+## Statistical Models (types of)
+
+* [Generative Statistical Model](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/models/generative.ipynb)

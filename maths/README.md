@@ -15,3 +15,8 @@ A collection of mathematics used all over the place.
 Mathematical algorithms used as parts of bigger tasks, for instance in Machine Learning ones.
 
 * [The Gradient Descent method](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/maths/algorithms/gradient-descent.ipynb)
+
+## Dimensionality reduction and Matrix Factorisation
+
+* [SVD]()
+* [NMF](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/maths/dim-reduction-factorisation/nmf.ipynb)

@@ -26,7 +26,7 @@ Again, material span a quite large and insane set of topics. None of them is tre
 * Distributions and probability measures
 * Foundational concepts
 * Hypothesis testing
-* Notable brain teasers
+* Notable brain teasers and paradoxes
 * Methods
 
 
@@ -52,9 +52,13 @@ Again, material span a quite large and insane set of topics. None of them is tre
 
 * Performance metrics
 * Regression diagnostics
+* Problems of a model
 
 
 ### [Natural Language Processing](nlp/README.md)
+
+* General Concepts
+* Topic Models
 
 
 ### [Computer Vision](cv/README.md)
@@ -67,11 +71,14 @@ Again, material span a quite large and insane set of topics. None of them is tre
 
 ### [Computer Science](cs/README.md)
 
+* Computers and programming languages
+
 
 ### [Some Mathematical Results](maths/README.md)
 
 * Generic results
 * Mathematical algorithms
+* Dimensionality Reduction and Matrix Factorisation
 
 
 ### [On Python, and data](python/README.md)
