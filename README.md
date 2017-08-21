@@ -58,7 +58,8 @@ Again, material span a quite large and insane set of topics. None of them is tre
 ### [Natural Language Processing](nlp/README.md)
 
 * General Concepts
-* Topic Models
+* General tasks in NLP
+* Topic Modelling
 
 
 ### [Computer Vision](cv/README.md)
