@@ -14,6 +14,7 @@ The chapter on NLP is divided into what are general sections of introduction to 
 
 * [POS tagging](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/concepts/pos-tagging.ipynb)
 * [Stemming](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/concepts/pos-tagging.ipynb)
+* [Parsing](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/concepts/parsing.ipynb)
 
 
 ## Topic Modelling

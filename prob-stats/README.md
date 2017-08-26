@@ -14,7 +14,6 @@ A collection of notes on topics regarding Probability and Statisitcs.
 * [Covariance and correlation](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/covariance-correlation.ipynb)
 * [Joint, marginal and conditional probabilities](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/joint-marg-conditional-prob.ipynb)
 * [Conjugate distributions](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/conjugate-dist.ipynb)
-* [Bayes' theorem](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/bayes.ipynb)
 * [(Some of) the most famous distributions](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/famous-distributions.ipynb)
 * [The power of the power law](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/power-law.ipynb)
 
@@ -41,6 +40,7 @@ A collection of notes on topics regarding Probability and Statisitcs.
 
 ## Methods, theorems and laws in Statistics
 
+* [Bayes' theorem](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/distributions-measures/bayes.ipynb)
 * [The Maximum Likelihood method](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods-theorems-laws/mle.ipynb)
 * [The Maximum a Posteriori method](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods-theorems-laws/map.ipynb)
 * [Propagation of uncertainty](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/methods-theorems-laws/error-propagation.ipynb)
