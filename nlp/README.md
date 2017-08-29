@@ -1,11 +1,23 @@
 # Natural Language Processing
 
-## General Concepts
+The chapter on NLP is divided into what are general sections of introduction to the topics and more precise explorations with examples of each elsewhere.
+
+
+## General Concepts and tasks in NLP
 
 * [Text as numerical features](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/concepts/text-num-feats.ipynb)
-* [Linguistic Notions](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/concepts/linguistic-notions.ipynb)
+* [Notions in Linguistics and famous tools](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/concepts/linguistic-notions.ipynb)
+* [An outline of tasks in NLP](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/concepts/outline-tasks.ipynb) 
 
-## Topic Models
+
+## Tasks in NLP
+
+* [POS tagging](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/concepts/pos-tagging.ipynb)
+* [Stemming](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/concepts/pos-tagging.ipynb)
+* [Parsing](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/concepts/parsing.ipynb)
+
+
+## Topic Modelling
 
 ### Introduction and first techniques
 

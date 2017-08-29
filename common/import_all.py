@@ -12,5 +12,6 @@ from scipy import stats
 # appending all possibilities to stay safe
 # this is in order to find "common/" folder and all rest
 import sys
+sys.path.append('../')
 sys.path.append('../../')
 sys.path.append('../../../')
