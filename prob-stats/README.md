@@ -19,6 +19,7 @@ A collection of notes on topics regarding Probability and Statisitcs.
 
 ## Foundational concepts
 
+* [Odds and probability](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/odds-prob.ipynb)
 * [The z score and the t score](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/z-score-t-score.ipynb)
 * [Standard error and standard deviation](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/sd-se.ipynb)
 * [Statistical independence](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats/concepts/independence.ipynb)
