@@ -24,7 +24,7 @@ For code, we will use the brill library OpenCV.
 
 ## Detection of things in images
 
-* [Edge detection](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/edge-detection.ipynb)
+* [Edge detection and object contours](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/edge-detection-obj-contours.ipynb)
 * [Face recognition](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/face-recognition.ipynb)
 * [Haar cascades](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/haar-cascades.ipynb)
 * [Object detection: Histogram of Oriented Gradients](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/hog.ipynb)
