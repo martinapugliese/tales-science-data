@@ -20,7 +20,7 @@ What exactly is this? Why did I even bother doing this? How did I choose to do t
 Again, material span a quite large and insane set of topics. None of them is treated comprehensively, so your risk.
 
 
-### [**Probability & Statistics**](prob-stats/README.md)
+### [Probability & Statistics](prob-stats/README.md)
 
 * General Intro
 * Distributions and probability measures
