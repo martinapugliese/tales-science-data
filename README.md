@@ -20,13 +20,13 @@ What exactly is this? Why did I even bother doing this? How did I choose to do t
 Again, material span a quite large and variegated set of topics. None of them is treated comprehensively, so that you know.
 
 
-### [Probability, Statistics and Data Analysis](prob-stats/README.md)
+### [Probability, Statistics and Data Analysis](prob-stats-data-analysis/README.md)
 
 * General Intro
 * Distributions and probability measures
 * Foundational concepts
 * Hypothesis testing
-* Notable brain teasers and paradoxes
+* Notable brain teasers and paradoxes, and how to be careful with data
 * Methods
 
 
