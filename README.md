@@ -4,7 +4,7 @@
 
 ## What's this?
 
-This repo contains a series of Jupyter notebook intended as a collection of personally elaborated material on Data Science. 
+This repo contains a series of notes intended as a collection of personally elaborated material on Data Science. 
 
 Topics span a quite large spectrum in the Data Science field: nothing will ever be fully comprehensive, but the purpose is keeping this continuously updated. Learning never ends! This here serves as the table of contents and links all material together.
 
@@ -17,10 +17,10 @@ What exactly is this? Why did I even bother doing this? How did I choose to do t
 
 ## Table of Contents
 
-Again, material span a quite large and insane set of topics. None of them is treated comprehensively, so your risk.
+Again, material span a quite large and variegated set of topics. None of them is treated comprehensively, so that you know.
 
 
-### [Probability & Statistics](prob-stats/README.md)
+### [Probability, Statistics and Data Analysis](prob-stats/README.md)
 
 * General Intro
 * Distributions and probability measures
