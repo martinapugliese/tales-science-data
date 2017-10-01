@@ -17,17 +17,18 @@ What exactly is this? Why did I even bother doing this? How did I choose to do t
 
 ## Table of Contents
 
-Again, material span a quite large and variegated set of topics. None of them is treated comprehensively, so that you know.
-
+Again, material in the collection span a quite large and variegated set of topics, explored here into these sections.
 
 ### [Probability, Statistics and Data Analysis](prob-stats-data-analysis/README.md)
 
-* General Intro
-* Distributions and probability measures
-* Foundational concepts
-* Hypothesis testing
-* Notable brain teasers and paradoxes, and how to be careful with data
-* Methods
+*Statistics is at the core of data science, and thourough data analysis is typically the starting point of any modelling effort on data.*
+
+* **General Intro**
+* **Distributions and probability measures**
+* **Foundational concepts**
+* **Hypothesis testing**
+* **Notable brain teasers and paradoxes, and how to be careful with data**
+* **Methods, theorems and laws in Statistics**
 
 
 ### [Machine Learning: Supervised Learning](supervised-learning/README.md)
