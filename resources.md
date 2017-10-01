@@ -7,7 +7,7 @@ We already put references in every notebook created for details, more insight, c
 ## Statistics and Probability
 
 * [**Calling Bullshit** in the age of Big Data](http://callingbullshit.org), a course on spotting manipulative use of data, wrong conclusions and overall misunderstandings, @ University of Washington by C Bergstrom and J West
-* [**How to lie with Statistics**](https://en.wikipedia.org/wiki/How_to_Lie_with_Statistics), a lovely little book on the common mistakes and misunderstandings around the use of numbers for reaching conclusions. Old, but very valuable and entertaining
+* [**How to lie with Statistics**](https://en.wikipedia.org/wiki/How_to_Lie_with_Statistics), a lovely little book on the common mistakes and misunderstandings around the use of numbers for reaching conclusions. Old, but very valuable and entertaining, by D Huff, 1954.
 
 ## Machine Learning
 
