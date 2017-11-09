@@ -2,18 +2,27 @@
 
 Everything we can think of when we need to assess the quality of a Machine Learning model.
 
+## Problems of a model
+
+*What are the problems a model can suffer from?*
+
+* [Overfitting](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/model-assessment/problems/overfitting.ipynb)
+
 ## Performance Metrics
+
+*The metrics used to assess the quality of a model.*
 
 * [In Classification](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/model-assessment/perf-metrics/classification.ipynb)
 
-## Regression Diagnostics
 
-* [What's in the residuals](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/model-assessment/regr-diagnostics/residuals.ipynb)
+## Performance Diagnostics
 
-## Problems of a model
+*For a regression problem, how to go a little deeper and diagnose what could be wrong.*
 
-* [Overfitting](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/model-assessment/problems/overfitting.ipynb)
+* [What's in the residuals of a regression?](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/model-assessment/diagnostics/regr-residuals.ipynb)
+* [The ROC curve](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/model-assessment/diagnostics/roc.ipynb)
 
 ## Techniques
 
 * [Cross Validation](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/model-assessment/techniques/cross-validation.ipynb)
+
