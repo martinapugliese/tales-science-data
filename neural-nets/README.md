@@ -9,3 +9,4 @@ Decided to keep this separate from the other ML chapters, as it deserves its own
 ## Famous networks
 
 * [The Perceptron](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/neural-nets/perceptron.ipynb)
+* [Sigmoid neurons](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/neural-nets/sigmoid-neuron.ipynb)
