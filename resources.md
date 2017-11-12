@@ -16,7 +16,7 @@ We already put references in every notebook created for details, more insight, c
 
 ### Neural Networks
 
-* [Neural Networks & Deep Learning](http://neuralnetworksanddeeplearning.com/index.html), an online free book by M Nielsen
+* M Nielsen, [Neural Networks & Deep Learning](http://neuralnetworksanddeeplearning.com/index.html), Determination Press, 2015, a fantastic online book
 * [Deep Learning with **Keras** & **Tensorflow**](https://github.com/leriomaggio/deep-learning-keras-tensorflow), a tutorial by V Maggio
 
 ## Computer Vision
