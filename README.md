@@ -73,7 +73,9 @@ Again, material in the collection span a quite large and variegated set of topic
 
 ### [Computer Science](cs/README.md)
 
+* Concepts and elements
 * Computers and programming languages
+* Algorithms
 
 
 ### [Some Mathematical Results](maths/README.md)
@@ -96,3 +98,10 @@ Again, material in the collection span a quite large and variegated set of topic
 
 
 ### [History](history/README.md)
+
+
+## Licence
+
+(C) 2017 Martina Pugliese
+
+This work is released under the [**MIT licence**](https://opensource.org/licenses/MIT).
