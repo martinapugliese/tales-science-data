@@ -20,3 +20,4 @@ Mathematical algorithms used as parts of bigger tasks, for instance in Machine L
 
 * [SVD](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/maths/dim-reduction-factorisation/svd.ipynb)
 * [NMF](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/maths/dim-reduction-factorisation/nmf.ipynb)
+* [PCA](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/maths/dim-reduction-factorisation/pca.ipynb)
