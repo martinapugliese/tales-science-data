@@ -30,6 +30,9 @@ Again, material in the collection span a quite large and variegated set of topic
 * **Notable brain teasers and paradoxes, and how to be careful with data**
 * **Methods, theorems and laws in Statistics**
 
+### [Machine Learning: Feature Engineering](feat-eng/README.md)
+
+* One-hot encoding
 
 ### [Machine Learning: Supervised Learning](supervised-learning/README.md)
 

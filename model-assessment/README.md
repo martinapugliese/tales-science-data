@@ -1,4 +1,4 @@
-# [Machine Learning: Model Assessment]()
+# Machine Learning: Model Assessment
 
 Everything we can think of when we need to assess the quality of a Machine Learning model.
 
