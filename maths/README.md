@@ -18,5 +18,5 @@ Mathematical algorithms used as parts of bigger tasks, for instance in Machine L
 
 ## Dimensionality reduction and Matrix Factorisation
 
-* [SVD]()
+* [SVD](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/maths/dim-reduction-factorisation/svd.ipynb)
 * [NMF](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/maths/dim-reduction-factorisation/nmf.ipynb)
