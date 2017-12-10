@@ -73,7 +73,7 @@ Again, material in the collection span a quite large and variegated set of topic
 
 ### [Computer Science](cs/README.md)
 
-* Concepts and elements
+* Foundational concepts and components
 * Computers and programming languages
 * Algorithms
 
