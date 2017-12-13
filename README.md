@@ -25,7 +25,10 @@ Material in the collection span a quite large and variegated set of topics, expl
 
 ## Machine Learning
 
-### [General]()
+### [General](ml-general/README.md)
+
+* A learning machine
+* Regularisation
 
 ### [Feature Engineering](feat-eng/README.md)
 
