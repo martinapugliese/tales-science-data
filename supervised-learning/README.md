@@ -16,3 +16,4 @@ This section will outline the algorithms which can be used both in regression an
 
 * [Decision Tree](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/regr-class/dec-tree.ipynb)
 * [Random Forest](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/regr-class/rf.ipynb)
+* [K-nearest neighbours](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/regr-class/knn.ipynb)
