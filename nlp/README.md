@@ -28,3 +28,8 @@ The chapter on NLP is divided into what are general sections of introduction to 
 ### Topic models
 
 * [LDA](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/topic-models/lda.ipynb)
+
+## Word Embeddings
+
+* [Introduction](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/word-embeddings/intro.ipynb)
+* [word2vec](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/word-embeddings/word2vec.ipynb)
