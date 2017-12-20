@@ -12,6 +12,7 @@ What exactly is this? Why did I even bother doing this? How did I choose to do t
 
 Material in the collection span a quite large and variegated set of topics, explored here into these sections. 
 
+
 ## [Probability, Statistics and Data Analysis](prob-stats-data-analysis/README.md)
 
 *Statistics is at the core of data science, and thourough data analysis is typically the starting point of any modelling effort on data.*
@@ -23,16 +24,19 @@ Material in the collection span a quite large and variegated set of topics, expl
 * **Notable brain teasers and paradoxes, and how to be careful with data**
 * **Methods, theorems and laws in Statistics**
 
+
 ## Machine Learning
 
-### [General](ml-general/README.md)
+### [General Concepts](ml-general/README.md)
 
 * A learning machine
 * Regularisation
+* Classifying data
 
 ### [Feature Engineering](feat-eng/README.md)
 
 * One-hot encoding
+* Feature Hashing
 
 ### [Supervised Learning](supervised-learning/README.md)
 
