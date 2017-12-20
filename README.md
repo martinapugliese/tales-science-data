@@ -52,10 +52,9 @@ Material in the collection span a quite large and variegated set of topics, expl
 
 ### [Model Assessment](model-assessment/README.md)
 
-* Performance metrics
-* Regression diagnostics
 * Problems of a model
-
+* Performance metrics
+* Performance diagnostics
 
 ## [Natural Language Processing](nlp/README.md)
 

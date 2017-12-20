@@ -25,4 +25,3 @@ Everything we can think of when we need to assess the quality of a Machine Learn
 ## Techniques
 
 * [Cross Validation](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/model-assessment/techniques/cross-validation.ipynb)
-
