@@ -19,3 +19,4 @@ This section will outline the algorithms which can be used both in regression an
 * [K-nearest neighbours](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/regr-class/knn.ipynb)
 * [Support Vector Machine](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/regr-class/svm.ipynb)
 * [Gradient Boosting](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/regr-class/grad-boosting.ipynb)
+* [AdaBoost](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/supervised-learning/regr-class/adaboost.ipynb)
