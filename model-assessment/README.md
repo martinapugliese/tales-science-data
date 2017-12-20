@@ -6,7 +6,7 @@ Everything we can think of when we need to assess the quality of a Machine Learn
 
 *What are the problems a model can suffer from?*
 
-* [Overfitting](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/model-assessment/problems/overfitting.ipynb)
+* [Overfitting and Underfittin](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/model-assessment/problems/overfitting-underfitting.ipynb)
 
 ## Performance Metrics and techniques
 
