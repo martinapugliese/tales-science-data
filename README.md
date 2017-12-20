@@ -65,6 +65,7 @@ Material in the collection span a quite large and variegated set of topics, expl
 * General Concepts
 * General tasks in NLP
 * Topic Modelling
+* Word Embeddings
 
 
 ## [Computer Vision](cv/README.md)
