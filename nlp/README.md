@@ -10,12 +10,18 @@ The chapter on NLP is divided into what are general sections of introduction to 
 * [An outline of tasks in NLP](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/concepts/outline-tasks.ipynb) 
 
 
-## Tasks in NLP
+## Basic tasks in NLP
 
 * [POS tagging](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/concepts/pos-tagging.ipynb)
 * [Stemming](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/concepts/pos-tagging.ipynb)
 * [Parsing](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/concepts/parsing.ipynb)
 
+
+## Information Extraction
+
+* [Introduction](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/info-extraction/intro.ipynb)
+* [Chunking](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/info-extraction/chunking.ipynb)
+* [Entity and Relations Recognition](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/info-extraction/entity-relations-recognition.ipynb)
 
 ## Topic Modelling
 

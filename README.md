@@ -63,7 +63,8 @@ Material in the collection span a quite large and variegated set of topics, expl
 ## [Natural Language Processing](nlp/README.md)
 
 * General Concepts
-* General tasks in NLP
+* Basic tasks in NLP
+* Information Extraction
 * Topic Modelling
 * Word Embeddings
 
