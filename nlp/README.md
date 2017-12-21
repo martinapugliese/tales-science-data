@@ -33,3 +33,4 @@ The chapter on NLP is divided into what are general sections of introduction to 
 
 * [Introduction](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/word-embeddings/intro.ipynb)
 * [word2vec](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/word-embeddings/word2vec.ipynb)
+* [doc2vec](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/word-embeddings/doc2vec.ipynb)
