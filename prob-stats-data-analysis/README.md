@@ -36,6 +36,7 @@ A collection of notes on topics regarding Probability and Statisitcs and the way
 * [The unbiased estimator of the variance](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats-data-analysis/concepts/unbiased-estimator-varstd.ipynb)
 * [Confidence level, p value and error margin](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats-data-analysis/concepts/cl-p-error-margin.ipynb)
 * [Types of Statistical models](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats-data-analysis/concepts/statistical-models.ipynb)
+* [Stratified sampling](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats-data-analysis/concepts/stratified-sampling.ipynb)
 
 
 ## Hypothesis testing
