@@ -2,7 +2,7 @@
 
 ## Foundational concepts and components
 
-* [Data structures](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/cs/concepts/data-structures.ipynb)
+* [Data structures and maps](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/cs/concepts/data-structures-maps.ipynb)
 * [Computational models and algorithmic complexity](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/cs/concepts/computational-models-complexity.ipynb)
 
 ## Computers and Programming languages
