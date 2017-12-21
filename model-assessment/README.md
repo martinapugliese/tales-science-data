@@ -15,6 +15,7 @@ Everything we can think of when we need to assess the quality of a Machine Learn
 * [Classification metrics](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/model-assessment/perf-metrics-techniques/classification-metrics.ipynb)
 * [Regression metrics](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/model-assessment/perf-metrics-techniques/regression-metrics.ipynb)
 * [Cross Validation](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/model-assessment/perf-metrics-techniques/cross-validation.ipynb)
+* [Training, test and validation sets](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/model-assessment/perf-metrics-techniques/training-validation-test.ipynb)
 
 
 ## Performance Diagnostics
