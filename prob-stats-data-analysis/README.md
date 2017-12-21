@@ -45,6 +45,7 @@ A collection of notes on topics regarding Probability and Statisitcs and the way
 * [The null hypothesis and errors in hypothesis testing](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats-data-analysis/testing/null-hyp-error-types.ipynb)
 * [The minumum sample size in the binomial parameter](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats-data-analysis/testing/binomial-param-sample-size.ipynb)
 * [The t test](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats-data-analysis/testing/t-test.ipynb)
+* [The z test](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats-data-analysis/testing/z-test.ipynb)
 * [The chi squared test](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats-data-analysis/testing/chi-squared.ipynb)
 
 
