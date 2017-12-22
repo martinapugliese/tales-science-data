@@ -33,10 +33,10 @@ Material in the collection span a quite large and variegated set of topics, expl
 * Regularisation
 * Classifying data
 
-### [Feature Engineering](feat-eng/README.md)
+### [Choosing features](feat-eng/README.md)
 
-* One-hot encoding
-* Feature Hashing
+* Engineering features
+* Selecting features
 
 ### [Supervised Learning](supervised-learning/README.md)
 
