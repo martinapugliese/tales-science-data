@@ -48,6 +48,7 @@ A collection of notes on topics regarding Probability and Statisitcs and the way
 * [The t test](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats-data-analysis/testing/t-test.ipynb)
 * [The z test](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats-data-analysis/testing/z-test.ipynb)
 * [The chi squared test](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats-data-analysis/testing/chi-squared.ipynb)
+* [ANOVA](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats-data-analysis/testing/anova.ipynb)
 
 
 ## Methods, theorems and laws in Statistics
