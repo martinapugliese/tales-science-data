@@ -50,8 +50,8 @@ Material in the collection span a quite large and variegated set of topics, expl
 
 ### [Artificial Neural Networks](neural-nets/README.md)
 
-* General Intro
-* Famous networks
+* What are they and how they work, in general
+* Types of artificial neurons and networks
 
 
 ### [Model Assessment](model-assessment/README.md)
