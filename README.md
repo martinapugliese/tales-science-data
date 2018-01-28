@@ -1,6 +1,6 @@
 # Tales of Science & Data
 
-**A semi-serious collection of notes on Data Science.**
+**A semi-serious collection of notes on Data Science, Machine Learning related stuff.**
 
 
 ## Meta
@@ -106,8 +106,8 @@ Material in the collection span a quite large and variegated set of topics, expl
 ## [History](history/README.md)
 
 
-## Licence
+## License
 
-(C) 2017 Martina Pugliese
+(C) 2017-2018 Martina Pugliese
 
-This work is released under the [**MIT licence**](https://opensource.org/licenses/MIT).
+This work is released under the [**MIT licence**](https://opensource.org/licenses/MIT), full info [here](LICENSE.md).
