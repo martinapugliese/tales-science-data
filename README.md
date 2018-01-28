@@ -38,23 +38,26 @@ Following here is the table of contents with links pointing to the chapters, whe
 * Engineering features
 * Selecting features
 
-### [Supervised Learning](supervised-learning/README.md)
+
+## [Supervised Learning](supervised-learning/README.md)
 
 * Regression
 * Classification
 * Both Regression and Classification
 
-### [Unsupervised Learning](unsupervised-learning/README.md)
+
+## [Unsupervised Learning](unsupervised-learning/README.md)
 
 * Clustering
 
-### [Artificial Neural Networks](neural-nets/README.md)
+
+## [Artificial Neural Networks](neural-nets/README.md)
 
 * What are they and how they work, in general
 * Types of artificial neurons and networks
 
 
-### [Model Assessment](model-assessment/README.md)
+## [Model Assessment](model-assessment/README.md)
 
 * Problems of a model
 * Performance metrics and techniques
@@ -91,16 +94,13 @@ Following here is the table of contents with links pointing to the chapters, whe
 * Dimensionality Reduction and Matrix Factorisation
 
 
-## [On Python, and data](python/README.md)
+## [Toolbox](toolbox/README.md)
 
-* Python in general
-* The Python data stack
+*An overview in a rush of some of the usual suspects used in data science, from programming languages to frameworks and various tools.*
 
-
-## [Tools, frameworks, workflow](tools/README.md)
-
-* Distributed Frameworks for computation on large datasets
-* Searching data
+* **The Python data stack**
+* **Distributed Frameworks for computation on large datasets**
+* **Searching data**
 
 
 ## License
