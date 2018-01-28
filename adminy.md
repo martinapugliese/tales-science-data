@@ -2,24 +2,26 @@
 
 Supporting material used in the notebooks.
 
-## Folders
+## Adminy folders
 
-### [Common](common/)
+Folders not listed here are actual book material.
+
+### [common/](common/)
 
 Keeps some methods used all over the place, for convenience reasons.
 
-### [Datasets](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/datasets/)
+### [datasets/](datasets/)
 
 Some free data used in some notebooks for illustrative purposes. Typically classic, old datasets used now for pedagogical reasons.
 
-* [Old Faithful](http://www.stat.cmu.edu/%7Elarry/all-of-statistics/=data/faithful.dat): some eruption times and waiting times between eruptions of the Old Faithful geyser in Yellowstone, a classic dataset 
-* [Head size and Brain weight](http://www.stat.ufl.edu/~winner/data/brainhead.txt): head size and brain weight of humans, from a Biometrika paper (1905)
+### [imgs/](imgs/)
 
-### [Images](imgs/)
+Contains supporting images used in the notebooks as illustrations. Some are hand-drawn and photographed, (most of which are terrible).
 
-Contains supporting images used in the notebooks as illustrations. Some are hand-drawn and photographed. 
-
-### [Style files](style-files/)
+### [style-files/](style-files/)
 
 Files to style up the notebooks and plots.
 
+## Stuff you need
+
+In the repo are Jupyter notebooks and to make full use of them you'd need the whole stack of Python for data science, plus a few other things.

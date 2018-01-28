@@ -1,16 +1,17 @@
 # Tales of Science & Data
 
-**A semi-serious collection of notes on Data Science, Machine Learning related stuff.**
+> A semi-serious collection of notes on Data Science, Machine Learning and related stuff.
 
 
-## Meta
+## Some meta
  
 What exactly is this? Why did I even bother doing this? How did I choose to do this?
 
-* The [**about**](about.md) gives a (sorta) detailed explanation from conception till realisation, and the structure and choices (it's a bit of a stream of consciousness)
-* The [**adminy**](adminy.md) documents the folders which are supporting material
+* The [**about**](about.md) gives a (sorta) detailed explanation from conception till realisation, and the structure and choices;
+* The [**adminy**](adminy.md) documents the folders which are supporting material;
+* The [**resources file**](resources.md) lists some data science material which I find brilliant and goes cross-topics, note that references to the single topics are listed in the respective notebooks instead.
 
-Material in the collection span a quite large and variegated set of topics, explored here into these sections. 
+Following here is the table of contents with links pointing to the chapters, where you can then proceed to the single topics.
 
 
 ## [Probability, Statistics and Data Analysis](prob-stats-data-analysis/README.md)
@@ -18,16 +19,15 @@ Material in the collection span a quite large and variegated set of topics, expl
 *Statistics is at the core of data science, and thourough data analysis is typically the starting point of any modelling effort on data.*
 
 * **General Intro**
-* **Distributions and probability measures**
-* **Foundational concepts**
+* **Foundational concepts on distributions and measures**
 * **Hypothesis testing**
+* **Methods, theorems and laws**
 * **Notable brain teasers and paradoxes, and how to be careful with data**
-* **Methods, theorems and laws in Statistics**
 
 
-## Machine Learning
+## [Machine Learning: general concepts](ml-general/README.md)
 
-### [General Concepts](ml-general/README.md)
+*What is Machine Learning, and its building blocks.*
 
 * A learning machine
 * Regularisation
@@ -101,9 +101,6 @@ Material in the collection span a quite large and variegated set of topics, expl
 
 * Distributed Frameworks for computation on large datasets
 * Searching data
-
-
-## [History](history/README.md)
 
 
 ## License

@@ -18,6 +18,7 @@ We already put references in every notebook created for details, more insight, c
 
 * M Nielsen, [Neural Networks & Deep Learning](http://neuralnetworksanddeeplearning.com/index.html), Determination Press, 2015, a fantastic online book
 * [Deep Learning with **Keras** & **Tensorflow**](https://github.com/leriomaggio/deep-learning-keras-tensorflow), a tutorial by V Maggio
+* F Chollet, **Deep Learning with Python**, *Manning*, 2017, a book by the creator of Keras
 
 ## Computer Vision
 
