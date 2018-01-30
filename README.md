@@ -1,6 +1,6 @@
 # Tales of Science & Data
 
-> A semi-serious collection of notes on Data Science, Machine Learning and related stuff.
+> A semi-serious collection of notes on Data Science, from Statistics to Machine Learning, passing through all sorts of other related things. Not necessarily in a sensible order.
 
 
 ## Some meta
@@ -74,10 +74,9 @@ Following here is the table of contents with links pointing to the chapters, whe
 
 ## [Computer Vision](cv/README.md)
 
-* General intro and glossary
-* Image features and mathematical formalism
-* Image processing
-* Detection of things in images
+* **Intro and quantifying images**
+* **Processing an image**
+* **What's in an image**
 
 
 ## [Computer Science](cs/README.md)
@@ -99,8 +98,7 @@ Following here is the table of contents with links pointing to the chapters, whe
 *An overview in a rush of some of the usual suspects used in data science, from programming languages to frameworks and various tools.*
 
 * **The Python data stack**
-* **Distributed Frameworks for computation on large datasets**
-* **Searching data**
+* **Databases and distributed frameworks**
 
 
 ## License

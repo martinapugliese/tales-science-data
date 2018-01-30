@@ -1,30 +1,28 @@
 # Computer Vision
 
-For code, we will use the brill library OpenCV.
+*Under the name "Computer vision" goes that set of techniques which allow us to manipulate and extract numerical data from an image, with a computer. For the code, we will use the brilliant library OpenCV.*
 
-## General Intro and glossary/jargon
+## Intro and quantifying images
 
-* [Intro to CV](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/intro-cv.ipynb)
-* [Some glossary](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/some-glossary.ipynb)
+*How do we put perceptual information into a quantifyable form.*
 
-## Image features and mathematical formalism
+* [**Intro to CV and glossary**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/intro-cv.ipynb)
+* [**The formalism of images**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/formalism.ipynb)
+* [**The intensity histogram**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/intensity-histogram.ipynb)
 
-* [Pixels, colour space and colour model, pixel connectivity](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-feats-maths/pixels-colour-connectivity.ipynb)
-* [The Sobel operator](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-feats-maths/sobel.ipynb)
-* [Image moments](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-feats-maths/moments.ipynb)
-* [Intensity histogram](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-feats-maths/intensity-histogram.ipynb)
+## Processing an image
 
-## Image Processing
+*An image is a bunch of numbers organised. How do we manipulate them to extract information?*
 
-* [Blurring](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/blurring.ipynb)
-* [Inverting](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/inverting.ipynb)
-* [Histogram equalisation](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/hist-equalisation.ipynb)
-* [Thresholding](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/thresholding.ipynb)
-* [Morphology](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/morphology.ipynb)
+* [**Blurring, inverting, thresholding**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/blurring-inverting-thresholding.ipynb)
+* [**Morphological operations**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/morphology.ipynb)
+* [**Histogram equalisation**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/hist-equalisation.ipynb)
 
-## Detection of things in images
 
-* [Edge detection and object contours](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/edge-detection-obj-contours.ipynb)
-* [Face recognition](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/face-recognition.ipynb)
-* [Haar cascades](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/haar-cascades.ipynb)
-* [Object detection: Histogram of Oriented Gradients](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/hog.ipynb)
+## What's in an image
+
+*These approaches tackle the problem of making a machine understand what is displayed in an image.*
+
+* [**Edge detection and object contours**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/edge-detection-obj-contours.ipynb)
+* [**Face recognition**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/face-recognition.ipynb)
+* [**Object detection: Haar cascades**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/obj-detection.ipynb)
