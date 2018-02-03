@@ -1,16 +1,21 @@
 # Computer Science
 
-## Foundational concepts and components
 
-* [Data structures and maps](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/cs/concepts/data-structures-maps.ipynb)
-* [Computational models and algorithmic complexity](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/cs/concepts/computational-models-complexity.ipynb)
+## Data structures and foundational algorithms
 
-## Computers and Programming languages
+*How can data be represented and organised in the machine for best use, and some basic algorithms that is fun to know.*
 
-* [Programming Languages](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/cs/computers-programming-langs/programming-languages.ipynb)
-* [Computer Architecture](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/cs/computers-programming-langs/architecture.ipynb)
+* [**Data structures**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/cs/data-algorithms/data-structures.ipynb)
+* [**Sorting algorithms**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/cs/data-algorithms/sorting-algorithms.ipynb)
 
-## Algorithms
 
-* [Sorting](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/cs/algorithms/sorting.ipynb)
+## Foundations of programming 
+
+*How do computers work (well, very random things about), programming languages and concepts.*
+
+* [**Random notes on computer architecture**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/cs/foundations/architecture.ipynb)
+* [**Computational models and algorithmic complexity**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/cs/data-algorothms/computational-models-complexity.ipynb)
+* [**Programming Languages**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/cs/data-algorithms/programming-languages.ipynb)
+
+
 

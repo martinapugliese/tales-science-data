@@ -42,6 +42,13 @@ Following here is the table of contents with links pointing to the chapters, whe
 * **Processing an image**
 * **What's in an image**
 
+## [Computer Science](cs/README.md)
+
+*Stuff about what's a machine and how to talk to it in the first place.*
+
+* **Data structures and foundational algorithms**
+* **Foundations of programming**
+
 ## [Toolbox](toolbox/README.md)
 
 *An overview in a rush of some of the usual suspects used in data science, from programming languages to frameworks and various tools.*
@@ -86,13 +93,6 @@ Following here is the table of contents with links pointing to the chapters, whe
 * Problems of a model
 * Performance metrics and techniques
 * Performance diagnostics
-
-
-## [Computer Science](cs/README.md)
-
-* Foundational concepts and components
-* Computers and programming languages
-* Algorithms
 
 
 ## [Some Mathematical Results](maths/README.md)
