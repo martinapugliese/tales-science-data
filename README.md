@@ -24,6 +24,25 @@ Following here is the table of contents with links pointing to the chapters, whe
 * **Methods, theorems and laws**
 * **Notable brain teasers and paradoxes, and how to be careful with data**
 
+
+## [Machine Learning: concepts and procedures](ml-procedures/README.md)
+
+*What is Machine Learning, how you do it and its building blocks. This chapter is strictly linked to the following one on algorithms.*
+
+* **Overview of the field**
+* **Learning algorithms**
+* **Modelling techniques**
+* **Dimensionality reduction and matrix factorisation**
+
+
+## [Machine Learning: algorithms](ml-algorithms/README.md)
+
+*Discussing algorithms in Machine Learning, one by one.*
+
+* **Supervised Learning**
+* **Unsupervised Learning**
+
+
 ## [Natural Language Processing](nlp/README.md)
 
 *NLP is the field (a part of Machine Learning) which deals with text, an unstructured data source. What NLP tries to do is putting text into numerical representations, and extracting information from it, in an attempt to do understand (?) it.*
@@ -42,6 +61,7 @@ Following here is the table of contents with links pointing to the chapters, whe
 * **Processing an image**
 * **What's in an image**
 
+
 ## [Computer Science](cs/README.md)
 
 *Stuff about what's a machine and how to talk to it in the first place.*
@@ -49,57 +69,18 @@ Following here is the table of contents with links pointing to the chapters, whe
 * **Data structures and foundational algorithms**
 * **Foundations of programming**
 
+
+## [The mathemathics appendix](maths/README.md)
+
+*Collecting some reference mathematical results here, for reference.*
+
+
 ## [Toolbox](toolbox/README.md)
 
 *An overview in a rush of some of the usual suspects used in data science, from programming languages to frameworks and various tools.*
 
 * **The Python data stack**
 * **Databases and distributed frameworks**
-
-## [Machine Learning: general concepts](ml-general/README.md)
-
-*What is Machine Learning, and its building blocks.*
-
-* A learning machine
-* Regularisation
-* Classifying data
-
-### [Choosing features](feat-eng/README.md)
-
-* Engineering features
-* Selecting features
-
-
-## [Supervised Learning](supervised-learning/README.md)
-
-* Regression
-* Classification
-* Both Regression and Classification
-
-
-## [Unsupervised Learning](unsupervised-learning/README.md)
-
-* Clustering
-
-
-## [Artificial Neural Networks](neural-nets/README.md)
-
-* What are they and how they work, in general
-* Types of artificial neurons and networks
-
-
-## [Model Assessment](model-assessment/README.md)
-
-* Problems of a model
-* Performance metrics and techniques
-* Performance diagnostics
-
-
-## [Some Mathematical Results](maths/README.md)
-
-* Generic results
-* Mathematical algorithms
-* Dimensionality Reduction and Matrix Factorisation
 
 
 

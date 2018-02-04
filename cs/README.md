@@ -1,5 +1,7 @@
 # Computer Science
 
+*This chapter is a bit of various stuff on computer science, every topic is more of a random dump of little things, not a comprehensive overview.*
+
 
 ## Data structures and foundational algorithms
 
