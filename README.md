@@ -83,7 +83,7 @@ Following here is the table of contents with links pointing to the chapters, whe
 
 *Stuff about what's a machine and how to talk to it in the first place.*
 
-* **Data structures and foundational algorithms**
+* **Data structures, operations, and foundational algorithms**
 * **Foundations of programming**
 
 
