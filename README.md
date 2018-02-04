@@ -43,6 +43,23 @@ Following here is the table of contents with links pointing to the chapters, whe
 * **Unsupervised Learning**
 
 
+## [Machine Learning: model assessment](ml-assessment/README.md)
+
+*How do we measure how good a model we built is?*
+
+* **Generic problems models can have**
+* **Performance Metrics and validation techniques**
+* **Diagnostics**
+
+
+## [Artificial Neural Networks](neural-nets/README.md)
+
+*Artificial neural networlks, whether "shallow" or "deep", deserve their own chapter.*
+
+* What are they and how they work, in general
+* Types of artificial neurons and networks
+
+
 ## [Natural Language Processing](nlp/README.md)
 
 *NLP is the field (a part of Machine Learning) which deals with text, an unstructured data source. What NLP tries to do is putting text into numerical representations, and extracting information from it, in an attempt to do understand (?) it.*
