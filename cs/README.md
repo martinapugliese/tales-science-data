@@ -18,6 +18,3 @@
 * [**Random notes on computer architecture**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/cs/foundations/architecture.ipynb)
 * [**Computational models and algorithmic complexity**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/cs/data-algorothms/computational-models-complexity.ipynb)
 * [**Programming Languages**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/cs/data-algorithms/programming-languages.ipynb)
-
-
-

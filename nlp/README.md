@@ -28,6 +28,7 @@ The chapter on NLP is divided into what are general sections of introduction to 
 * [**PLSA**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/topic-modelling/plsa.ipynb)
 * [**LDA**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/topic-modelling/lda.ipynb)
 
+
 ## Word Embeddings
 
 *Word embeddings! Words and documents become vectors, that you can embed in a mathematical space and compute similarities, add and subtract together!*

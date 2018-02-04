@@ -2,6 +2,7 @@
 
 *Under the name "Computer vision" goes that set of techniques which allow us to manipulate and extract numerical data from an image, with a computer. For the code, we will use the brilliant library OpenCV.*
 
+
 ## Intro and quantifying images
 
 *How do we put perceptual information into a quantifyable form.*
@@ -9,6 +10,7 @@
 * [**Intro to CV and glossary**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/intro-cv.ipynb)
 * [**The formalism of images**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/formalism.ipynb)
 * [**The intensity histogram**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/intensity-histogram.ipynb)
+
 
 ## Processing an image
 

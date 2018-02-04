@@ -1,6 +1,6 @@
 # Probability, Statistics and Data Analysis
 
-A collection of notes on topics regarding Probability and Statisitcs and the way to use their concepts to analyse data.
+*A collection of notes on topics regarding Probability and Statistics and the way to use them to analyse data and draw conclusions.*
 
 
 ## General intro

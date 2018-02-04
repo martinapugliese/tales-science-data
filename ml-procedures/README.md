@@ -2,6 +2,7 @@
 
 *How do we do Machine Learning? This chapter offers an overview of the techniques and methodologies.*
 
+
 ## Overview of the field
 
 *Just an overview of where Machine Learning can be used, for what sorts of problems and how.* 
