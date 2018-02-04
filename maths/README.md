@@ -1,23 +1,11 @@
-# Some Mathematical Results
+# The mathematics appendix
 
-A collection of mathematics used all over the place.
+*An appendix with some mathematics results and concepts used all over the place, for reference.*
 
-## Generic building blocks
+* [**Some Matrix Algebra**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/maths/matrix-algebra.ipynb)
+* [**On functions**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/maths/functions.ipynb)
+* [**Some geometry**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/maths/geometry.ipynb)
+* [**Cross-fields concepts**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/maths/cross-fields-concepts.ipynb)
+* [**Some mathematical measures**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/maths/measures.ipynb)
 
-* [Matrix Algebra](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/maths/generic/matrices.ipynb)
-* [On functions and their things](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/maths/generic/functions.ipynb)
-* [Some geometrical stuff](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/maths/generic/geometry.ipynb)
-* [Cross-concepts](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/maths/generic/cross-concepts.ipynb)
-* [Measures](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/maths/generic/measures.ipynb)
 
-## Algorithms
-
-Mathematical algorithms used as parts of bigger tasks, for instance in Machine Learning ones.
-
-* [The Gradient Descent method](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/maths/algorithms/gradient-descent.ipynb)
-
-## Dimensionality reduction and Matrix Factorisation
-
-* [SVD](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/maths/dim-reduction-factorisation/svd.ipynb)
-* [NMF](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/maths/dim-reduction-factorisation/nmf.ipynb)
-* [PCA](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/maths/dim-reduction-factorisation/pca.ipynb)
