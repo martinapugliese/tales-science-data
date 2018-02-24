@@ -31,7 +31,7 @@ Following here is the table of contents with links pointing to the chapters, whe
 
 * **Overview of the field**
 * **Learning algorithms**
-* **Modelling techniques**
+* **Feature building and modelling techniques**
 * **Dimensionality reduction and matrix factorisation**
 
 
@@ -48,8 +48,8 @@ Following here is the table of contents with links pointing to the chapters, whe
 *How do we measure how good a model we built is?*
 
 * **Generic problems models can have**
-* **Performance Metrics and validation techniques**
-* **Diagnostics**
+* **Performance metrics and validation techniques**
+* **Deeper diagnostics**
 
 
 ## [Artificial Neural Networks](neural-nets/README.md)

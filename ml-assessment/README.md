@@ -10,17 +10,16 @@
 * [**Overfitting and Underfitting**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/ml-assessment/overfitting-underfitting.ipynb)
 
 
-## Performance Metrics and validation techniques
+## Performance metrics and validation techniques
 
-*The metrics used to assess the quality of a model.*
+*The metrics used to assess the quality of a model and the techniques to do so.*
 
-* [**Classification metrics**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/ml-assessment/perf-metrics-techniques/classification-metrics.ipynb)
-* [**Regression metrics**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/ml-assessment/perf-metrics-techniques/regression-metrics.ipynb)
-* [**Cross Validation**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/ml-assessment/perf-metrics-techniques/cross-validation.ipynb)
-* [**Training, test and validation sets**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/ml-assessment/perf-metrics-techniques/training-validation-test.ipynb)
+* [**Evaluating a model: concepts and techniques**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/ml-assessment/perf-metrics-techniques/evaluating-model-concepts-techniques.ipynb)
+* [**Classification performance metrics**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/ml-assessment/perf-metrics-techniques/classification-metrics.ipynb)
+* [**Regression performance metrics**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/ml-assessment/perf-metrics-techniques/regression-metrics.ipynb)
 
 
-## Diagnostics
+## Deeper diagnostics
 
 *Let's go a little deeper than using metrics and diagnose what could be wrong in a broader way.*
 

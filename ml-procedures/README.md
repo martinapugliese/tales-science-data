@@ -5,10 +5,9 @@
 
 ## Overview of the field
 
-*Just an overview of where Machine Learning can be used, for what sorts of problems and how.* 
+*Just an overview of where Machine Learning can be used, for what sorts of problems and how, in a general way.* 
 
 * [**A learning machine**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/ml-procedures/learning-machine.ipynb)
-* [**Classifying data**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/ml-procedures/classifying-data.ipynb)
 
 
 ## Learning algorithms
@@ -18,7 +17,7 @@
 * [**The Gradient Descent method**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/ml-procedures/learning-algorithms/gradient-descent.ipynb)
 
 
-## Modelling techniques
+## Feature building and modelling techniques
 
 *This is a list of methods used to work on the training set, to transform it into features for modelling, or to modify cost functions in order to improve performance and/or control for problems.*
 

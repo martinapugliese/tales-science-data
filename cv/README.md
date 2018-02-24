@@ -26,5 +26,4 @@
 *These approaches tackle the problem of making a machine understand what is displayed in an image.*
 
 * [**Edge detection and object contours**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/edge-detection-obj-contours.ipynb)
-* [**Face recognition**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/face-recognition.ipynb)
-* [**Object detection: Haar cascades**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/obj-detection.ipynb)
+* [**Object detection and recognition**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/obj-detection-recognition.ipynb)
