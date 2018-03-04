@@ -4,7 +4,7 @@
 
 
 ## Some meta
- 
+
 *What exactly is this? Why did I even bother doing this? How did I choose to do this?*
 
 * The [**about**](about.md) gives a (sorta) detailed explanation from conception till realisation, and the structure and choices;
@@ -54,9 +54,9 @@ Following here is the table of contents with links pointing to the chapters, whe
 
 ## [Artificial Neural Networks](neural-nets/README.md)
 
-*Artificial neural networlks, whether "shallow" or "deep", deserve their own chapter.*
+*Artificial neural networks, whether "shallow" or "deep", deserve their own chapter.*
 
-* What are they and how they work, in general
+* Overview and main concepts
 * Types of artificial neurons and networks
 
 
