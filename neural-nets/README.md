@@ -7,17 +7,15 @@
 
 *This section is about the main concepts on ANNs and an overview of how they work and their building blocks.*
 
-* [Artificial Neural Networks in a nutshell](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/neural-nets/overview/anns.ipynb)
-* [The Perceptron](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/neural-nets/overview/perceptron.ipynb)
-* [Activation functions](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/neural-nets/overview/activations.ipynb)
-
-* [The backpropagation algorithm](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/neural-nets/backpropagation.ipynb)
-* [Setting up neural networks](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/neural-nets/setting.ipynb)
+* [**Artificial Neural Networks in a nutshell**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/neural-nets/overview/anns.ipynb)
+* [**The Perceptron**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/neural-nets/overview/perceptron.ipynb)
+* [**Activation functions**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/neural-nets/overview/activations.ipynb)
+* [**Building blocks**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/neural-nets/overview/setting.ipynb)
 
 
-## Types of artificial neurons and networks
+## Peculiarities of networks
 
-*ALl the categories..*
+*This section describes some types of networks and/or the challenges with them in more detail, while going through what they're suitable for.*
 
-* [Deep Neural Networks](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/neural-nets/deep.ipynb)
-* [Convolutional Neural Networks](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/neural-nets/convolutional.ipynb)
+* [**Deep Neural Networks**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/neural-nets/peculiarities/deep.ipynb)
+* [**Convolutional Neural Networks**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/neural-nets/peculiarities/convolutional.ipynb)

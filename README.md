@@ -56,8 +56,8 @@ Following here is the table of contents with links pointing to the chapters, whe
 
 *Artificial neural networks, whether "shallow" or "deep", deserve their own chapter.*
 
-* Overview and main concepts
-* Types of artificial neurons and networks
+* **Overview and main concepts**
+* **Peculiarities of networks**
 
 
 ## [Natural Language Processing](nlp/README.md)
