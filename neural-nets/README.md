@@ -19,3 +19,8 @@
 
 * [**Deep Neural Networks**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/neural-nets/peculiarities/deep.ipynb)
 * [**Convolutional Neural Networks**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/neural-nets/peculiarities/convolutional.ipynb)
+
+
+## Techniques
+
+* [**Transfer Learning**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/neural-nets/techniques/transfer-learning.ipynb)
