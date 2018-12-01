@@ -1,6 +1,6 @@
 # Tales of Science & Data
 
-> A semi-serious collection of notes on Data Science, from Statistics to Machine Learning, passing through all sorts of other related things. Not necessarily in the order you'd expect.
+*A semi-serious collection of notes on Data Science, from Statistics to Machine Learning, passing through all sorts of other related things. Not necessarily in the order you'd expect.*
 
 
 ## Some meta
@@ -62,7 +62,7 @@ Following here is the table of contents with links pointing to the chapters, whe
 
 ## [Natural Language Processing](nlp/README.md)
 
-*NLP is the field (a part of Machine Learning) which deals with text, an unstructured data source. What NLP tries to do is putting text into numerical representations, and extracting information from it, in an attempt to do understand (?) it.*
+*NLP is the field (a part of Machine Learning) which deals with text, an unstructured data source. What NLP tries to do is putting text into numerical representations, and extracting information from it, in an attempt to understand (?) it.*
 
 * **General concepts and tasks in NLP**
 * **Manipulating text and extracting information**

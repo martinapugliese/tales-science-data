@@ -12,6 +12,11 @@
 * [**Playing with NLTK**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/toolbox/python/nltk.ipynb)
 * [**Notes on Matplotlib**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/toolbox/python/matplotlib.ipynb)
 
+## Machine Learning
+
+*There are many libraries and packages to do Machine Learning. These are just some.*
+
+* [**The TensorFlow playground**]()
 
 ## Databases and distributed frameworks
 
@@ -20,4 +25,3 @@
 * [**Apache Hadoop**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/toolbox/dbses-distrib-frameworks/hadoop.ipynb)
 * [**Apache Spark**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/toolbox/dbses-distrib-frameworks/spark.ipynb)
 * [**Elasticsearch**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/toolbox/dbses-distrib-frameworks/elasticsearch.ipynb)
-
