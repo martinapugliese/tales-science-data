@@ -23,37 +23,37 @@ After wandering around for a good while, I chose to adopt the [Jupyter notebook]
 3. Embed plots in the narration as well;
 4. Write mathematics
 
-For 1., this is super useful when taking a quick note on something with the idea of explanding it later).
+For 1., this is super useful when taking a quick note on something with the idea of explanding it later\).
 
-The first versions I was trying to put together of this had been on [GitBook](https://www.gitbook.com/new) or as a good old LateX document. The first proved to be not exhaustive for my needs (especially for 2. and 3., though being good for 1. and 4.), the second was just cumbersome for the goal: I'm not writing an academic-like sort of thing.
+The first versions I was trying to put together of this had been on [GitBook](https://www.gitbook.com/new) or as a good old LateX document. The first proved to be not exhaustive for my needs \(especially for 2. and 3., though being good for 1. and 4.\), the second was just cumbersome for the goal: I'm not writing an academic-like sort of thing.
 
-And because I'm all for sharing and I like the idea of version-controlling the "manuscript", here we go on GitHub. 
+And because I'm all for sharing and I like the idea of version-controlling the "manuscript", here we go on GitHub.
 
 ### How the material is structured
 
 I gave the material the organisation which to me makes more sense, this does not mean that it's the best organisation ever. In fact, some of the topics treated could be potentially categorised differently across folders.
 
-Anyway, each single topic lives in its own notebook, so that it can be read as isolated from all the rest. 
+Anyway, each single topic lives in its own notebook, so that it can be read as isolated from all the rest.
 
-Folder names are quite self-explanatory and names of the notebooks have also been kept quite vocal to aid first understanding of what's going to be found inside. 
+Folder names are quite self-explanatory and names of the notebooks have also been kept quite vocal to aid first understanding of what's going to be found inside.
 
 ### Style
 
-The CSS and the Matplotlib styles have been customised to suit needs, notebook in [Style demos](Style demos.ipnb) illustrates che choices. 
-They are loaded via wrapper methods in each notebook, a procedure mirrored from [this other book](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers).
+The CSS and the Matplotlib styles have been customised to suit needs, notebook in [Style demos](https://github.com/martinapugliese/tales-science-data/tree/4f271d78869870acf2b35ce54d40766af7dfa348/Style%20demos.ipnb) illustrates che choices. They are loaded via wrapper methods in each notebook, a procedure mirrored from [this other book](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers).
 
 ### The references
 
 References are indicated at the end of each notebook, rather than at the global level. This is because I find it much more effective to have a list of further material from within the topic I'm looking at rather than as a separate thing. Furthemore, this allows for a more ordered and structured situation.
 
-When accessible, a link to the PDF in the case of papers is always provided. Otherwise, when paper is not released in open-access and not being made accessible elsewhere by the author(s), the link may just point to the journal source.
+When accessible, a link to the PDF in the case of papers is always provided. Otherwise, when paper is not released in open-access and not being made accessible elsewhere by the author\(s\), the link may just point to the journal source.
 
-The file about [beautiful internet](resources.md) contains an updated list of great comprehensive resources on the topics of this book, which are amazing per se and are highly recommended for use and peruse in general.
+The file about [beautiful internet](maths/resources.md) contains an updated list of great comprehensive resources on the topics of this book, which are amazing per se and are highly recommended for use and peruse in general.
 
 ### The images
 
 Images are of three types:
 
-* I create them in Matplotlib or something (graphs)
-* I take them from the Internet (always when reuse is allowed and I give attribution)
+* I create them in Matplotlib or something \(graphs\)
+* I take them from the Internet \(always when reuse is allowed and I give attribution\)
 * I draw them by hand, this because to illustrate concepts I find handdrawing to always be the most satisfying and clear mean; they also look nicer than if I did them with a software because I'm not a designer and couldn't do a good job: these ones look typically terrible but I've decided to trade beauty for speed
+

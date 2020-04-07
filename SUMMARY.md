@@ -1,0 +1,20 @@
+# Table of contents
+
+* [Tales of Science & Data](README.md)
+* [Toolbox](toolbox/README.md)
+  * [Python and data](toolbox/python.md)
+* [Probability, Statistics and Data Analysis](prob-stats-data-analysis.md)
+* [Datasets used in the repo](datasets.md)
+* [The MIT License \(MIT\)](license.md)
+* [Machine Learning: Artificial Neural Networks](neural-nets.md)
+* [The mathematics appendix](maths/README.md)
+  * [Beautiful internet](maths/resources.md)
+* [Machine Learning: concepts and procedures](ml-procedures.md)
+* [Machine Learning: Model Assessment](ml-assessment.md)
+* [Computer Science](cs.md)
+* [About this thing](about.md)
+* [Natural Language Processing](nlp.md)
+* [Machine Learning: Algorithms](ml-algorithms.md)
+* [Adminy of the repo](adminy.md)
+* [Computer Vision](cv.md)
+

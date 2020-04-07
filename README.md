@@ -2,21 +2,19 @@
 
 > A semi-serious collection of notes on Data Science, from Statistics to Machine Learning, passing through all sorts of other related things. Not necessarily in the order you'd expect.
 
-
 ## Some meta
- 
-*What exactly is this? Why did I even bother doing this? How did I choose to do this?*
 
-* The [**about**](about.md) gives a (sorta) detailed explanation from conception till realisation, and the structure and choices;
+_What exactly is this? Why did I even bother doing this? How did I choose to do this?_
+
+* The [**about**](about.md) gives a \(sorta\) detailed explanation from conception till realisation, and the structure and choices;
 * The [**adminy**](adminy.md) documents the folders which are supporting material;
-* The [**resources file**](resources.md) lists some data science material which I find brilliant and goes cross-topics, note that references to the single topics are listed in the respective notebooks instead.
+* The [**resources file**](maths/resources.md) lists some data science material which I find brilliant and goes cross-topics, note that references to the single topics are listed in the respective notebooks instead.
 
 Following here is the table of contents with links pointing to the chapters, where you can then proceed to the single topics.
 
+## [Probability, Statistics and Data Analysis](prob-stats-data-analysis.md)
 
-## [Probability, Statistics and Data Analysis](prob-stats-data-analysis/README.md)
-
-*Statistics is at the core of data science, and thourough data analysis is typically the starting point of any modelling effort on data.*
+_Statistics is at the core of data science, and thourough data analysis is typically the starting point of any modelling effort on data._
 
 * **General Intro**
 * **Foundational concepts on distributions and measures**
@@ -24,87 +22,75 @@ Following here is the table of contents with links pointing to the chapters, whe
 * **Methods, theorems and laws**
 * **Notable brain teasers and paradoxes, and how to be careful with data**
 
+## [Machine Learning: concepts and procedures](ml-procedures.md)
 
-## [Machine Learning: concepts and procedures](ml-procedures/README.md)
-
-*What is Machine Learning, how you do it and its building blocks. This chapter is strictly linked to the following one on algorithms.*
+_What is Machine Learning, how you do it and its building blocks. This chapter is strictly linked to the following one on algorithms._
 
 * **Overview of the field**
 * **Learning algorithms**
 * **Modelling techniques**
 * **Dimensionality reduction and matrix factorisation**
 
+## [Machine Learning: algorithms](ml-algorithms.md)
 
-## [Machine Learning: algorithms](ml-algorithms/README.md)
-
-*Discussing algorithms in Machine Learning, one by one.*
+_Discussing algorithms in Machine Learning, one by one._
 
 * **Supervised Learning**
 * **Unsupervised Learning**
 
+## [Machine Learning: model assessment](ml-assessment.md)
 
-## [Machine Learning: model assessment](ml-assessment/README.md)
-
-*How do we measure how good a model we built is?*
+_How do we measure how good a model we built is?_
 
 * **Generic problems models can have**
 * **Performance Metrics and validation techniques**
 * **Diagnostics**
 
+## [Artificial Neural Networks](neural-nets.md)
 
-## [Artificial Neural Networks](neural-nets/README.md)
-
-*Artificial neural networlks, whether "shallow" or "deep", deserve their own chapter.*
+_Artificial neural networlks, whether "shallow" or "deep", deserve their own chapter._
 
 * What are they and how they work, in general
 * Types of artificial neurons and networks
 
+## [Natural Language Processing](nlp.md)
 
-## [Natural Language Processing](nlp/README.md)
-
-*NLP is the field (a part of Machine Learning) which deals with text, an unstructured data source. What NLP tries to do is putting text into numerical representations, and extracting information from it, in an attempt to do understand (?) it.*
+_NLP is the field \(a part of Machine Learning\) which deals with text, an unstructured data source. What NLP tries to do is putting text into numerical representations, and extracting information from it, in an attempt to do understand \(?\) it._
 
 * **General concepts and tasks in NLP**
 * **Manipulating text and extracting information**
 * **Topic Modelling**
 * **Word Embeddings**
 
+## [Computer Vision](cv.md)
 
-## [Computer Vision](cv/README.md)
-
-*Can a machine view? Well, an image is a matrix so it's all algebraic operations!*
+_Can a machine view? Well, an image is a matrix so it's all algebraic operations!_
 
 * **Intro and quantifying images**
 * **Processing an image**
 * **What's in an image**
 
+## [Computer Science](cs.md)
 
-## [Computer Science](cs/README.md)
-
-*Stuff about what's a machine and how to talk to it in the first place.*
+_Stuff about what's a machine and how to talk to it in the first place._
 
 * **Data structures and foundational algorithms**
 * **Foundations of programming**
 
+## [The mathemathics appendix](maths/)
 
-## [The mathemathics appendix](maths/README.md)
+_Collecting some reference mathematical results here, for reference._
 
-*Collecting some reference mathematical results here, for reference.*
+## [Toolbox](toolbox/)
 
-
-## [Toolbox](toolbox/README.md)
-
-*An overview in a rush of some of the usual suspects used in data science, from programming languages to frameworks and various tools.*
+_An overview in a rush of some of the usual suspects used in data science, from programming languages to frameworks and various tools._
 
 * **The Python data stack**
 * **Databases and distributed frameworks**
 
-
-
-
-
 ## License
 
-(C) 2017-2018 Martina Pugliese
+\(C\) 2017-2018 Martina Pugliese
 
-This work is released under the [**MIT licence**](https://opensource.org/licenses/MIT), full info [here](LICENSE.md).
+This work is released under the [**MIT licence**](https://opensource.org/licenses/MIT), full info [here](license.md).
+
