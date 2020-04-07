@@ -4,7 +4,7 @@
 
 
 ## Some meta
- 
+
 *What exactly is this? Why did I even bother doing this? How did I choose to do this?*
 
 * The [**about**](about.md) gives a (sorta) detailed explanation from conception till realisation, and the structure and choices;
@@ -105,6 +105,6 @@ Following here is the table of contents with links pointing to the chapters, whe
 
 ## License
 
-(C) 2017-2018 Martina Pugliese
+(C) 2017-2020 Martina Pugliese
 
 This work is released under the [**MIT licence**](https://opensource.org/licenses/MIT), full info [here](LICENSE.md).
