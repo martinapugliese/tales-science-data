@@ -1,9 +1,9 @@
 # Machine Learning: Model Assessment
 
-*Techniques and methodologies to meausure the quality of a model and to fix and improve it.*
+*Techniques and methodologies to measure the quality of a model and to fix and improve it.*
 
 
-## Generic problems models can have 
+## Generic problems models can have
 
 *What are the problems a model can suffer from?*
 
@@ -25,3 +25,4 @@
 
 * [**What's in the residuals of a regression?**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/ml-assessment/diagnostics/regr-residuals.ipynb)
 * [**The ROC curve**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/ml-assessment/diagnostics/roc.ipynb)
+* [**Bias and Variance: a compromise**]()

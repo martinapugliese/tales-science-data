@@ -10,12 +10,18 @@
 * [**Data structures**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/cs/data-algorithms/data-structures.ipynb)
 * [**Operations on data**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/cs/data-algorithms/operations.ipynb)
 * [**Sorting algorithms**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/cs/data-algorithms/sorting-algorithms.ipynb)
+* [**Hashing algorithms**]()
+
+> TODO Hashing - cryptographic and perceptual
+> fingerprinting - mapping data of any size (e.g, image) to shorter string 
 
 
-## Foundations of programming 
+## Foundations of programming
 
 *How do computers work (well, very random things about), programming languages and concepts.*
 
 * [**Random notes on computer architecture**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/cs/foundations/architecture.ipynb)
 * [**Computational models and algorithmic complexity**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/cs/data-algorothms/computational-models-complexity.ipynb)
 * [**Programming Languages**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/cs/data-algorithms/programming-languages.ipynb)
+
+>

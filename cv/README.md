@@ -21,9 +21,15 @@
 * [**Histogram equalisation**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/image-processing/hist-equalisation.ipynb)
 
 
-## What's in an image
+## What's in an image - detecting things
 
 *These approaches tackle the problem of making a machine understand what is displayed in an image.*
 
 * [**Edge detection and object contours**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/edge-detection-obj-contours.ipynb)
 * [**Object detection and recognition**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/cv/detection/obj-detection-recognition.ipynb)
+* [**Shape Context features**]()
+
+
+
+## Hashing an image TODO
+https://blog.iconfinder.com/detecting-duplicate-images-using-python-cb240b05a3b6 - explains why cryptographic hashing doesn't work, and how to do dhash

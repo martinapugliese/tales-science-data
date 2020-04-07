@@ -12,14 +12,12 @@ import matplotlib
 from matplotlib import pyplot as plt
 
 
-
 # Name of this repo
 REPO_NAME = 'tales-science-data/'
 
 # Relative paths to style files
 MATPLOTLIB_FILE = 'style-files/matplotlibrc.json'
 CSS_FILE = 'style-files/custom.css'
-
 
 
 def find_global_path():
@@ -40,7 +38,6 @@ def config_ipython():
     set_matplotlib_formats('retina')
 
 
-
 def setup_matplotlib(matplotlib_file_path=MATPLOTLIB_FILE):
     """
     Setup all the stylistic params of matplotlib.
@@ -57,7 +54,6 @@ def setup_matplotlib(matplotlib_file_path=MATPLOTLIB_FILE):
     matplotlib.rcParams.update(params)
 
 
-
 def set_css_style(css_file_path=CSS_FILE):
     """
     Read the custom CSS file and load it into Jupyter.
@@ -68,7 +64,3 @@ def set_css_style(css_file_path=CSS_FILE):
 
     styles = open(global_path + css_file_path, 'r').read()
     return HTML(styles)
-
-
-
-

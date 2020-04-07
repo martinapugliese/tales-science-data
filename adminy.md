@@ -2,11 +2,15 @@
 
 Supporting material used in the notebooks.
 
+## Using the repo
+
+If you intend to use the repo by running the notebooks yourself, you want to add to the PYTHONPATH env var in order to point to where you put the repo, as there are some imports from the `common/` folder in the notebooks.
+
 ## Adminy folders
 
 Folders not listed here are actual book material.
 
-### [common/](common/)
+### [common_methods/](common_methods/)
 
 Keeps some methods used all over the place, for convenience reasons.
 

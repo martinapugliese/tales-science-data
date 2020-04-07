@@ -8,7 +8,7 @@
 *What exactly is this? Why did I even bother doing this? How did I choose to do this?*
 
 * The [**about**](about.md) gives a (sorta) detailed explanation from conception till realisation, and the structure and choices;
-* The [**adminy**](adminy.md) documents the folders which are supporting material;
+* The [**adminy**](adminy.md) documents the folders which are supporting material and explains how to make use of this;
 * The [**resources file**](resources.md) lists some data science material which I find brilliant and goes cross-topics, note that references to the single topics are listed in the respective notebooks instead.
 
 Following here is the table of contents with links pointing to the chapters, where you can then proceed to the single topics.
@@ -87,7 +87,7 @@ Following here is the table of contents with links pointing to the chapters, whe
 * **Foundations of programming**
 
 
-## [The mathemathics appendix](maths/README.md)
+## [The mathematics appendix](maths/README.md)
 
 *Collecting some reference mathematical results here, for reference.*
 
@@ -98,13 +98,13 @@ Following here is the table of contents with links pointing to the chapters, whe
 
 * **The Python data stack**
 * **Databases and distributed frameworks**
-
+* **Tools for Machine Learning**
 
 
 
 
 ## License
 
-(C) 2017-2018 Martina Pugliese
+(C) 2017-2020 Martina Pugliese
 
 This work is released under the [**MIT licence**](https://opensource.org/licenses/MIT), full info [here](LICENSE.md).

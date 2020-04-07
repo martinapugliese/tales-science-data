@@ -6,32 +6,39 @@ import numpy as np
 import itertools
 
 
-
 def do_plot_conf_mat(targets_true,
                      targets_pred,
                      labels=None,
                      normalize=False,
                      cmap=plt.cm.Blues):
     """
-    Compute the confusion matrix of a classifier and plot it with overlayed numbers on each cell.
-    Conf Mat will have the real targets on the rows and the predicted targets on the columns.
+    Compute the confusion matrix of a classifier and plot it with overlayed
+    numbers on each cell.
+    Conf Mat will have the real targets on the rows and the predicted targets
+    on the columns.
     INPUT:
         - the list of real targets for samples
         - the list of predictes samples for samples
-        - the list of labels to be plotted in that order on the cells rows/colums
-            * defaults to None, which will put cells in the sorted order of all targets found
+        - the list of labels to be plotted in order on the cells rows/colums
+            * defaults to None, which will put cells in the sorted order of
+              all targets found
               (all available classes will be used)
-            * if list is given, this will automatically adjust cell values to those order
+            * if list is given, this will automatically adjust cell values to
+              those order
               because this is what confusion_matrix does automatically.
-              In this case, you can pass a list containing only the classes of your interest for the matrix.
-        - boolean about whether to normalize matrix (by row) or not (default:False)
+              In this case, you can pass a list containing only the classes of
+              your interest for the matrix.
+        - boolean about whether to normalize matrix (by row) or not
+          (default:False)
         - the map of gradient colours to apply
     OUTPUT:
         - the conf matrix
     NOTEs:
-        * overlayed numbers in the normalised case are printed with 2 decimal digits
-        * gradient colourbar on the side will always report non-normalised values
-        * If normalised, the diagonal of the conf mat will give the rate of correctly classified samples in each class
+        * overlayed numbers in the normalised case are printed with
+          2 decimal digits
+        * gradient colourbar on the side will report non-normalised values
+        * If normalised, the diagonal of the conf mat will give the
+          rate of correctly classified samples in each class
     """
 
     # Compute the confusion matrix

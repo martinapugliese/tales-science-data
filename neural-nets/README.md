@@ -13,7 +13,7 @@
 * [**Building blocks**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/neural-nets/overview/setting.ipynb)
 
 
-## Peculiarities of networks
+## Types of networks
 
 *This section describes some types of networks and/or the challenges with them in more detail, while going through what they're suitable for.*
 
@@ -23,4 +23,11 @@
 
 ## Techniques
 
+*This section is about some techniques utilised while making use of neural networks.*
+
 * [**Transfer Learning**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/neural-nets/techniques/transfer-learning.ipynb)
+
+
+## Tasks & Jobs
+
+

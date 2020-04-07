@@ -35,3 +35,8 @@ The chapter on NLP is divided into what are general sections of introduction to 
 
 * [**word2vec**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/word-embeddings/word2vec.ipynb)
 * [**doc2vec**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/nlp/word-embeddings/doc2vec.ipynb)
+
+> TODO from this: https://medium.com/airbnb-engineering/listing-embeddings-for-similar-listing-recommendations-and-real-time-personalization-in-search-601172f7603e
+> stress the switch from high-dim representations (sparse matrices) to neural approaches (dense low-dim representations)
+> embeddings can also be trained from sequences of user actions - arxiv articles for sequence of ads clicked and items clicked & purchased
+> 
