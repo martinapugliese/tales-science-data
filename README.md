@@ -74,7 +74,7 @@ _Can a machine view? Well, an image is a matrix so it's all algebraic operations
 
 _Stuff about what's a machine and how to talk to it in the first place._
 
-* **Data structures and foundational algorithms**
+* **Data structures, operations, and foundational algorithms**
 * **Foundations of programming**
 
 ## [The mathemathics appendix](maths/)
