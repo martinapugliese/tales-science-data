@@ -1,17 +1,4 @@
-# Tales of Science & Data
-
-> A semi-serious collection of notes on Data Science, from Statistics to Machine Learning, passing through all sorts of other related things. Not necessarily in the order you'd expect.
-
-
-## Some meta
-
-*What exactly is this? Why did I even bother doing this? How did I choose to do this?*
-
-* The [**about**](about.md) gives a (sorta) detailed explanation from conception till realisation, and the structure and choices;
-* The [**adminy**](adminy.md) documents the folders which are supporting material;
-* The [**resources file**](resources.md) lists some data science material which I find brilliant and goes cross-topics, note that references to the single topics are listed in the respective notebooks instead.
-
-Following here is the table of contents with links pointing to the chapters, where you can then proceed to the single topics.
+# Tales of Science & Data: the notebooks
 
 
 ## [Probability, Statistics and Data Analysis](prob-stats-data-analysis/README.md)
