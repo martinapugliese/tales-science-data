@@ -10,7 +10,7 @@ from scipy import stats
 
 # Path
 # appending all possibilities to stay safe
-# this is in order to find "common/" folder and all rest
+# this is in order to find "common_functions/" folder and all rest
 import sys
 sys.path.append('../')
 sys.path.append('../../')

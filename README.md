@@ -6,11 +6,9 @@ _This book is a collection of notes on Data Science, from Statistics to Machine 
 
 I've decided to give forms to a rather disorderly collection of notes I had about data science & all sorts of related areas, so here it how this project has generated. You can read more in the Meta page about the how's and the why's of this.
 
-## Sections
-
 ### Meta and Resources
 
-_How this whole thing has started, if you really are interested, plus some awesome resources found on the web._ 
+_How this whole thing has started, if you really are interested, plus some awesome resources found on the web._
 
 ### Probability, Statistics & Data Analysis
 
@@ -27,4 +25,3 @@ The libraries used in the notebooks are usually \(unless specified\) those of th
 \(C\) 2017-2020 Martina Pugliese
 
 This book is released under the [Creative Commons NoDerivatives 4.0 International \(CC BY-NC-ND 4.0\)](https://creativecommons.org/licenses/by-nc-nd/4.0/).
-

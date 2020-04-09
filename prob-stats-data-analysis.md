@@ -1,18 +1,8 @@
 # Probability, Statistics and Data Analysis
 
-_A collection of notes on topics regarding Probability and Statistics and the way to use them to analyse data and draw conclusions._
-
-## General intro
-
-_Just an introduction over the main concepts: what are probability and statistics?_
-
-* [**Probability, its interpretations, and Statistics**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats-data-analysis/prob-interpretations-stats.ipynb)
 
 ## Foundational concepts on distributions and measures
 
-_What are probability distributions and how to quantify and measure what is needed to understand how the data looks like. Also, looking at how distributions of variables relate one another._
-
-* [**Probability functions and displaying data**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats-data-analysis/foundational/probfunctions-displaying.ipynb)
 * [**Moments of a distribution and summary statistics**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats-data-analysis/foundational/moments-summarystats.ipynb)
 * [**\(Some of\) the most famous distributions**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats-data-analysis/foundational/famous-distributions.ipynb)
 * [**Independence; joint/marginal/conditional probabilities; covariance and correlation**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats-data-analysis/foundational/independence-joint-marg-conditional-covariance.ipynb)
@@ -46,4 +36,3 @@ _Data can be fun, and Statistics is not a trivial activity. In fact, it can be r
 * [**Some Paradoxes**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats-data-analysis/brain-teasers-paradoxes-carefulness/paradoxes.ipynb)
 * [**The Anscombe's quartet**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats-data-analysis/brain-teasers-paradoxes-carefulness/anscombes-quartet.ipynb)
 * [**Using aggregated metrics well**](http://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/prob-stats-data-analysis/brain-teasers-paradoxes-carefulness/use-of-aggregated-metrics.ipynb)
-
