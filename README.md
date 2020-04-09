@@ -25,3 +25,4 @@ The libraries used in the notebooks are usually \(unless specified\) those of th
 \(C\) 2017-2020 Martina Pugliese
 
 This book is released under the [Creative Commons NoDerivatives 4.0 International \(CC BY-NC-ND 4.0\)](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+

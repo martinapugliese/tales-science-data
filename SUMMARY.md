@@ -12,6 +12,7 @@
 * [Probability, its interpretation, and Statistics](probability-statistics-and-data-analysis/probability-its-interpretation-and-statistics.md)
 * [Foundational concepts on distribution and measures](probability-statistics-and-data-analysis/foundational-concepts-on-distribution-and-measures/README.md)
   * [Probability functions and displaying data](probability-statistics-and-data-analysis/foundational-concepts-on-distribution-and-measures/probability-functions-and-displaying-data.md)
+  * [Moments of a distribution and summary statistics](probability-statistics-and-data-analysis/foundational-concepts-on-distribution-and-measures/moments-of-a-distribution-and-summary-statistics.md)
   * [\(Some of\) the most famous distributions](probability-statistics-and-data-analysis/foundational-concepts-on-distribution-and-measures/some-of-the-most-famous-distributions.md)
 * [The Bayes' Theorem](probability-statistics-and-data-analysis/the-bayes-theorem.md)
 

@@ -275,6 +275,6 @@ plt.show();
 
 ## References
 
-1. The notebook with code for this page
+1. The [notebook](https://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability-statistics-and-data-analysis/foundational-concepts-on-distribution-and-measures/notebooks/displaying-data-histograms-boxplots.ipynb) with code for this page
 2. A good [page](http://www.physics.csbsju.edu/stats/box2.html) on boxplots and Tukey's criterion
 
