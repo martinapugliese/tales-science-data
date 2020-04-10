@@ -20,6 +20,10 @@ Several pages contain snippets of code. I've been using Python \(3\) and for tho
 
 The libraries used in the notebooks are usually \(unless specified\) those of the Python data stack \(Numpy, Scipy, sklearn, Pandas\). The plots presented in here have been customised, the repo contains all styling files.
 
+## Notify me of mistakes
+
+Mistakes happen. Inaccuracies and oversights as well, from the content point to view to the rendering/graphics one \(e.g., one TeX formula doesn't appear rendered\). You are more than welcome, encouraged in fact, to [submit issues](https://github.com/martinapugliese/tales-science-data/issues) to the repo for these things.
+
 ## License
 
 \(C\) 2017-2020 Martina Pugliese
