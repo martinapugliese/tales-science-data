@@ -34,6 +34,8 @@ When accessible, a link to the PDF in the case of journal papers is always provi
 
 On top of the topic-related references, the page [Beautiful Web](beautiful-web.md) contains an updated list of great comprehensive resources on Data Science areas in general, which are amazing per se and are highly recommended for use and peruse.
 
+Because these are notes, some material contains reinterpretations of existing one - credit is always given.
+
 {% page-ref page="beautiful-web.md" %}
 
 ## About data and images

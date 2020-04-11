@@ -1,4 +1,0 @@
-# The Bayes' Theorem
-
-TODO
-
