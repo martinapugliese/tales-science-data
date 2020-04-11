@@ -22,6 +22,8 @@ Also note that this approach inherently entails the concept of repeatability of 
 
 In the _Bayesian_ interpretation, the probability measures a degree of belief. The [Bayes' theorem](the-bayes-theorem.md) links the degree of belief in a proposition before and after accounting for the evidence, that is, the result of the data observation. In some sense, this interpretation is nearer to the layman's one: the probability encompasses the belief in something, the prior knowledge of the phenomenon at hand.
 
+{% page-ref page="the-bayes-theorem.md" %}
+
 An example illustrating the difference in the two approaches, carried out using a coin flip, can be found in [this blog](probability-its-interpretation-and-statistics.md#references). A really good read. 
 
 ## Statistics
