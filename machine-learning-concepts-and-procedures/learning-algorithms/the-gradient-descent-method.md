@@ -24,7 +24,7 @@ This method is also typically called the _standard_ gradient descent, to disting
 
 ## Standard Gradient Descent: finding the minimum of a function
 
-![Figure from Wikipedia, public domain.](../.gitbook/assets/vectorfield.jpg)
+![Figure from Wikipedia, public domain.](../../.gitbook/assets/vectorfield.jpg)
 
 Suppose we want to use the \(standard\) Gradient Descent method to minimize a function. Given a paraboloid
 
@@ -63,7 +63,7 @@ plt.xlabel('$x$')
 plt.show()
 ```
 
-![Parabola and derivative function](../.gitbook/assets/parabola.png)
+![Parabola and derivative function](../../.gitbook/assets/parabola.png)
 
 Then we implement a gradient descent with a chosen learning rate and starting point.
 
@@ -90,7 +90,7 @@ print('Local min of function is %f' %x_min)
 
 It does find the minimum at 1.67. We can plot the iterations of looking for the minimum:
 
-![](../.gitbook/assets/parabola-iterativemins.png)
+![](../../.gitbook/assets/parabola-iterativemins.png)
 
 ### Minimising a 2D parabola with Standard Gradient Descent
 
@@ -136,7 +136,7 @@ As we said, this method is used in a Ordinary Least Squares calculation in a Lin
 
 For the concept of Linear Regression, head to the related page:
 
-{% page-ref page="../linear-regression.md" %}
+{% page-ref page="../../linear-regression.md" %}
 
 Let's say that we have some experimental data points, and we calculate the objective function for a linear regression:
 
@@ -191,7 +191,7 @@ plt.legend(loc=2)
 plt.show();
 ```
 
-![](../.gitbook/assets/linregr.png)
+![](../../.gitbook/assets/linregr.png)
 
 ## Stochastic Gradient Descent
 
@@ -245,11 +245,11 @@ plt.legend(loc=2)
 plt.show();
 ```
 
-![](../.gitbook/assets/linregr-sgd.png)
+![](../../.gitbook/assets/linregr-sgd.png)
 
 ## Some notes on performance and quality
 
-![-Hand-drawn-](../.gitbook/assets/gd-featscaling.jpg)
+![-Hand-drawn-](../../.gitbook/assets/gd-featscaling.jpg)
 
 Gradient Descent, when features live on very different scales \(for instance if you have, say, the number of seats in a car and its price as features\), may be quite slow to converge due to the fact that the parameters will draw very skewed curves. Normalising the features to the same scale, as $$\frac{x_i - \mu_i}{\sigma_i}$$ will make the procedure faster.
 

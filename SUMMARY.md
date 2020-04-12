@@ -36,10 +36,10 @@
 
 ## Machine Learning: Concepts & Procedures
 
-* [Overview of the field](overview-of-the-field/README.md)
-  * [A Learning Machine](overview-of-the-field/a-learning-machine.md)
-  * [Classifying data](overview-of-the-field/classifying-data.md)
-* [Learning Algorithms](learning-algorithms/README.md)
-  * [The Gradient Descent method](learning-algorithms/the-gradient-descent-method.md)
+* [Learning Algorithms](machine-learning-concepts-and-procedures/learning-algorithms/README.md)
+  * [The Gradient Descent method](machine-learning-concepts-and-procedures/learning-algorithms/the-gradient-descent-method.md)
+* [Overview of the field](machine-learning-concepts-and-procedures/overview-of-the-field/README.md)
+  * [A Learning Machine](machine-learning-concepts-and-procedures/overview-of-the-field/a-learning-machine.md)
+  * [Classifying data](machine-learning-concepts-and-procedures/overview-of-the-field/classifying-data.md)
 * [Linear Regression](linear-regression.md)
 
