@@ -6,13 +6,19 @@ _This book is a collection of notes on Data Science, from Statistics to Machine 
 
 I've decided to give forms to a rather disorderly collection of notes I had about data science & all sorts of related areas, so here it how this project has generated. You can read more in the Meta page about the how's and the why's of this.
 
+## Contents
+
 ### Meta and Resources
 
-_How this whole thing has started, if you really are interested, plus some awesome resources found on the web._
+_This section explains how this whole thing has started and why, what it is and how it's done, plus some awesome resources found on the web._
 
 ### Probability, Statistics & Data Analysis
 
 _A collection of notes on topics regarding Probability and Statistics and the way to use them to analyse data and draw conclusions._
+
+### Machine Learning: Concepts and Procedures
+
+_How do we do Machine Learning? This chapter offers a high-level overview of the techniques and methodologies._
 
 ## About the code parts
 

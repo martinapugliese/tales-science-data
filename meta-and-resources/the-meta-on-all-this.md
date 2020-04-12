@@ -26,6 +26,10 @@ I gave the material the organisation which to me makes more sense, this does not
 
 Anyway, each single topic lives in its own page, so that it can be read as isolated from all the rest. When extensive code and plots are present in a page, a link to a Jupyter notebook is also provided \(as per above\). 
 
+### Draft pages
+
+Some pages are marked as DRAFT. It means I'm still largely working on it \(usually there's also a GitHub issue open\) and the content in there is partial or not really great.
+
 ## About references
 
 References are indicated at the end of each page, rather than at the global level. This is because I find it much more effective to have a list of further material from within the topic I'm looking at rather than as a separate thing. Furthermore, this allows for an orderly structure.
