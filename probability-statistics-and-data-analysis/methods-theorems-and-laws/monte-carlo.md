@@ -18,9 +18,9 @@ The Monte Carlo method is fundamentally based on the law of large numbers \(see 
 
 {% page-ref page="the-law-of-large-numbers.md" %}
 
-
-
 ## Numerical integration: an example estimating $$\pi$$ 
+
+A notebook with the code presented here can be seen [here](https://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability-statistics-and-data-analysis/methods-theorems-and-laws/notebooks/monte-carlo-pi.ipynb).
 
 This is a pedagogical example, cited in many places, for instance [Wikipedia](monte-carlo.md#references). Because of the relation linking $$\pi$$ to the area $$A$$ of a circle of radius $$r$$, namely
 

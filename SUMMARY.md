@@ -28,4 +28,9 @@
   * [The Maximum Likelihood, Maximum a Posteriori and Expectation-maximisation estimation methods](probability-statistics-and-data-analysis/methods-theorems-and-laws/the-maximum-likelihood-maximum-a-posteriori-and-expectation-maximisation-estimation-methods.md)
   * [Propagation of uncertainty](probability-statistics-and-data-analysis/methods-theorems-and-laws/propagation-of-uncertainty.md)
   * [Monte Carlo](probability-statistics-and-data-analysis/methods-theorems-and-laws/monte-carlo.md)
+* [Notable brain teasers, paradoxes and how to be careful with data](probability-statistics-and-data-analysis/notable-brain-teasers-paradoxes-and-how-to-be-careful-with-data/README.md)
+  * [The Monty Hall problem](probability-statistics-and-data-analysis/notable-brain-teasers-paradoxes-and-how-to-be-careful-with-data/the-monty-hall-problem.md)
+  * [Some statistical paradoxes](probability-statistics-and-data-analysis/notable-brain-teasers-paradoxes-and-how-to-be-careful-with-data/some-statistical-paradoxes.md)
+  * [The Anscombe's quartet](probability-statistics-and-data-analysis/notable-brain-teasers-paradoxes-and-how-to-be-careful-with-data/the-anscombes-quartet.md)
+  * [Using aggregated metrics well](probability-statistics-and-data-analysis/notable-brain-teasers-paradoxes-and-how-to-be-careful-with-data/using-aggregated-metrics-well.md)
 
