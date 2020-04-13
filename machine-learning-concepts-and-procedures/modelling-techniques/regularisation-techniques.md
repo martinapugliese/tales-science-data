@@ -10,7 +10,7 @@ Ridge regression, or Tikhonov-Philips regularisation, adds a quadratic term to t
 
 Refer to the page about Linear Regression for a presentation of the Ordinary Least Squares method:
 
-{% page-ref page="../../linear-regression.md" %}
+{% page-ref page="../../machine-learning-algorithms/supervised-learning/linear-regression.md" %}
 
 Discussion borrowed from [Wikipedia](regularisation-techniques.md#references). Suppose we want to solve the problem
 

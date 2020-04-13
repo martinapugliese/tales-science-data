@@ -49,6 +49,11 @@
   * [Principal Component Analysis](machine-learning-concepts-and-procedures/dimensionality-reduction-and-matrix-factorisation/principal-component-analysis.md)
   * [Non-negative matrix factorisation](machine-learning-concepts-and-procedures/dimensionality-reduction-and-matrix-factorisation/non-negative-matrix-factorisation.md)
   * [Singular Value Decomposition](machine-learning-concepts-and-procedures/dimensionality-reduction-and-matrix-factorisation/singular-value-decomposition.md)
-* [Linear Regression](linear-regression.md)
+
+## Machine Learning: algorithms
+
+* [Learning paradigms](machine-learning-algorithms/learning-paradigms.md)
+* [Supervised Learning](machine-learning-algorithms/supervised-learning/README.md)
+  * [Linear Regression](machine-learning-algorithms/supervised-learning/linear-regression.md)
 * [Term-document matrix](term-document-matrix.md)
 

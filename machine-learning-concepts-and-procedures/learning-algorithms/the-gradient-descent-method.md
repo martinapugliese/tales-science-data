@@ -136,7 +136,7 @@ As we said, this method is used in a Ordinary Least Squares calculation in a Lin
 
 For the concept of Linear Regression, head to the related page:
 
-{% page-ref page="../../linear-regression.md" %}
+{% page-ref page="../../machine-learning-algorithms/supervised-learning/linear-regression.md" %}
 
 Let's say that we have some experimental data points, and we calculate the objective function for a linear regression:
 
