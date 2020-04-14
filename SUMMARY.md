@@ -64,6 +64,7 @@
   * [Support Vector Machine](machine-learning-algorithms/supervised-learning/support-vector-machine.md)
   * [AdaBoost](machine-learning-algorithms/supervised-learning/adaboost.md)
   * [Gradient Boosting](machine-learning-algorithms/supervised-learning/gradient-boosting.md)
-* [Unsupervised Learning](machine-learning-algorithms/unsupervised-learning.md)
+* [Unsupervised Learning](machine-learning-algorithms/unsupervised-learning/README.md)
+  * [k-means](machine-learning-algorithms/unsupervised-learning/k-means.md)
 * [Term-document matrix](term-document-matrix.md)
 
