@@ -50,9 +50,10 @@ I typically use some free data for illustrative purposes: usually classic, old d
 
 #### Images
 
-Images are of three types:
+Images are of various types:
 
-* I create them in Matplotlib or something \(graphs\)
+* I create them in code with Matplotlib or something else \(this is for graphs\)
 * I take them from the Internet \(always when reuse is allowed and I give attribution\)
 * I draw them by hand, this because to illustrate concepts I find hand-drawing to always be the most satisfying and clear mean; these ones may look terrible but I've decided to trade beauty for speed - after all, life is about compromises
+* I do them in the form of vectorised graphic, usually using [Inkscape](https://inkscape.org/) for the job
 

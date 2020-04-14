@@ -36,7 +36,7 @@ $$
 V_{ij} = \sum_p w_{ip}^T h_{pj}
 $$
 
-{% page-ref page="../../term-document-matrix.md" %}
+{% page-ref page="../../machine-learning-model-assessment/term-document-matrix.md" %}
 
 ## References
 

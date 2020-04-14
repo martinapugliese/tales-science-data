@@ -66,5 +66,18 @@
   * [Gradient Boosting](machine-learning-algorithms/supervised-learning/gradient-boosting.md)
 * [Unsupervised Learning](machine-learning-algorithms/unsupervised-learning/README.md)
   * [k-means](machine-learning-algorithms/unsupervised-learning/k-means.md)
-* [Term-document matrix](term-document-matrix.md)
+
+## Machine Learning: model assessment
+
+* [Generic problems models can have](machine-learning-model-assessment/generic-problems-models-can-have/README.md)
+  * [Overfitting & Underfitting](machine-learning-model-assessment/generic-problems-models-can-have/overfitting-and-underfitting.md)
+* [Performance metrics and validation techniques](machine-learning-model-assessment/performance-metrics-and-validation-techniques/README.md)
+  * [Training, Validation and Test sets](machine-learning-model-assessment/performance-metrics-and-validation-techniques/training-validation-and-test-sets.md)
+  * [Classification metrics](machine-learning-model-assessment/performance-metrics-and-validation-techniques/classification-metrics.md)
+  * [Regression metrics](machine-learning-model-assessment/performance-metrics-and-validation-techniques/regression-metrics.md)
+  * [Cross-Validation](machine-learning-model-assessment/performance-metrics-and-validation-techniques/cross-validation.md)
+* [Diagnostics](machine-learning-model-assessment/diagnostics/README.md)
+  * [What's in the residuals of a regression?](machine-learning-model-assessment/diagnostics/whats-in-the-residuals-of-a-regression.md)
+  * [The ROC curve](machine-learning-model-assessment/diagnostics/the-roc-curve.md)
+* [Term-document matrix](machine-learning-model-assessment/term-document-matrix.md)
 

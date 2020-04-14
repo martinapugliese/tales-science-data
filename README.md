@@ -24,6 +24,10 @@ _How do we do Machine Learning? This chapter offers a high-level overview of the
 
 _This chapter is pretty much a page for each algorithm in "shallow learning", that is, all non "deep". Neural networks, even when shallow, are not presented here as there is a dedicated chapter on them, which is the same chapter that dives into deep learning. The division here is into the main learning paradigms._
 
+### Machine Learning: model assessment
+
+_This part deals with how to assess the quality of a model and diagnose problems._
+
 ## About the code parts
 
 Several pages contain snippets of code. I've been using Python \(3\) and for those pages a link to a relative Jupyter notebook in the Github repo corresponding to this book is provided for your perusal if you want to play around. The overall repo is reachable on Github at this [link](https://github.com/martinapugliese/tales-science-data) and you can also visualise notebooks prettyfied via nbviewer [here](https://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/).
