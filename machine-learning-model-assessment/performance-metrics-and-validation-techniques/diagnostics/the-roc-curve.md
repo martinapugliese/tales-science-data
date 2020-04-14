@@ -2,7 +2,7 @@
 
 ## Intro
 
-\*\*\*\*![](../../.gitbook/assets/roc.jpg) 
+\*\*\*\*![](../../../.gitbook/assets/roc.jpg) 
 
 **ROC** stands for _receiver operating characteristic_ and is a curve first designed and used at the times of World War I for radar signals purposes. It is a curve used to validate the performance of a binary classifier which depends on a threshold parameter when it varies.
 
@@ -10,7 +10,7 @@ The ROC plots the true positive rate against the false positive rate at each var
 
 ## Details: definition of the ROC curve and the AUC
 
-![](../../.gitbook/assets/roc2.jpg) 
+![](../../../.gitbook/assets/roc2.jpg) 
 
 Discussion borrowed from [Wikipedia](the-roc-curve.md#references). Let's say that we got a continuous random variable $$X$$ and a binary classifier which depends on a threshold $$T$$, so that$$x > T$$yields a "positive" \(1\) classification and $$x \leq T$$yields a "negative" \(0\) classification. The pdf of$$X$$is $$f_1(X)$$ if the point is actually positive and $f\_0\(X\)$ is the point is actually negative, so we can write
 

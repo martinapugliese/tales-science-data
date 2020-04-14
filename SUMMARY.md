@@ -76,8 +76,8 @@
   * [Classification metrics](machine-learning-model-assessment/performance-metrics-and-validation-techniques/classification-metrics.md)
   * [Regression metrics](machine-learning-model-assessment/performance-metrics-and-validation-techniques/regression-metrics.md)
   * [Cross-Validation](machine-learning-model-assessment/performance-metrics-and-validation-techniques/cross-validation.md)
-* [Diagnostics](machine-learning-model-assessment/diagnostics/README.md)
-  * [What's in the residuals of a regression?](machine-learning-model-assessment/diagnostics/whats-in-the-residuals-of-a-regression.md)
-  * [The ROC curve](machine-learning-model-assessment/diagnostics/the-roc-curve.md)
+  * [Diagnostics](machine-learning-model-assessment/performance-metrics-and-validation-techniques/diagnostics/README.md)
+    * [What's in the residuals of a regression?](machine-learning-model-assessment/performance-metrics-and-validation-techniques/diagnostics/whats-in-the-residuals-of-a-regression.md)
+    * [The ROC curve](machine-learning-model-assessment/performance-metrics-and-validation-techniques/diagnostics/the-roc-curve.md)
 * [Term-document matrix](machine-learning-model-assessment/term-document-matrix.md)
 
