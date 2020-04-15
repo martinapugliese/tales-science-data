@@ -34,7 +34,7 @@
   * [The Anscombe's quartet](probability-statistics-and-data-analysis/notable-brain-teasers-paradoxes-and-how-to-be-careful-with-data/the-anscombes-quartet.md)
   * [Using aggregated metrics well](probability-statistics-and-data-analysis/notable-brain-teasers-paradoxes-and-how-to-be-careful-with-data/using-aggregated-metrics-well.md)
 
-## Machine Learning: Concepts & Procedures
+## Machine Learning: concepts & procedures
 
 * [Overview of the field](machine-learning-concepts-and-procedures/overview-of-the-field/README.md)
   * [A Learning Machine](machine-learning-concepts-and-procedures/overview-of-the-field/a-learning-machine.md)
@@ -50,7 +50,7 @@
   * [Non-negative matrix factorisation](machine-learning-concepts-and-procedures/dimensionality-reduction-and-matrix-factorisation/non-negative-matrix-factorisation.md)
   * [Singular Value Decomposition](machine-learning-concepts-and-procedures/dimensionality-reduction-and-matrix-factorisation/singular-value-decomposition.md)
 
-## Machine Learning: algorithms
+## Machine Learning: fundamental algorithms <a id="machine-learning-algorithms"></a>
 
 * [Learning paradigms](machine-learning-algorithms/learning-paradigms.md)
 * [Supervised Learning](machine-learning-algorithms/supervised-learning/README.md)

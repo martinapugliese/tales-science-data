@@ -16,17 +16,21 @@ _This section explains how this whole thing has started and why, what it is and 
 
 _A collection of notes on topics regarding Probability and Statistics and the way to use them to analyse data and draw conclusions._
 
-### Machine Learning: Concepts and Procedures
+### Machine Learning: concepts and procedures
 
 _How do we do Machine Learning? This chapter offers a high-level overview of the techniques and methodologies._
 
-### Machine Learning: algorithms
+### Machine Learning: fundamental algorithms
 
 _This chapter is pretty much a page for each algorithm in "shallow learning", that is, all non "deep". Neural networks, even when shallow, are not presented here as there is a dedicated chapter on them, which is the same chapter that dives into deep learning. The division here is into the main learning paradigms._
 
 ### Machine Learning: model assessment
 
 _This part deals with how to assess the quality of a model and diagnose problems._
+
+### Artificial Neural Networks
+
+Digging into the world of Artificial Neural Networks, a fascinating area of Machine Learning particularly on the rise these days. This deserved its own chapter.
 
 ## About the code parts
 
