@@ -79,5 +79,18 @@
   * [Diagnostics](machine-learning-model-assessment/performance-metrics-and-validation-techniques/diagnostics/README.md)
     * [What's in the residuals of a regression?](machine-learning-model-assessment/performance-metrics-and-validation-techniques/diagnostics/whats-in-the-residuals-of-a-regression.md)
     * [The ROC curve](machine-learning-model-assessment/performance-metrics-and-validation-techniques/diagnostics/the-roc-curve.md)
-* [Term-document matrix](machine-learning-model-assessment/term-document-matrix.md)
+
+## Artificial Neural Networks
+
+* [Overview of Neural Networks](artificial-neural-networks/overview-of-neural-networks/README.md)
+  * [Artificial Neural Networks in a nutshell](artificial-neural-networks/overview-of-neural-networks/artificial-neural-networks-in-a-nutshell.md)
+  * [The backpropagation mechanism](artificial-neural-networks/overview-of-neural-networks/the-backpropagation-mechanism.md)
+  * [Setting up Neural Networks](artificial-neural-networks/overview-of-neural-networks/setting-up-neural-networks.md)
+* [Types of neurons and networks](artificial-neural-networks/types-of-neurons-and-networks/README.md)
+  * [The Perceptron](artificial-neural-networks/types-of-neurons-and-networks/the-perceptron.md)
+  * [The sigmoid neuron](artificial-neural-networks/types-of-neurons-and-networks/the-sigmoid-neuron.md)
+  * [Deep Neural Networks](artificial-neural-networks/types-of-neurons-and-networks/deep-neural-networks.md)
+  * [Convolutional Neural Networks](artificial-neural-networks/types-of-neurons-and-networks/convolutional-neural-networks.md)
+* [Term-document matrix](term-document-matrix.md)
+* [Functions](functions.md)
 
