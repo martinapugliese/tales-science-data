@@ -91,6 +91,22 @@
   * [The sigmoid neuron](artificial-neural-networks/types-of-neurons-and-networks/the-sigmoid-neuron.md)
   * [Deep Neural Networks](artificial-neural-networks/types-of-neurons-and-networks/deep-neural-networks.md)
   * [Convolutional Neural Networks](artificial-neural-networks/types-of-neurons-and-networks/convolutional-neural-networks.md)
-* [Term-document matrix](term-document-matrix.md)
+
+## Natural Language Processing
+
+* [General concepts & tasks in NLP](natural-language-processing/general-concepts-and-tasks-in-nlp/README.md)
+  * [Some concepts and basic tasks in Linguistics](natural-language-processing/general-concepts-and-tasks-in-nlp/some-concepts-and-basic-tasks-in-linguistics.md)
+  * [Text as numerical features](natural-language-processing/general-concepts-and-tasks-in-nlp/text-as-numerical-features.md)
+* [Manipulating text and extracting information](natural-language-processing/manipulating-text-and-extracting-information/README.md)
+  * [Parsing, POS tagging and stemming text](natural-language-processing/manipulating-text-and-extracting-information/parsing-pos-tagging-and-stemming-text.md)
+  * [Information Extraction](natural-language-processing/manipulating-text-and-extracting-information/information-extraction.md)
+* [Topic Modelling](natural-language-processing/topic-modelling/README.md)
+  * [Intro](natural-language-processing/topic-modelling/intro.md)
+  * [Latent Semantic Analysis](natural-language-processing/topic-modelling/latent-semantic-analysis.md)
+  * [Probabilistic Latent Semantic Analysis](natural-language-processing/topic-modelling/probabilistic-latent-semantic-analysis.md)
+  * [Latent Dirichlet Allocation](natural-language-processing/topic-modelling/latent-dirichlet-allocation.md)
+* [Word Embeddings](natural-language-processing/word-embeddings/README.md)
+  * [word2vec](natural-language-processing/word-embeddings/word2vec.md)
+  * [doc2vec](natural-language-processing/word-embeddings/doc2vec.md)
 * [Functions](functions.md)
 

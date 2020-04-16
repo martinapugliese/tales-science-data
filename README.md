@@ -32,6 +32,10 @@ _This part deals with how to assess the quality of a model and diagnose problems
 
 Digging into the world of Artificial Neural Networks, a fascinating area of Machine Learning particularly on the rise these days. This deserved its own chapter.
 
+### Natural Language Processing
+
+_Natural Language Processing \(NLP\) is the field \(a part of Machine Learning\) which deals with text, an unstructured data source. What NLP tries to do is putting text into numerical representations, and extracting information from it._
+
 ## About the code parts
 
 Several pages contain snippets of code. I've been using Python \(3\) and for those pages a link to a relative Jupyter notebook in the Github repo corresponding to this book is provided for your perusal if you want to play around. The overall repo is reachable on Github at this [link](https://github.com/martinapugliese/tales-science-data) and you can also visualise notebooks prettyfied via nbviewer [here](https://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/).
