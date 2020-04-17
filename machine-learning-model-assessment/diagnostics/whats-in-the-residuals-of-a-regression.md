@@ -2,11 +2,11 @@
 
 Refer to the page on linear regression for OLS:
 
-{% page-ref page="../../../machine-learning-algorithms/supervised-learning/linear-regression.md" %}
+{% page-ref page="../../machine-learning-algorithms/supervised-learning/linear-regression.md" %}
 
 and to the page about the performance metrics in regression:
 
-{% page-ref page="../regression-metrics.md" %}
+{% page-ref page="../performance-metrics-and-validation-techniques/regression-metrics.md" %}
 
 For the code, you will need some imports
 
@@ -51,7 +51,7 @@ plt.plot(x, g)
 plt.show();
 ```
 
-![A beautiful gaussian](../../../.gitbook/assets/y-gauss.png)
+![A beautiful gaussian](../../.gitbook/assets/y-gauss.png)
 
 This way points in the middle of the scale are given higher possibility to vary from the line. So these are the $$y$$ points:
 
@@ -67,7 +67,7 @@ fit_result = sm.OLS(y, x).fit()
 fit_result.summary()
 ```
 
-![Regression results](../../../.gitbook/assets/screenshot-2020-04-14-at-15.10.23.png)
+![Regression results](../../.gitbook/assets/screenshot-2020-04-14-at-15.10.23.png)
 
 Now let's plot both the data points and the fitting line: the fact that residuals are larger in the middle is quite visible.
 
@@ -80,7 +80,7 @@ plt.legend()
 plt.show();
 ```
 
-![Points and fitting line](../../../.gitbook/assets/points-line.png)
+![Points and fitting line](../../.gitbook/assets/points-line.png)
 
 Residuals are, as expected, normally centered around 0:
 
@@ -90,7 +90,7 @@ plt.title('Histogram of the residuals')
 plt.show();
 ```
 
-![](../../../.gitbook/assets/res-hist.png)
+![](../../.gitbook/assets/res-hist.png)
 
 In this silly dataset, residuals are normally distributed but they display a pattern with the independent variable \(well, _we_ have imposed it!\). In fact, if we plot a scatter of them against $$x$$, this appears very clearly: points in the middle have larger errors.
 
@@ -105,7 +105,7 @@ plt.title('Residuals vs. x')
 plt.show();
 ```
 
-![](../../../.gitbook/assets/res-vs-x.png)
+![](../../.gitbook/assets/res-vs-x.png)
 
 ### On some real data
 
@@ -132,7 +132,7 @@ This is a sample of the dataset:
 df.head()
 ```
 
-![Sample of the Scotland devolution dataset](../../../.gitbook/assets/screenshot-2020-04-14-at-15.19.44.png)
+![Sample of the Scotland devolution dataset](../../.gitbook/assets/screenshot-2020-04-14-at-15.19.44.png)
 
 And these are the basic statistics and correlations:
 
@@ -141,7 +141,7 @@ df.describe()
 df.corr()
 ```
 
-![Statistics on the Scotland devolution dataset](../../../.gitbook/assets/screenshot-2020-04-14-at-15.20.55.png)
+![Statistics on the Scotland devolution dataset](../../.gitbook/assets/screenshot-2020-04-14-at-15.20.55.png)
 
 Using all the attributes, an OLS fit yields a very high$$R^2$$:
 
@@ -150,7 +150,7 @@ fit_result = sm.OLS(dataset.endog, dataset.exog).fit()
 fit_result.summary()
 ```
 
-![Fitting the Scotland devolution dataset](../../../.gitbook/assets/screenshot-2020-04-14-at-15.22.30.png)
+![Fitting the Scotland devolution dataset](../../.gitbook/assets/screenshot-2020-04-14-at-15.22.30.png)
 
 This is the histogram of residuals \(note that the number of points is quite small\):
 
@@ -160,7 +160,7 @@ plt.title('Histogram of residuals')
 plt.show();
 ```
 
-![](../../../.gitbook/assets/scotland-res-hist%20%281%29.png)
+![](../../.gitbook/assets/scotland-res-hist%20%281%29.png)
 
 Clearly we cannot reproduce the residual plot we did above because we have a matrix of independent variables in this case and not a 1-dimensional array.
 
@@ -242,11 +242,11 @@ The influence plot is obtained by displaying the studentised residuals in a regr
 
 `statsmodels` makes everything super-easy as it has an API for plotting this data directly, which in the case of our data from above leads to \(the size of the bubbles is given by [Cook's distance](https://en.wikipedia.org/wiki/Cook%27s_distance)\):
 
-![Influence plot on a fit of the Scotland devolution dataset](../../../.gitbook/assets/influence-plot.png)
+![Influence plot on a fit of the Scotland devolution dataset](../../.gitbook/assets/influence-plot.png)
 
 What we see here is that there are points whose \(studentised\) residuals are not that high but which exercise a certain influence on the regression, so that removing/changing them would lead to a different outcome.
 
-{% page-ref page="../../../probability-statistics-and-data-analysis/foundational-concepts-on-distribution-and-measures/moments-of-a-distribution-and-summary-statistics.md" %}
+{% page-ref page="../../probability-statistics-and-data-analysis/foundational-concepts-on-distribution-and-measures/moments-of-a-distribution-and-summary-statistics.md" %}
 
 ## References
 

@@ -27,7 +27,7 @@
   * [The Central Limit Theorem](probability-statistics-and-data-analysis/methods-theorems-and-laws/the-central-limit-theorem.md)
   * [The Maximum Likelihood, Maximum a Posteriori and Expectation-maximisation estimation methods](probability-statistics-and-data-analysis/methods-theorems-and-laws/the-maximum-likelihood-maximum-a-posteriori-and-expectation-maximisation-estimation-methods.md)
   * [Propagation of uncertainty](probability-statistics-and-data-analysis/methods-theorems-and-laws/propagation-of-uncertainty.md)
-  * [Monte Carlo](probability-statistics-and-data-analysis/methods-theorems-and-laws/monte-carlo.md)
+  * [The Monte Carlo method](probability-statistics-and-data-analysis/methods-theorems-and-laws/monte-carlo.md)
 * [Notable brain teasers, paradoxes and how to be careful with data](probability-statistics-and-data-analysis/notable-brain-teasers-paradoxes-and-how-to-be-careful-with-data/README.md)
   * [The Monty Hall problem](probability-statistics-and-data-analysis/notable-brain-teasers-paradoxes-and-how-to-be-careful-with-data/the-monty-hall-problem.md)
   * [Some statistical paradoxes](probability-statistics-and-data-analysis/notable-brain-teasers-paradoxes-and-how-to-be-careful-with-data/some-statistical-paradoxes.md)
@@ -76,9 +76,9 @@
   * [Classification metrics](machine-learning-model-assessment/performance-metrics-and-validation-techniques/classification-metrics.md)
   * [Regression metrics](machine-learning-model-assessment/performance-metrics-and-validation-techniques/regression-metrics.md)
   * [Cross-Validation](machine-learning-model-assessment/performance-metrics-and-validation-techniques/cross-validation.md)
-  * [Diagnostics](machine-learning-model-assessment/performance-metrics-and-validation-techniques/diagnostics/README.md)
-    * [What's in the residuals of a regression?](machine-learning-model-assessment/performance-metrics-and-validation-techniques/diagnostics/whats-in-the-residuals-of-a-regression.md)
-    * [The ROC curve](machine-learning-model-assessment/performance-metrics-and-validation-techniques/diagnostics/the-roc-curve.md)
+* [Diagnostics](machine-learning-model-assessment/diagnostics/README.md)
+  * [What's in the residuals of a regression?](machine-learning-model-assessment/diagnostics/whats-in-the-residuals-of-a-regression.md)
+  * [The ROC curve](machine-learning-model-assessment/diagnostics/the-roc-curve.md)
 
 ## Artificial Neural Networks
 
@@ -121,5 +121,5 @@
   * [Edge detection and object contours](computer-vision/whats-in-an-image/edge-detection-and-object-contours.md)
   * [Face Recognition](computer-vision/whats-in-an-image/face-recognition.md)
   * [Object Detection without Neural Networks](computer-vision/whats-in-an-image/object-detection-without-neural-networks.md)
-* [Functions](functions.md)
+* [Functions](computer-vision/functions.md)
 

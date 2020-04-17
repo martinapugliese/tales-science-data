@@ -1,4 +1,4 @@
-# Monte Carlo
+# The Monte Carlo method
 
 ## What is
 

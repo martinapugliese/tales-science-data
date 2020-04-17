@@ -42,7 +42,7 @@ _Images, seen by the machine._
 
 ## About the code parts
 
-Several pages contain snippets of code. I've been using Python \(3\) and for those pages a link to a relative Jupyter notebook in the Github repo corresponding to this book is provided for your perusal if you want to play around. The overall repo is reachable on Github at this [link](https://github.com/martinapugliese/tales-science-data) and you can also visualise notebooks prettyfied via nbviewer [here](https://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/).
+Several pages contain snippets of code. I've been using Python \(3\) and for those pages a link to a relative Jupyter notebook in the Github repo corresponding to this book is provided for your perusal if you want to play around. The overall repo is reachable on ****[**Github**](https://github.com/martinapugliese/tales-science-data/tree/master) and you can also visualise notebooks prettyfied via the [**Jupyter Notebooks viewer**](https://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/).
 
 The libraries used in the notebooks are usually \(unless specified\) those of the Python data stack \(Numpy, Scipy, sklearn, Pandas\). The plots presented in here have been customised, the repo contains all styling files.
 

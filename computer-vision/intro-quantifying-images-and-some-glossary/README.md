@@ -34,6 +34,12 @@ Is the difference between maximum and minimum pixel intensities.
 
 A part of image selected for a purpose, like cropping around it or cutting it out.
 
+## Formalism
+
+Some notes on the formalism used are written in this page:
+
+{% page-ref page="notes-on-the-formalism.md" %}
+
 ## References
 
 1.  A good and super brief outline of the history of the field and its relation to Machine Learning in T Malisiewicz's [blog](http://www.computervisionblog.com/2015/03/deep-learning-vs-machine-learning-vs.html)

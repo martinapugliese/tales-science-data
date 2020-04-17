@@ -4,7 +4,7 @@ _Just an introduction over the main concepts: what are probability and statistic
 
 ## Some terminology
 
-Given a _random variable_ $$x$$ which can take values in space $$\Omega $$ \(the _events space_\). An _event_ is the occurrence of one of the values allowed for $$x$$ and its probability gives the mathematical measure of how likely the event is to occur. It is given as a number between 0 and 1 \(extremes included\), where 0 means that the event does not occur at all and 1 that is occurs with certainty.
+Given a _random variable_$$x$$which can take values in space$$\Omega $$\(the _events space_\). An _event_ is the occurrence of one of the values allowed for$$x$$and its probability gives the mathematical measure of how likely the event is to occur. It is given as a number between 0 and 1 \(extremes included\), where 0 means that the event does not occur at all and 1 that is occurs with certainty.
 
 The _probability_ of an event gives the mathematical measure of how likely it is to occur. It is given as a number between 0 and 1, extremes included, where 1 means that the the event occurs with certainty.
 
