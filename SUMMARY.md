@@ -108,5 +108,18 @@
 * [Word Embeddings](natural-language-processing/word-embeddings/README.md)
   * [word2vec](natural-language-processing/word-embeddings/word2vec.md)
   * [doc2vec](natural-language-processing/word-embeddings/doc2vec.md)
+
+## Computer Vision
+
+* [Intro: quantifying images & some glossary](computer-vision/intro-quantifying-images-and-some-glossary/README.md)
+  * [Notes on the formalism](computer-vision/intro-quantifying-images-and-some-glossary/notes-on-the-formalism.md)
+* [Processing an image](computer-vision/processing-an-image/README.md)
+  * [The intensity histogram](computer-vision/processing-an-image/the-intensity-histogram.md)
+  * [Blurring, inverting, thresholding an image](computer-vision/processing-an-image/blurring-inverting-thresholding-an-image.md)
+  * [Morphological operations](computer-vision/processing-an-image/morphological-operations.md)
+* [What's in an image](computer-vision/whats-in-an-image/README.md)
+  * [Edge detection and object contours](computer-vision/whats-in-an-image/edge-detection-and-object-contours.md)
+  * [Face Recognition](computer-vision/whats-in-an-image/face-recognition.md)
+  * [Object Detection without Neural Networks](computer-vision/whats-in-an-image/object-detection-without-neural-networks.md)
 * [Functions](functions.md)
 
