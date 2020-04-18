@@ -1,6 +1,6 @@
 # Table of contents
 
-* [The intro](README.md)
+* [Tales of Science and Data](README.md)
 
 ## Meta & resources
 
@@ -130,5 +130,12 @@
   * [Computational models and algorithmic complexity](the-computer-science-appendix/notes-on-foundations/computational-models-and-algorithmic-complexity.md)
 * [Essential algorithms](the-computer-science-appendix/essential-algorithms/README.md)
   * [Sorting algorithms](the-computer-science-appendix/essential-algorithms/sorting-algorithms.md)
-* [Functions](functions.md)
+
+## The Mathematics appendix
+
+* [Matrix Algebra notes](the-mathematics-appendix/matrix-algebra-notes.md)
+* [Mathematical functions](the-mathematics-appendix/mathematical-functions.md)
+* [Some Geometry](the-mathematics-appendix/some-geometry.md)
+* [Cross-field concepts](the-mathematics-appendix/cross-field-concepts.md)
+* [\(Some\) mathematical measures](the-mathematics-appendix/some-mathematical-measures.md)
 

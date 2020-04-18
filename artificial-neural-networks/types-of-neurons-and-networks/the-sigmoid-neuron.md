@@ -33,7 +33,7 @@ plt.title('The logistic function')
 plt.show();
 ```
 
-![](../../.gitbook/assets/logistic.png)
+![](../../.gitbook/assets/logistic%20%281%29.png)
 
 The output of a sigmoid collapses onto that of a perceptron in the two extreme cases
 

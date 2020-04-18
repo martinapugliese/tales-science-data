@@ -12,7 +12,7 @@ Topic-specific resources are already reported in every page for details, more in
 
 ## Machine Learning - general material
 
-* \*\*\*\*[Notes](http://cs229.stanford.edu/syllabus.html) from the Stanford CS229 Course on Machine Learning \(all lecture notes are open-access\)
+* \*\*\*\*[Notes](http://cs229.stanford.edu/syllabus.html) from the **Stanford CS229 Course on Machine Learning** \(all lecture notes are open-access\)
 
 ## Neural Networks
 
@@ -22,6 +22,6 @@ Topic-specific resources are already reported in every page for details, more in
 
 ## Computer Vision
 
-* [The Hypermedia Image Processing Reference](https://homepages.inf.ed.ac.uk/rbf/HIPR2/index.htm), a website built by the University of Edinburgh
+* \*\*\*\*[**The Hypermedia Image Processing Reference**](https://homepages.inf.ed.ac.uk/rbf/HIPR2/index.htm), a website built by the University of Edinburgh, School of Informatics
 * [**Pyimagesearch**](https://www.pyimagesearch.com), a website curated by A Rosebrock on Computer Vision and Machine/Deep Learning on images, with tutorials for OpenCV and lots of good material
 
