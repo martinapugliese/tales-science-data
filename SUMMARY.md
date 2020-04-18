@@ -121,5 +121,14 @@
   * [Edge detection and object contours](computer-vision/whats-in-an-image/edge-detection-and-object-contours.md)
   * [Face Recognition](computer-vision/whats-in-an-image/face-recognition.md)
   * [Object Detection without Neural Networks](computer-vision/whats-in-an-image/object-detection-without-neural-networks.md)
-* [Functions](computer-vision/functions.md)
+
+## The Computer Science Appendix
+
+* [What's this](the-computer-science-appendix/whats-this.md)
+* [Notes on foundations](the-computer-science-appendix/notes-on-foundations/README.md)
+  * [Computer architecture and programming languages](the-computer-science-appendix/notes-on-foundations/computer-architecture-and-programming-languages.md)
+  * [Computational models and algorithmic complexity](the-computer-science-appendix/notes-on-foundations/computational-models-and-algorithmic-complexity.md)
+* [Essential algorithms](the-computer-science-appendix/some-foundational-algorithms/README.md)
+  * [Sorting algorithms](the-computer-science-appendix/some-foundational-algorithms/sorting-algorithms.md)
+* [Functions](functions.md)
 

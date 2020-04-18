@@ -28,7 +28,7 @@ which is to say that the neuron "fires" when the dot product of input and weight
 
 So the perceptron is pretty much an artificial neuron with the output function given by the Heaviside step \(see page\), displayed in figure.
 
-{% page-ref page="../../computer-vision/functions.md" %}
+{% page-ref page="../../functions.md" %}
 
 ```python
 x = np.arange(-10, 10, 1)
