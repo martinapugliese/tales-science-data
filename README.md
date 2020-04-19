@@ -40,6 +40,18 @@ _Natural Language Processing \(NLP\) is the field \(a part of Machine Learning\)
 
 _Images, seen by the machine._
 
+### The Computer Science Appendix
+
+Some \(non-comprehensive\) notes on Computer Science fundamentals.
+
+### The Mathemarics Appendix
+
+_Some \(non-comprehensive\) notes on mathematics, used everywhere in data work._
+
+### Toolbox
+
+_\(Some\) software tools used in Data Science, high-level overviews._
+
 ## About the code parts
 
 Several pages contain snippets of code. I've been using Python \(3\) and for those pages a link to a relative Jupyter notebook in the Github repo corresponding to this book is provided for your perusal if you want to play around. The overall repo is reachable on ****[**Github**](https://github.com/martinapugliese/tales-science-data/tree/master) and you can also visualise the notebooks prettyfied via the [**Jupyter Notebooks viewer**](https://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/tree/master/).

@@ -131,11 +131,19 @@
 * [Essential algorithms](the-computer-science-appendix/essential-algorithms/README.md)
   * [Sorting algorithms](the-computer-science-appendix/essential-algorithms/sorting-algorithms.md)
 
-## The Mathematics appendix
+## The Mathematics Appendix
 
 * [Matrix Algebra notes](the-mathematics-appendix/matrix-algebra-notes.md)
 * [Mathematical functions](the-mathematics-appendix/mathematical-functions.md)
 * [Some Geometry](the-mathematics-appendix/some-geometry.md)
 * [Cross-field concepts](the-mathematics-appendix/cross-field-concepts.md)
 * [\(Some\) mathematical measures](the-mathematics-appendix/some-mathematical-measures.md)
+
+## Toolbox
+
+* [The Python data stack](toolbox/the-python-data-stack.md)
+* [Databases and distributed frameworks](toolbox/databases-and-distributed-frameworks/README.md)
+  * [Apache Hadoop](toolbox/databases-and-distributed-frameworks/apache-hadoop.md)
+  * [Apache Spark](toolbox/databases-and-distributed-frameworks/apache-spark.md)
+  * [Elasticsearch](toolbox/databases-and-distributed-frameworks/elasticsearch.md)
 

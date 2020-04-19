@@ -62,4 +62,5 @@ Rotating the coordinates does not change this variance, but considering just som
 ## References
 
 1. K Pearson, [**On lines and planes of closest fit to systems of points in space**](http://stat.smmu.edu.cn/history/pearson1901.pdf), _The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science_, 2.11, 1901
+2. [PCA explained visually](https://setosa.io/ev/principal-component-analysis/), a project by V Powell
 
