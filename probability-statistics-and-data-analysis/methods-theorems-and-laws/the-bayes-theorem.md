@@ -4,7 +4,7 @@
 
 The Bayes' theorem, theorised by minister Thomas Bayes in the second half of the eighteenth century, relates the probability of an event to prior knowledge around it.
 
-We'll call $$E$$ and $$H$$ respectively the _evidence_ \(what we see happening, the measurement\) and the _hypothesis_, whose probability will be affected by gathering the evidence. Bayes' theorem states that the probability of $$H$$ after observing $$E$$ is computed as the ratio of the probability of $$E$$ given $$H$$ to the probability of $$E$$ :
+We'll call$$E$$and$$H$$respectively the _evidence_ \(what we see happening, the measurement\) and the _hypothesis_, whose probability will be affected by gathering the evidence. Bayes' theorem states that the probability of$$H$$after observing$$E$$is computed as the ratio of the probability of$$E$$given$$H$$to the probability of$$E$$:
 
 $$
 P(H|E) = \frac{P(E|H)P(H)}{P(E)} \ .
@@ -12,13 +12,13 @@ $$
 
 Specifically,
 
-* $$P(H|E)$$ is the _posterior_: the probability of observing the hypothesis given the evidence, that is, after data is collected;
-* $$P(E|H)$$ is the probability of observing the evidence given the hypothesis; it is, as a function of $$E$$ with fixed $$H$$ the _likelihood_;
-* $$P(H)$$ is the _prior_, that is, the probability of the hypothesis before gathering the evidence; it is one's estimate that $$H$$ is true before observing the data
+* $$P(H|E)$$is the _posterior_: the probability of observing the hypothesis given the evidence, that is, after data is collected;
+* $$P(E|H)$$is the probability of observing the evidence given the hypothesis; it is, as a function of$$E$$with fixed$$H$$the _likelihood_;
+* $$P(H)$$is the _prior_, that is, the probability of the hypothesis before gathering the evidence; it is one's estimate that $$H$$ is true before observing the data
 
-The bit $$\frac{P(E|H)}{P(E)}$$ quantifies the impact of $$E$$ on the probability of $$H$$ and is called the _marginal likelihood_ or _model evidence_.
+The bit$$\frac{P(E|H)}{P(E)}$$quantifies the impact of$$E$$on the probability of$$H$$ and is called the _marginal likelihood_ or _model evidence_.
 
-The denominator, which is the probability of observing what we observe, can be written as the integration over all the possible hypotheses $$H'$$ of the terms $$P(E|H')P(H')$$ , so that a rewriting of the theorem reads as
+The denominator, which is the probability of observing what we observe, can be written as the integration over all the possible hypotheses $$H'$$ of the terms$$P(E|H')P(H')$$, so that a rewriting of the theorem reads as
 
 $$
 P(H|E) = \frac{P(E|H)P(H)}{\sum_{H'}P(E|H')P(H')} \ .
@@ -72,7 +72,7 @@ This means that if you have the disease it will output YES with probability 99% 
 
 Question now is, if you take the test, and it comes up positive, what is the probability that you actually have the disease?
 
-$$P(E)$$ at the denominator can be written as a sum of the joint probabilities of observing the evidence and the event over all the possible events \(all the possible hypotheses\):
+$$P(E)$$at the denominator can be written as a sum of the joint probabilities of observing the evidence and the event over all the possible events \(all the possible hypotheses\):
 
 * Event A: you have the disease;
 * Event B: you don't have the disease
