@@ -44,9 +44,9 @@ _Images, seen by the machine._
 
 Some \(non-comprehensive\) notes on Computer Science fundamentals.
 
-### The Mathemarics Appendix
+### The Mathematics Appendix
 
-_Some \(non-comprehensive\) notes on mathematics, used everywhere in data work._
+_Some \(non-comprehensive\) notes on mathematics, used everywhere in data work. Useful little bits._
 
 ### Toolbox
 
