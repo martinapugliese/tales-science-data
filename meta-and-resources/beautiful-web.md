@@ -33,6 +33,7 @@ Topic-specific resources are already reported in every page for details, more in
 ## Coding
 
 * [**Sorting Algorithms**](https://www.toptal.com/developers/sorting-algorithms) ****interactives, by Toptal
+* [**Practical Business Python**](https://pbpython.com/?s=09), a website By C Moffitt devoted to best practices on using Python for practical reasons, it's very good
 
 ## Python references relevant to Data Science
 
