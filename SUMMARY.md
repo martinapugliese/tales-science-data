@@ -5,7 +5,7 @@
 ## Meta & resources
 
 * [The meta on all this](meta-and-resources/the-meta-on-all-this.md)
-* [Beautiful Web](meta-and-resources/beautiful-web.md)
+* [Beautiful Web of Data Science](meta-and-resources/beautiful-web.md)
 
 ## Probability, Statistics and Data Analysis
 
