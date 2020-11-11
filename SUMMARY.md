@@ -120,7 +120,9 @@
 * [What's in an image](computer-vision/whats-in-an-image/README.md)
   * [Edge detection and object contours](computer-vision/whats-in-an-image/edge-detection-and-object-contours.md)
   * [Face Recognition](computer-vision/whats-in-an-image/face-recognition.md)
-  * [Object Detection without Neural Networks](computer-vision/whats-in-an-image/object-detection-without-neural-networks.md)
+  * [Object Detection without ANNs](computer-vision/whats-in-an-image/object-detection-without-neural-networks.md)
+* [Computer Vision with ANNs](computer-vision/computer-vision-with-anns/README.md)
+  * [Object Detection with ANNs](computer-vision/computer-vision-with-anns/object-detection-with-anns.md)
 
 ## The Computer Science Appendix
 
@@ -146,4 +148,5 @@
   * [Apache Hadoop](toolbox/databases-and-distributed-frameworks/apache-hadoop.md)
   * [Apache Spark](toolbox/databases-and-distributed-frameworks/apache-spark.md)
   * [Elasticsearch](toolbox/databases-and-distributed-frameworks/elasticsearch.md)
+* [Notebook tools](toolbox/notebook-tools.md)
 

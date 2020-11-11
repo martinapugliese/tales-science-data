@@ -1,6 +1,6 @@
 # Overview of Neural Networks
 
-_This section will explore what \(artificial\) neural networks are and how they work, in general._
+_This section will explore what \(artificial\) neural networks \(ANNs\) are and how they work, in general._
 
 ## Contents
 

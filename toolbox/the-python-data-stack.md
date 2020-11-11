@@ -7,3 +7,5 @@ _Python is my language of choice when it comes to working with data \(and it's a
 * \*\*\*\*[**NLTK**](https://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/toolbox/python/nltk.ipynb)\*\*\*\*
 * \*\*\*\*[**Matplotlib**](https://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/toolbox/python/matplotlib.ipynb)\*\*\*\*
 
+Of course, to complement all this, data scientists working with Python will make large use of Jupyter notebooks as well. We have a [sub-section](notebook-tools.md) on notebooks here, where other kinds of notebooks tools are also illustrated.
+

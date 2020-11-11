@@ -1,6 +1,6 @@
 # Databases and distributed frameworks
 
-_Some sparse notes on tools used in the productionnisation of data works._
+_Some sparse notes on tools used in the productionisation of data works and databases used for data storage._
 
 ## Contents
 

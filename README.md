@@ -30,7 +30,7 @@ _This part deals with how to assess the quality of a model and diagnose problems
 
 ### Artificial Neural Networks
 
-Digging into the world of Artificial Neural Networks, a fascinating area of Machine Learning particularly on the rise these days. This deserved its own chapter.
+_Digging into the world of Artificial Neural Networks, a fascinating area of Machine Learning particularly on the rise these days. This deserved its own chapter._
 
 ### Natural Language Processing
 
@@ -38,7 +38,7 @@ _Natural Language Processing \(NLP\) is the field \(a part of Machine Learning\)
 
 ### Computer Vision
 
-_Images, seen by the machine._
+_Images, seen by the machine. This section deals with using computers to extract and use information from visual data. We will illustrate a whole set of methods, which may or may not encompass the use of Neural Networks._
 
 ### The Computer Science Appendix
 
@@ -50,7 +50,7 @@ _Some \(non-comprehensive\) notes on mathematics, used everywhere in data work. 
 
 ### Toolbox
 
-_\(Some\) software tools used in Data Science, high-level overviews._
+_\(Some\) software tools used in Data Science, high-level overviews._ 
 
 ## About the code parts
 
