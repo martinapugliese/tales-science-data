@@ -4,7 +4,7 @@ A project by [**Martina Pugliese**](https://martinapugliese.github.io/).
 
 _This book is a collection of notes on Data Science, from Statistics to Machine Learning, passing through all sorts of related areas._
 
-I've decided to give forms to a rather disorderly collection of notes I had about data science & all sorts of related areas, so here it how this project has generated. You can read more in the Meta page about the how's and the why's of this.
+I've decided to give form to a rather disorderly collection of notes I had about data science & all sorts of related areas, which is how this project has generated. You can read more in the [Meta](meta-and-resources/the-meta-on-all-this.md) page about the how's and the why's of this.
 
 ## Contents
 

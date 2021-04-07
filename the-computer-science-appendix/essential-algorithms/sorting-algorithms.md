@@ -1,12 +1,14 @@
 # Sorting algorithms
 
-We will illustrate how different sorting algorithms work, using the array
+Sorting algorithms deal with sorting a list \(array\) of elements in a desired order - you can do this in a variety of ways, one more efficient than the other. 
+
+We will illustrate how different sorting algorithms work, using array
 
 $$
 \boxed{6}\boxed{5}\boxed{3}\boxed{1}\boxed{8}\boxed{7}\boxed{2}\boxed{4}
 $$
 
-as the example. This array is used in the Wikipedia pages of these algorithms. We will assume that the task is to sort the array in the ascending order \(from the smallest to the largest element\), but all the discussion is easily mirrored for the opposite ordering.
+as the example. This array is used in the Wikipedia pages of these algorithms. We will assume that the task is to sort the array in the ascending order \(from the smallest to the largest element\), but all the discussion can be easily mirrored for the opposite ordering.
 
 Note that this overview is far from being comprehensive of all possible existing algorithms for sorting!
 
@@ -18,7 +20,7 @@ from matplotlib import pyplot as plt
 
 ## Mergesort
 
-It is a _divide and conquer_ algorithm and applies repeated comparison: the array \(of length $n$\) is first divided into its single components and then bigger and bigger chunks are merged together to recompose the original array, but sorted.
+It is a _divide and conquer_ algorithm and applies repeated comparison: the array \(of length$$n$$\) is first divided into its single components and then bigger and bigger chunks are merged together to recompose the original array, but sorted.
 
 ### The algorithm
 

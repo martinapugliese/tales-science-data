@@ -130,6 +130,7 @@
 * [Notes on foundations](the-computer-science-appendix/notes-on-foundations/README.md)
   * [Computer architecture and programming languages](the-computer-science-appendix/notes-on-foundations/computer-architecture-and-programming-languages.md)
   * [Computational models and algorithmic complexity](the-computer-science-appendix/notes-on-foundations/computational-models-and-algorithmic-complexity.md)
+  * [Algorithmic efficiency](the-computer-science-appendix/notes-on-foundations/algorithmic-efficiency.md)
 * [Essential algorithms](the-computer-science-appendix/essential-algorithms/README.md)
   * [Sorting algorithms](the-computer-science-appendix/essential-algorithms/sorting-algorithms.md)
 

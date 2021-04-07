@@ -38,7 +38,7 @@ Let's briefly go through the workings of the current state-of-the-art approaches
 
 R-CNN stands for "region-based [CNN](../../artificial-neural-networks/types-of-neurons-and-networks/convolutional-neural-networks.md)", this network is a convolutional net which first isolates regions of interest where the object could be \(via a procedure called selective search\), then applies the regular machinery of convolutional features. These methods have been introduced in 2014 in the paper by Girschick et al below. 
 
-This approach is very good in accuracy but pretty slow, so improvements have been developed in the form of Fast R-CNN and Faster R-CNN.
+This approach is very good in accuracy but pretty slow due to the passes of region proposal isolation and then classification, so improvements have been developed in the form of Fast R-CNN and Faster R-CNN.
 
 It is available in the TF's object detection API.
 
@@ -46,7 +46,7 @@ It is available in the TF's object detection API.
 
 YOLO is a different approach which works on the mantra that "you only look once", because the idea is dong just one pass over the image. This makes it very fast. Currently there is no direct support for YOLO in TensorFlow, but people have been writing code for this \(see the refs\). You can however easily run it on the [Darknet](https://github.com/pjreddie/darknet) framework.
 
-The approach essentially divides the image into grids and then classifies them on the presence of the sought object, spitting probabilities scores.
+The approach essentially divides the image into grids and then classifies them on the presence of the sought object, spitting probabilities scores. 
 
 ### SSD networks
 
@@ -57,12 +57,13 @@ This approach \(Single-shot Multibox Detector\) is understood to be a good compr
 1. This blog [post](https://towardsdatascience.com/how-to-train-your-own-object-detector-with-tensorflows-object-detector-api-bec72ecfe1d9) by D Tran well illustrates the procedure to use the TensorFlow object detection API
 2. TF's [models repo](https://github.com/tensorflow/models/tree/master/research/object_detection) with the object detection API
 3. TF's own [Colab notebook](https://www.tensorflow.org/hub/tutorials/object_detection) which you can reuse
-4. The labelImg tool to annotate images for bounding boxes
-5. I wrote a tutorial on how to create the training sets for TF in the right format [here](https://martinapugliese.github.io/tech/create-obj-det-tf-files/)
-6. R Girschick et al.**,** [**Rich feature hierarchies for accurate object detection and semantic segmentation**](https://arxiv.org/abs/1311.2524)**,** _Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition_, 2014 - this is the original R-CNN paper
-7.  R Girschick, [**Fast R-CNN**](https://arxiv.org/abs/1504.08083), _Proceedings of the IEEE International Conference on Computer Vision_, 2015 - this is the Fast R-CNN paper
-8. S Ren et al, [**Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks**](https://arxiv.org/abs/1506.01497)**,** _IEEE Transactions on Pattern Analysis and Machine Intelligence_, 2017 - this is the Faster R-CNN paper
-9. [R-CNN, Fast R-CNN, Faster R-CNN, YOLO - Object detection algorithms](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e), a blog by R Gandhi
-10. I [wrote](https://martinapugliese.github.io/tech/recognise-objects-yolo/) a bit about the YOLO approach
-11. [YOLO v3 in TensorFlow](https://medium.com/@shahkaran76/yolo-object-detection-algorithm-in-tensorflow-e080a58fa79b), blog by J Shah
+4. TF's \(v2\) own [tutorial](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/index.html) on using the object detection API
+5. The labelImg tool to annotate images for bounding boxes
+6. I wrote a tutorial on how to create the training sets for TF in the right format [here](https://martinapugliese.github.io/tech/create-obj-det-tf-files/)
+7. R Girschick et al.**,** [**Rich feature hierarchies for accurate object detection and semantic segmentation**](https://arxiv.org/abs/1311.2524)**,** _Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition_, 2014 - this is the original R-CNN paper
+8.  R Girschick, [**Fast R-CNN**](https://arxiv.org/abs/1504.08083), _Proceedings of the IEEE International Conference on Computer Vision_, 2015 - this is the Fast R-CNN paper
+9. S Ren et al, [**Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks**](https://arxiv.org/abs/1506.01497)**,** _IEEE Transactions on Pattern Analysis and Machine Intelligence_, 2017 - this is the Faster R-CNN paper
+10. [R-CNN, Fast R-CNN, Faster R-CNN, YOLO - Object detection algorithms](https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e), a blog by R Gandhi
+11. I [wrote](https://martinapugliese.github.io/tech/recognise-objects-yolo/) a bit about the YOLO approach
+12. [YOLO v3 in TensorFlow](https://medium.com/@shahkaran76/yolo-object-detection-algorithm-in-tensorflow-e080a58fa79b), blog by J Shah
 

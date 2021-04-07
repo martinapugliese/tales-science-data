@@ -1,6 +1,6 @@
 # Beautiful Web of Data Science
 
-_The web is a beautiful place, you can learn so much on it, for free. This document puts together some resources on or related to data science which are absolutely brilliant._
+_The web is a beautiful place, you can learn so much on it, for free. This document puts together some resources on \(or related to\) data science which are absolutely brilliant. We also list books, which might not be freely available, but that are definitely worth having._
 
 Topic-specific resources are already reported in every page for details, more insight, citation purposes. Here, we list material which is comprehensively good: online courses, books, blogs, and which span several of the topics we touch on in the book. All the material listed here can be of any format.
 
@@ -30,10 +30,11 @@ Topic-specific resources are already reported in every page for details, more in
 * \*\*\*\*[**The Hypermedia Image Processing Reference**](https://homepages.inf.ed.ac.uk/rbf/HIPR2/index.htm), a website built by the University of Edinburgh, School of Informatics
 * [**Pyimagesearch**](https://www.pyimagesearch.com), a website curated by A Rosebrock on Computer Vision and Machine/Deep Learning on images, with tutorials for OpenCV and lots of good material
 
-## Coding
+## Coding and Computer Science
 
 * [**Sorting Algorithms**](https://www.toptal.com/developers/sorting-algorithms) ****interactives, by Toptal
 * [**Practical Business Python**](https://pbpython.com/?s=09), a website By C Moffitt devoted to best practices on using Python for practical reasons, it's very good
+* _Gayle Laakmann McDowell_, **Cracking the Coding Interview**, CareerCup
 
 ## Python references relevant to Data Science
 

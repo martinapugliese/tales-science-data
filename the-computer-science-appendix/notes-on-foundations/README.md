@@ -1,6 +1,6 @@
 # Notes on foundations
 
-_This section reports some bird's-eye notes about architecture & programming models, without being_ 
+_This section reports some bird's-eye notes about architecture & programming models, without being comprehensive and detailed._
 
 ## Contents
 
