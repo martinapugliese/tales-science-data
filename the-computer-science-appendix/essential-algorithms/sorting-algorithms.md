@@ -146,7 +146,7 @@ Insertion sort works in such a way that each element gets pushed to its right lo
 
 ### Complexity
 
-In the worst and average case, this is a$$O(n^2)$$algorithm, in the best case it is a$$O(n)$$one \(it does$$n$$comparisons, this is the case when the array is already sorted.
+In the worst and average case, this is a$$O(n^2)$$algorithm, in the best case it is a$$O(n)$$one \(it does$$n$$comparisons, this is the case when the array is already sorted\).
 
 ```python
 def insertionsort(my_array):
@@ -198,18 +198,16 @@ It is a more efficient that mergesort and heapsort, was published in 1962 \(see 
 
 Note that many great examples with step to step approaches are present on the internet.
 
-The algorithm is a divide and conquer one which works by splitting the array into two chunks and sorting them separately and iterating the procedure recursively.
+The algorithm is a divide and conquer one which works by recursively finding the right split point of the array and sorting the two subarrays.
 
-1. Pick an item from the array, call it _pivot_: in our case let's choose the first one \(6\)
-2. Sort the elements in such a way that all those smaller than the pivot go before it, all those greater than the pivot go after it \(_partition_ phase\), the goal here is to locate the split point, which is where the pivot has to be placed:
-   * Start by placing right and left markers as respectively the last element \(4\) and the one next to the pivot \(5\), 
-   * you need move the right marker to the first element which is smaller than the pivot and the left marker to the first element which is larger than the pivot by moving them one cell at a time in their respective directions \(right towards left and left towards right\): in our case find 8 \(right marker itself\) and 4 \(first element smaller than pivot moving the left marker\)
-   * switch these elements, obtaining array$$\boxed{6}\boxed{5}\boxed{3}\boxed{1}\boxed{4}\boxed{7}\boxed{2}\boxed{8}$$, and now right marker is in 8 and left marker in 4 \(where they were before the switch\)
-   * proceed with the same checks now, finding 7 for the right marker and 2 for the left marker
-   * exchange them, getting$$\boxed{6}\boxed{5}\boxed{3}\boxed{1}\boxed{4}\boxed{2}\boxed{7}\boxed{8}$$, with right marker in 7 and left marker in 2
-   * now if you move the markers, they cross, a sign that you found the right position of the pivot in the order: have to switch the pivot itself with the new value of right \(the one after the markers crossing\), obtaining $$\boxed{2}\boxed{5}\boxed{3}\boxed{1}\boxed{4}\boxed{6}\boxed{7}\boxed{8}$$  
-   * at this point the pivot \(6\) is in its right place in the ordering as all elements before it are smaller and all elements after it are larger and you got two subarrays to order
-   * proceed on each of the subarrays in the same way with their pivot and markers, so the whole procedure is recursive
+1. Pick an item from the array, call it _pivot_: in our case let's choose the first one \(6\) - the goal is to find its correct place in the sorted array, where all items before it are smaller and all items after it are bigger
+2. To sort the elements in such a way that all those smaller than the pivot go before it and all those greater than the pivot go after it \(_partition_ phase\), we need to locate the split point \(the correct location of the pivot\):
+   * Start by placing right and left markers as respectively the last element of the array \(4\) and the pivot itself - we need to check their relation to start with
+   * 4 &lt; 6, so we switch them, the array becomes $$\boxed{4}\boxed{5}\boxed{3}\boxed{1}\boxed{8}\boxed{7}\boxed{2}\boxed{6}$$ 
+   * Now, the markers sit on the pivot \(6\) and on the first element \(4\) and we have switched the pivot to the right, so we turn our attention to what happens on its left: 4,5,3,1 are all smaller than the pivot, 8 isn't - we switch them: $$\boxed{4}\boxed{5}\boxed{3}\boxed{1}\boxed{6}\boxed{7}\boxed{2}\boxed{8}$$ 
+   * Continuing this process, we now turn our attention to the right of the pivot: 7 is bigger, 2 isn't, so we switch 2 and 6: $$\boxed{4}\boxed{5}\boxed{3}\boxed{1}\boxed{2}\boxed{7}\boxed{6}\boxed{8}$$ 
+   * At this point we turn our attention to the left of the pivot again and see that 7 is bigger, so we switch, obtaining $$\boxed{4}\boxed{5}\boxed{3}\boxed{1}\boxed{2}\boxed{6}\boxed{7}\boxed{8}$$ 
+   * Now 6 is in the right place, nothing else to switch around it. We proceed by doing exactly the same on the two subarrays before and after 6
 
 ### Complexity
 
