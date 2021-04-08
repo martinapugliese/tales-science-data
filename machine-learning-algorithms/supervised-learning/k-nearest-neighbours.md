@@ -2,11 +2,11 @@
 
 ## What is
 
-The k-nearest neighbours \(shortened as k-nn/knn\) is a method utilised in both classification and regression that works off of a calculation on the neighbourhood of each given data point; the size of this neighbourhood is a parameter chosen by the user \(k\). In the case of classification, the class attributed to the point is the majority class among its neighbours; in the case of regression the prediction is given as the weighted average of the neighbours, the weight being the inverse of the distance.
+The k-nearest neighbours \(shortened as k-nn/knn\) is a method utilised in both classification and regression that works off of a calculation on the neighbourhood of each given data point; the size of this neighbourhood is a parameter chosen by the user \($$k$$\). In the case of classification, the class attributed to the point is the majority class among its neighbours; in the case of regression the prediction is given as the weighted average of the neighbours, the weight being the inverse of the distance.
 
 ![](../../.gitbook/assets/knn-class.jpg) 
 
-For classifying data, the idea is to use a majority rule: the new data point gets classified with the label which is the most frequent among its k nearest neighbours according to the chosen measure of distance. The figure illustrates an example in 2 dimensions:$$f_1$$and $$f_2$$are two features, the colour-coding indicates the labels and the blue point is the one to be classified. According to the chosen distance \(given by the radius of the circle\), the point would be classified as green in the case of k=3 and as red in the case of k=9.
+For classifying data, the idea is to use a majority rule: the new data point gets classified with the label which is the most frequent among its $$k$$nearest neighbours according to the chosen measure of distance. The figure illustrates an example in 2 dimensions:$$f_1$$and $$f_2$$are two features, the colour-coding indicates the labels and the blue point is the one to be classified. According to the chosen distance \(given by the radius of the circle\), the point would be classified as green in the case of k=3 and as red in the case of k=9.
 
 A graphic representation of this is furnished by the Voronoi tasselation.
 

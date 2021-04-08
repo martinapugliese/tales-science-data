@@ -52,7 +52,7 @@ A great visual representation of the procedure can be seen in the [visual exampl
 
 ### Complexity
 
-It is a$$O(n \log n)$$algorithm, in the worst, best and average cases, because the splits are$$O(\log n)$$and there are$$n$$comparisons at each split.
+It is a$$O(n \log n)$$algorithm, in the worst, best and average cases, because the splits take$$O(\log n)$$\(this is because for an array of size n, you will have log n regrouping of elements from the initial couples to the final total length$$n$$, e.g. in our case with$$n=8$$we split into couples, then into 2 section of 4 and then into the full length, which is 3 regroupings\) and there are$$n$$comparisons to be done at each split.
 
 ### An implementation
 
@@ -352,6 +352,5 @@ plt.show();
 1.  [A **visual** example of mergesort \(from Wikipedia\)](https://en.wikipedia.org/wiki/Merge_sort#/media/File:Merge-sort-example-300px.gif)
 2.  [A **visual** example of bubblesort \(from Wikipedia\)](https://en.wikipedia.org/wiki/Bubble_sort#/media/File:Bubble-sort-example-300px.gif)
 3.  [A **visual** example of selection sort](https://en.wikipedia.org/wiki/Selection_sort#/media/File:Selection-Sort-Animation.gif)
-4.  [A series of **slides** about a quicksort example](https://www.cise.ufl.edu/~ddd/cis3020/summer-97/lectures/lec17/sld003.htm)
-5.  [A **video** about quicksort](https://www.youtube.com/watch?v=3OLTJlwyIqQ)
+4.  [A **video** about quicksort](https://www.youtube.com/watch?v=3OLTJlwyIqQ)
 

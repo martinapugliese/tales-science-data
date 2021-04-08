@@ -16,3 +16,5 @@ Techniques have been developed to address the problem.
 
 On the other hand, underfitting happens when the chosen model fails to capture the trend in the data because it is too simple to explain it. In the image, a linear model is trying to fit points that clearly follow a higher order polynomial!
 
+
+

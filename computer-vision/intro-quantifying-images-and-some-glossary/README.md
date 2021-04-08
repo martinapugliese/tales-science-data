@@ -1,8 +1,8 @@
 # Intro: quantifying images & some glossary
 
-_Under the name "Computer vision" goes that set of techniques which allow us to manipulate and extract numerical data from an image, with a computer. This  section will explain the basics of the fields and then deal into more details, outlining the concepts that CV tackles. Nowadays, there is a division in the field in regards to "traditional" CV \(the set of techniques which is not based on the use of Neural Networks/Deep Learning\) and more state-of-the-art methods based on ANNs. We will touch on both sides._
+_Under the name "Computer vision" goes that set of techniques which allow us to manipulate and extract numerical data from an image, with a computer. This  section will explain the basics of the field and then deal into more details, outlining the concepts that CV tackles. Nowadays, there is a division in the field in regards to "traditional" CV \(the set of techniques which is not based on the use of Neural Networks/Deep Learning\) and more state-of-the-art methods based on ANNs. We will touch on both sides._
 
-Computer Vision is very cool. It's about writing code to manipulate and use images. With a good amount of quite laborious work it allows you to do very interesting stuff on your images \(and videos\). Sure, these days many of these tasks can be done with possibly much better results with the use of deep networks, but still, it's really cool. Have a read at the two blogs in the [references](./#references) for a bit on the relation between Computer Vision and Machine Learning/Deep Learning.
+Computer Vision is very cool. It's about writing code to manipulate and use images. With a good amount of quite laborious work it allows you to do very interesting stuff on your images \(and videos\). Have a read at the two blogs in the [references](./#references) for a bit on the relation between Computer Vision and Machine Learning/Deep Learning.
 
 For the code here in this project, we will use [OpenCV](http://docs.opencv.org/3.2.0/) through its Python bindings. For the part regarding ANNs, we will make use of [TensorFlow](https://www.tensorflow.org/) and [Keras](https://keras.io/).
 
