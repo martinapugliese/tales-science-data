@@ -1,6 +1,6 @@
 # The intensity histogram
 
-The _intensity histogram_ of an image is the histogram of its pixels' [intensities](../some-glossary.ipynb#Intensity) values. Typically the binning is given in such a way that each single intensity value is a bin, so we count the number of pixels with intensity value 0, the number of pixels with intensity value 1, ..., the number of pixels with intensity value 255.
+The _intensity histogram_ of an image is the histogram of its pixels' [intensities](../intro-quantifying-images-and-some-glossary/#intensity) values. Typically the binning is given in such a way that each single intensity value is a bin, so we count the number of pixels with intensity value 0, the number of pixels with intensity value 1, ..., the number of pixels with intensity value 255.
 
 The broader an intensity histogram is, the larger the contrast of the image is.
 
@@ -13,7 +13,7 @@ from matplotlib import pyplot as plt
 
 ## In OpenCV
 
-We will here read our sample image and then we'll plot its intensity histograms, both for the grayscale version and for the 3 channels of the coloured one. You will see that due to the large amount of red in the image, the RED channel has its peak at a high intensity, while the GREEN channel is really peaked at low intensity.
+We will read our sample image and then we'll plot its intensity histograms, both for the grayscale version and for the 3 channels of the coloured one. You will see that due to the large amount of red in the image, the RED channel has its peak at a high intensity, while the GREEN channel is really peaked at low intensity.
 
 ### Read image, transform it to grayscale
 
@@ -92,7 +92,7 @@ Given the intensity histogram \(see page\) of an image, the procedure of equalis
 
 ![](../../.gitbook/assets/hist-eq.jpg)
 
-Equalisation maps the intensity histogram to a wider and more uniform distribution so that intensity values are more spread over the whole image. The pixels of the image get reassigned in such a way that their distribution in the output image is uniform, through the use of a transfer function. See the [references]() for details.
+Equalisation maps the intensity histogram to a wider and more uniform distribution so that intensity values are more spread over \(pixels are reassigned\). The pixels of the image get reassigned in such a way that their distribution in the output image is nearer to a uniform distribution, through the use of a transfer function. 
 
 Using the grayscale image created above, we can run
 
@@ -104,4 +104,6 @@ gray_eq = cv2.equalizeHist(gray)
 and we can plot them both, here they are:
 
 ![Grayscale image and its equalised version - you can see my hand and phone much better!](../../.gitbook/assets/pens-equalised.png)
+
+Note that it generally not a good idea to apply histogram equalisation to the colour channel histograms, because that would change the balance of colours \(unless this is desired, of course\).
 

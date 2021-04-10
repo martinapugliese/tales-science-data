@@ -1,12 +1,12 @@
 # Intro: quantifying images & some glossary
 
-_Under the name "Computer vision" goes that set of techniques which allow us to manipulate and extract numerical data from an image, with a computer. This  section will explain the basics of the field and then deal into more details, outlining the concepts that CV tackles. Nowadays, there is a division in the field in regards to "traditional" CV \(the set of techniques which is not based on the use of Neural Networks/Deep Learning\) and more state-of-the-art methods based on ANNs. We will touch on both sides._
+_Under the name "Computer vision" \(CV\) goes that set of techniques which allow us to manipulate and extract numerical data, and higher-level information, from an image, via a computer. This section will explain the basics of the field and then deal into more details, outlining the concepts that CV tackles. Nowadays, there is a division in the field in regards to "traditional" CV \(the set of techniques which is not based on the use of Neural Networks/Deep Learning\) and more state-of-the-art methods based on ANNs. We will touch on both sides._
 
-Computer Vision is very cool. It's about writing code to manipulate and use images. With a good amount of quite laborious work it allows you to do very interesting stuff on your images \(and videos\). Have a read at the two blogs in the [references](./#references) for a bit on the relation between Computer Vision and Machine Learning/Deep Learning.
+Computer Vision is very interesting -  it's about writing code to manipulate and use images and it allows for many applications. Have a read at the two blogs in the [references](./#references) for a bit on the relation between Computer Vision and Machine Learning/Deep Learning.
 
 For the code here in this project, we will use [OpenCV](http://docs.opencv.org/3.2.0/) through its Python bindings. For the part regarding ANNs, we will make use of [TensorFlow](https://www.tensorflow.org/) and [Keras](https://keras.io/).
 
-The glossary below is meant to contain definitions.
+The glossary below is meant to contain basic definitions used all over the chapter.
 
 ## Some glossary
 
@@ -20,7 +20,7 @@ Is an image with pixels which can only take values 0 or 1.
 
 ### Intensity
 
-The intensity is the pixel value and is defined for grayscale images, where it is an 8-bit integer, hence taking values in \[0:255\], where 0 is black and 255 is white. It is sometimes referred to as _brightness_.
+The intensity is the pixel value and is defined for grayscale images, where it is an 8-bit integer, hence taking values in the range \[0:255\], where 0 is black and 255 is white. It is sometimes referred to as _brightness_.
 
 ### Colour
 

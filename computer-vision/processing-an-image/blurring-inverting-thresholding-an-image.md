@@ -1,6 +1,6 @@
 # Blurring, inverting, thresholding an image
 
-We're going to use the same sample image - a photo I took of two pens on a desk. You will need to import some stuff:
+We're going to use the same sample image used in other pages in this section - a photo I took of two pens on a desk. You will need to import some stuff:
 
 ```python
 import cv2
@@ -12,7 +12,7 @@ from matplotlib import pyplot as plt
 ```python
 # read an image with OpenCV
 
-image = cv2.imread('../../imgs/pens.jpg')
+image = cv2.imread('pens.jpg')
 
 # transform into RGB as OpenCV reads in BGR (and Matplotlib uses RGB)
 RGB_image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
@@ -43,7 +43,7 @@ In the following, we'll go through some common types of filters and we'll try th
 
 #### **Normalised Box Filter**
 
-Each pixel value gets transformed into the mean of its neighbours, each of which contributes with equal weight:. The kernel$$K$$is a matrix with the same value at each place, and this value is
+Each pixel value gets transformed into the mean of its neighbours, each of which contributes with equal weight. The kernel$$K$$is a matrix with the same value at each place, and this value is
 
 $$
 k = \frac{1}{k_w k_h} \ ,
@@ -137,11 +137,11 @@ plt.show();
 
 ## Thresholding
 
-See the [API](http://docs.opencv.org/2.4/modules/imgproc/doc/miscellaneous_transformations.html?highlight=threshold#cv2.threshold) call `cv2.threshold` needs the gray image as first argument, the threshold$$t$$as the second argument and the value to assign as the third argument in the case of a binary and binary inverted thresholding.
+Thresholding is a way to modify the pixels of an image based on a given threshold in their intensity/colour.
+
+See the [API](http://docs.opencv.org/2.4/modules/imgproc/doc/miscellaneous_transformations.html?highlight=threshold#cv2.threshold) call `cv2.threshold`: it needs the grayscale image as first argument, the threshold$$t$$as the second argument and the value to assign as the third argument in the case of a binary and binary inverted thresholding.
 
 See the OpenCV [docs](blurring-inverting-thresholding-an-image.md#references) for an explanation of thresholding with graphics on OpenCV itself.
-
-Thresholding is a way to modify the pixels of an image based on a given threshold in their intensity/colour.
 
 ### Simple Thresholding
 

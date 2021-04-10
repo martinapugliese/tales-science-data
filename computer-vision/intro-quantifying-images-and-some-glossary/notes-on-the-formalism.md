@@ -1,10 +1,10 @@
 # Notes on the formalism
 
-This page collects various things which contribute, all together, to tracing the picture of how to formalise images data into quantifiable entities, and the mathematics behind some building blocks of doing computer vision. An image isn't anything else than a matrix of values, single numbers in the case of grayscale ones and arrays of 3 numbers in the case of colour images in something like the RGB space, for instance.
+This page collects various things which contribute, all together, to tracing the picture of how to formalise images data into quantifiable entities, and the mathematics behind some building blocks of doing computer vision. An image is nothing else than a matrix of values, single numbers in the case of grayscale ones and arrays of 3 numbers in the case of colour images in something like the RGB space, for instance.
 
 ## Pixels
 
-A pixel value is given in terms of _colour_ or _intensity_. Intensity is used in grayscale, it identifies the brightness of pixels and has a value between $0$ and $255$. For colour you have, for example, the values RGB \(a triple\) for red, green and blue, each reporting their respective intensities.
+A pixel value is given in terms of _colour_ or _intensity_. Intensity is used in grayscale, it identifies the brightness of pixels and has a value between 0 and 255. For colour you have, for example, the values RGB \(a triple\) for red, green and blue, each reporting their respective intensities.
 
 ### The alpha channel
 
@@ -18,22 +18,22 @@ A _colour space_ describes the organisation of colours, a _colour model_ is a wa
 
  ![](../../imgs/HSV.png)![](../../.gitbook/assets/hsv.png) 
 
-Figure from [Wikipedia](https://commons.wikimedia.org/wiki/File:HSV_color_solid_cylinder_alpha_lowgamma.png), user Datumizer, licence [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
+_Figure from_ [_Wikipedia_](https://commons.wikimedia.org/wiki/File:HSV_color_solid_cylinder_alpha_lowgamma.png)_, user Datumizer, licence_ [_CC BY-SA 3.0_](https://creativecommons.org/licenses/by-sa/3.0/deed.en)\_\_
 
 There are five major colour models:
 
 * **CIE** \(1931, was created by the International Commission on Illumination, or CIE, from its French name\): was the first attempt to link the wavelengths \(pure colours\) to the colours as perceived by humans. It uses the tristimulus values: the human eye has three kinds of cone cells, each of which has the peak of sensitivity for light at a given wavelength, so three parameters can be used, corresponding to the levels of the stimuli to the three types of cells.
 * **RGB** \(red, green, blue\): describes what light produces a given colour. Several colour spaces can be derived from this model.
 * **YUV** \(luma plus chroma\): it is built with a luma \(brightness, achromatic\) value and two chroma \(colour information\) values. **YPbPr** is its scaled version and **YCbCr** is its scaled digital version.
-* **HSV**, also known as **HSB** \(hue, saturation, value/brightness\): is a coordinate transformation of RGB \(a cube\) into a cylindrical space. Note  that there is also **HSL** \(L for lightness\), which is similar. The hue is defined as the  degree to which a stimulus can be described as similar tor different t o the unique hues \(red, green, blue and yellow, those perceived as pure by an observer\). The saturation is a measure of intensity: it represents the colourfullness of a colour relative to its brightness. The value, or brightness, contains no colour information. The HSV space is a cylinder: $H \in \[0,359\], S,V \in \[0,100\]$.
-* **CMYK** \(cyan, magenta, yellow, key -black-\):  it is used in printing, describes what inks need to be used so that the reflected light produces the given colour
+* **HSV**, also known as **HSB** \(hue, saturation, value/brightness\): is a coordinate transformation of RGB \(a cube\) into a cylindrical space. Note  that there is also **HSL** \(L for lightness\), which is similar. The HSV space is a cylinder:$$H \in [0,359], S,V \in [0,100]$$. The HSV space has been designed to represent colour properties in a way that is more in adherence to the human eye perception and is particularly useful in cases where illumination matters. The _hue_ of a colour is the base \(dominant\) colour that composes it, or better, the degree to which our colour is far away from the basic hues \(yellow, orange, red, violet, blue, green\); the _saturation_ of a colour is its intensity; the _value_ of a colour represents its lightness/darkness.
+* **CMYK** \(cyan, magenta, yellow, key -black-\):  it is used in printing, describes what inks need to be used so that the reflected light produces the given colour.
 
 ### Colour space
 
 Colour spaces are:
 
 * **LMS** \(long/medium/short\), where long, medium and short refer to the wavelengths;
-* **XYZ**: humans perceive light  in the green \(medium\) part of the electromagnetic spectrum  as brighter than those in the red \(long\) and the blue \(short\) parts of the spectrum.  Y is the _luminance_;  Z the _blue stimulation_; X is a linear combination of the cone responses. So, at fixed X, the plane XZ contains all the  cromaticities at that luminance. The cromaticity is the quality of colour regardless of luminance and is given by hue and saturation
+* **XYZ**: humans perceive light in the green \(medium\) part of the electromagnetic spectrum as brighter than those in the red \(long\) and the blue \(short\) parts of the spectrum. Y is the _luminance_; Z the _blue stimulation_; X is a linear combination of the cone responses. So, at fixed X, the plane XZ contains all the  cromaticities at that luminance. The cromaticity is the quality of colour regardless of luminance and is given by hue and saturation
 
 ## Pixel connectivity
 
@@ -56,7 +56,7 @@ $$
 M_{ij} = \sum_x \sum_y x^i y^j I(x, y) \ ,
 $$
 
-where $$(x, y)$$ is a cell of the image and I its intensity;$$i+j$$gives the order of the momen
+where$$(x, y)$$is a cell of the image and I its intensity;$$i+j$$gives the order of the moment
 
 _Central_ moments are
 
@@ -104,8 +104,6 @@ M_{10} = \iint d x d y \ x \ I(x, y) \ \ ; \ \ M_{01} = \iint d x d y \ y \ I(x,
 $$
 
 **Second moments: Inertia tensor, orientation, roundness and eccentricity**
-
-![](../../imgs/ellipse.jpg)
 
 ![](../../.gitbook/assets/ellipse.jpg) 
 
@@ -243,5 +241,7 @@ $$
 ## References
 
 1.  M K Hu, **Visual pattern recognition by moment invariants**, _IRE transactions on information theory_, 8.2, 1962
-2.  I Sobel, [**An isotropic 3×3 image gradient operator**](https://www.researchgate.net/publication/239398674_An_Isotropic_3_3_Image_Gradient_Operator), _Machine Vision for three-demensional Sciences_, 1990
+2.  I Sobel, [**An isotropic 3×3 image gradient operator**](https://www.researchgate.net/publication/239398674_An_Isotropic_3_3_Image_Gradient_Operator), _Machine Vision for three-dimensional Sciences_, 1990
+
+
 

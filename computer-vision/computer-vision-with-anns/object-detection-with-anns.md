@@ -1,10 +1,10 @@
 # Object Detection with ANNs
 
-This page deals with using Deep Learning for object detection, but note that there are "traditional" \(read: not using Deep Learning\) methods to deal with this task, which we have explored in [its own page](../whats-in-an-image/object-detection-without-neural-networks.md).
+This page deals with using Deep Learning for object detection, but note that there are "traditional" \(read: not using Deep Learning\) methods to deal with this task, which we have explored in [this page](../whats-in-an-image/object-detection-without-neural-networks.md).
 
-This task, which consists of teaching a machine to recognise objects in an image and their location, can be addressed using TensorFlow and its object detection API \(see references\) -  the procedure is fairly well explained in the references we present, so we will not re-create a notebook here for illustration purposes, but rather refer to existing ones you can use and adapt. We will also briefly talk about using alternative approaches.
+This task, which consists of teaching a machine to recognise objects in an image and their location, can be addressed, for instance, using TensorFlow and its object detection API \(see references\) -  the procedure is fairly well explained in the references we present, so we will not re-create a notebook here for illustration purposes, but rather refer to existing ones you can use and adapt. We will also briefly talk about using alternative approaches.
 
-This picture illustrate what this is all about - you want to train an ML model to recognise items of choice in pictures, localising them \(tracing their bounding box\). This was me training a model to detect bottles in images, that would then both recognise their existence and where they were \(tracing the bounding box\). Top left: me hugging a giant bottle, I'm not sure where this was; bottom left: this was the Atlanta's Coca Cola museum, note how the model is detecting bottles when drawn on the wall; the other two are more traditional bottle pictures.
+This picture illustrate what this is all about - you want to train an ML model to recognise items of choice in pictures, localising them \(tracing their bounding box\). This was me training a model to detect bottles in images, that would then both recognise their existence and where they were \(tracing the bounding box\). Top left: me hugging a giant bottle \(I'm not sure where this was\); bottom left: this was the Atlanta's Coca Cola museum, note how the model is detecting bottles when drawn on the wall; the other two are more traditional bottle pictures from some nights in a bar.
 
 ![Me training a model for detecting bottles - apologies for the inadvertent ads!](../../.gitbook/assets/screenshot-2020-11-11-at-11.10.05.png)
 
@@ -12,7 +12,7 @@ The gist of the work here is that these tasks will use Transfer Learning, basica
 
 ## Creating a dataset for training the model
 
-First and foremost, you need data to train upon. Creating this data, give you have to have images annotated with bounding boxes, is no doubt a quite tiring procedure, and rather expensive in terms of time. There are tools you can use to do that - [this one](https://github.com/tzutalin/labelImg), called labelImg, also recommended by D Tran's blog post in the references, is pretty good. It provides you with a GUI where you create the annotations in a click-and-point manner. The tool then saves the data in the form of XML files - so you will have a folder for images and a folder for the XML files. 
+First and foremost, you need data to train upon for the specific objects you want to detect. Creating this data, given that you have to have images annotated with bounding boxes, is no doubt a quite tiring procedure, and rather expensive in terms of time. There are tools you can use to do that - [this one](https://github.com/tzutalin/labelImg), called labelImg, also recommended by D Tran's blog post in the references, is pretty good. It provides you with a GUI where you create the annotations in a click-and-point manner. The tool then saves the data in the form of XML files - so you will have a folder for images and a folder for the XML files. 
 
 How many images do you need for this training? Well, it will largely depend on what you are trying to detect, the quality of the images per se and how distinct the shapes are, as well as clearly the base performance of the model you will use. It will largely be a process of trial and error: you train a model with what you have and based on the results you will decide how to proceed. 
 
@@ -22,9 +22,9 @@ For my bottles detection, I had annotated about 500 images - I did this on my ow
 
 TF wants the input in the format of TFRecords, and the internet is full of tutorials on how to transform the XMLs you have into that - I wrote a blog post on this, see the references.
 
-After this step is done, you just need to edit the configuration file for the TF network you want to use \(point it to your training/testing files and specifying your number of different objects to detect\) and just run it - note that you do need to train on a GPU, working with a CPU only won't be feasible. Note that you can use Google Colab for this, see [this page](../../toolbox/notebook-tools.md#google-colaboratory).
+After this step is done, you just need to edit the configuration file for the TF network you want to use \(point it to your training/testing files and specifying your number of different objects to detect\) and just run it - note that you do need to train on a GPU, working with a CPU only won't be feasible. If you don't have your own GPU-equipped machine, you can use Google Colab \(freely\) for this, see [this page](../../toolbox/notebook-tools.md#google-colaboratory).
 
-The TF model zoo is 
+The TF model zoo is a collection of pre-trained models TensorFlow shares.
 
 The rest of D Tran's blog post is pretty good at explaining how to do all the setups and then observe the results in TensorBoard \(which is TF's interface, you can use it to monitor training as well as see the evaluation results\). Note that the TF API can easily be used as a black box, where you won't have to change anything in their code. However, you can customise some flags for the training, e.g. if to spit out a performance metrics computed on the training data as well as on the evaluation data. 
 
@@ -44,7 +44,7 @@ It is available in the TF's object detection API.
 
 ### YOLO networks
 
-YOLO is a different approach which works on the mantra that "you only look once", because the idea is dong just one pass over the image. This makes it very fast. Currently there is no direct support for YOLO in TensorFlow, but people have been writing code for this \(see the refs\). You can however easily run it on the [Darknet](https://github.com/pjreddie/darknet) framework.
+YOLO is a different approach which works on the mantra that "you only look once", because the idea is doing just one pass over the image. This makes it very fast. Currently there is no direct support for YOLO in TensorFlow, but people have been writing code for this \(see the refs\). You can however easily run it on the [Darknet](https://github.com/pjreddie/darknet) framework.
 
 The approach essentially divides the image into grids and then classifies them on the presence of the sought object, spitting probabilities scores. 
 

@@ -1,6 +1,6 @@
 # Processing an image
 
-_An image is a bunch of numbers organised. How do we manipulate them to extract information?_
+_An image is a bunch of numbers organised into a matrix form. How do we manipulate them to extract information?_
 
 ## Code & notebooks
 

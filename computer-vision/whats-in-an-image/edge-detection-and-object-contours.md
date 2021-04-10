@@ -17,12 +17,12 @@ The Canny edge detector is the most famous of the methods for detecting edges in
 
 * low error rate;
 * good localisation: the distance between the detected pixel edges and the real ones is minimised;
-* minimal response: one detector response per edge
+* minimal response: one detector response per edge.
 
 The steps followed are:
 
 1. **Filter the noise**: use a gaussian filter;
-2. **Find the intensity gradient**: use the Sobel operator in directions$$x$$and$$y$$;
+2. **Find the intensity gradient**: use the [Sobel operator](../intro-quantifying-images-and-some-glossary/notes-on-the-formalism.md#the-sobel-operator) in directions$$x$$and$$y$$;
 3. **Non-maximum suppression**:  remove the pixels not considered to be part of the edge \(keep only thin lines\);
 4. **Hysteresis**: use lower \($$t_l$$\) and upper \($$t_u$$\) thresholds to that, calling$$g$$the pixel's gradient,
    * $$g > t_u$$, then pixel gets accepted as edge
@@ -31,7 +31,7 @@ The steps followed are:
 
 Note that the Canny edge detection method recommends a ratio of the hysteresis threshold upper:lower between 2:1 and 3:1.
 
-### Trying the Canny out in OpenCV
+### Trying the Canny edge detection in OpenCV
 
 Let's use OpenCV's implementation. I'll use a photo with two pens on a red surface, and because the surface is reflecting, in one corner you can see the light reflection of something. We'll see how non-trivial the task of extracting the edges is, in terms of the dependency of the result to the thresholds used. Wikipedia illustrates this point very well.
 
@@ -108,7 +108,7 @@ plt.show();
 
 ## References
 
-1.  J Canny [**A computational approach to edge detection**](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.420.3300&rep=rep1&type=pdf), _IEEE Transactions on pattern analysis and machine intelligence_, 6, 1986.
+1.  J Canny, [**A computational approach to edge detection**](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.420.3300&rep=rep1&type=pdf), _IEEE Transactions on pattern analysis and machine intelligence_, 6, 1986.
 2.  The OpenCV [tutorial](http://docs.opencv.org/trunk/da/d22/tutorial_py_canny.html) on Canny
 3.  S Suzuki, K Abe, [**Topological Structural Analysis of Digitized Binary Images by Border Following**](http://s3.amazonaws.com/academia.edu.documents/38698235/suzuki1985.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1500731725&Signature=QpLT9aA2J4BneMQ%2FF3EauPKiZ68%3D&response-content-disposition=inline%3B%20filename%3DTopological_Structural_Analysis_of_Digit.pdf), _Computer Vision, Graphics and Image Processing_, 30, 1985
 4. [Wikipedia](https://en.wikipedia.org/wiki/Edge_detection#Why_it_is_a_non-trivial_task) on why edge detection is a non-trivial task

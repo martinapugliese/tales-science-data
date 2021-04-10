@@ -13,7 +13,7 @@ $$
 Specifically,
 
 * $$P(H|E)$$is the _posterior_: the probability of observing the hypothesis given the evidence, that is, after data is collected;
-* $$P(E|H)$$is the probability of observing the evidence given the hypothesis; it is, as a function of$$E$$with fixed$$H$$the _likelihood_;
+* $$P(E|H)$$is the probability of observing the evidence given the hypothesis; it is, as a function of$$E$$with fixed$$H$$, the _likelihood_;
 * $$P(H)$$is the _prior_, that is, the probability of the hypothesis before gathering the evidence; it is one's estimate that $$H$$ is true before observing the data
 
 The bit$$\frac{P(E|H)}{P(E)}$$quantifies the impact of$$E$$on the probability of$$H$$ and is called the _marginal likelihood_ or _model evidence_.

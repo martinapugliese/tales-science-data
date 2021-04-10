@@ -4,17 +4,15 @@ _Just an introduction over the main concepts: what are probability and statistic
 
 ## Some terminology
 
-Given a _random variable_$$x$$which can take values in space$$\Omega $$\(the _events space_\). An _event_ is the occurrence of one of the values allowed for$$x$$and its probability gives the mathematical measure of how likely the event is to occur. It is given as a number between 0 and 1 \(extremes included\), where 0 means that the event does not occur at all and 1 that is occurs with certainty.
+Given a _random variable_$$x$$which can take values in space$$\Omega $$\(the _events space_\), an _event_ is the occurrence of one of the values allowed for$$x$$and its _probability_ gives the mathematical measure of how likely the event is to occur. It is a number between 0 and 1 \(extremes included\), where 0 means that the event does not occur at all and 1 that is occurs with certainty.
 
-The _probability_ of an event gives the mathematical measure of how likely it is to occur. It is given as a number between 0 and 1, extremes included, where 1 means that the the event occurs with certainty.
-
-For example, in the throws of a \(fair\), the space of events is given by all the faces that the dice can take when thrown \(there's 6 of them\) and we if we measure the probability of each event we find $$\frac{1}{6}$$ .
+For example, in the throws of a \(fair\) dice, the space of events is given by all the faces that the dice can take when thrown \(there's 6 of them\) and we if we measure the probability of each event we find$$\frac{1}{6}$$.
 
 ## The two interpretations of probability
 
 ### Frequentist
 
-In the _frequentist_ approach, the probability is given as the simple ratio of events to the total outcomes the variable can take, that is, as the frequency of the occurrence of event to trials. This assumes a sufficiently large \(?\) number of trials in the first place and assumes that this frequency will asymptotically converge to the probability of our event when said number of trials goes to $$\infty$$ .
+In the _frequentist_ approach, the probability is calculated as the simple ratio of events to the total outcomes the variable can take, that is, as the frequency of the occurrence of event to trials. This assumes a sufficiently large \(?\) number of trials in the first place and that this frequency will asymptotically converge to the probability of our event when said number of trials goes to$$\infty$$.
 
 Also note that this approach inherently entails the concept of repeatability of the process \(experiment\). 
 
