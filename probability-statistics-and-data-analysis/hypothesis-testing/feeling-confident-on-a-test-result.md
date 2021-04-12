@@ -4,19 +4,21 @@
 
 The confidence level gives the probability that a value falls in a specified interval and is typically \(and traditionally\) set at, in order how "how safe you want to be", 90%, 95%, 99%.
 
-It is indicated by $$1-\alpha$$, $$\alpha$$ being the float to be subtracted from probability 1 to get the above levels, hence 0.1, 0.05, 0.01 respectively. $$\alpha$$ is called the _significance level_.
+It is indicated by$$1-\alpha$$,$$\alpha$$being the float to be subtracted from probability 1 to get the above levels, hence 0.1, 0.05, 0.01 respectively. $$\alpha$$ is called the _significance level_.
 
 In general, the confidence level describes the uncertainty associated with a sampling method of our variable of interest.
 
 ## The $$p$$-value
 
-![](../../.gitbook/assets/pvalue.jpg) If I am taking a measurement, and observe a certain data point, this data point would be one of the many I could observe given the probability distribution of the variable I am measuring.
+![](../../.gitbook/assets/pvalue.jpg) 
 
-The $$p$$-value is the probability of obtaining a result equal or greater than the point which was actually observed, under the assumption of hypothesis $$\mathcal{H}$$. The figure here illustrates the concept.
+If I am taking a measurement, and observe a certain data point, this data point would be one of the many I could observe given the probability distribution of the variable I am measuring.
 
-In statistical testing, the null hypothesis $$\mathcal{H_0}$$ is rejected if the $$p$$-value of the experiment does _not_ pass the threshold $$\alpha$$ at the chosen confidence level, which translated means if $$p \leq \alpha$$, $$\mathcal{H_0}$$ can be rejected.
+The$$p$$-value is the probability of obtaining a result equal or greater than the point which was actually observed, under the assumption of hypothesis$$\mathcal{H}$$. The figure here illustrates the concept.
 
-See the page on the $$\chi^2$$ for an example of use of these concepts.
+In statistical testing, the null hypothesis$$\mathcal{H_0}$$is rejected if the $$p$$-value of the experiment does _not_ pass the threshold$$\alpha$$at the chosen confidence level, which translated means if $$p \leq \alpha$$, $$\mathcal{H_0}$$can be rejected.
+
+See the page on the$$\chi^2$$test for an example of use of these concepts.
 
 {% page-ref page="the-chi-squared-test.md" %}
 
@@ -29,7 +31,7 @@ The $$p$$-value, when used in statistical testing contexts, ought not to be take
 If you have a statistic to be used to describe the quantity of interest, say for instance \(and typically\) the sample mean of a series of measurements, to compute an error margin against if you'd
 
 1. First, choose the desired confidence level, usual choices are 90%, 95% or 99%
-2. Check whether the population standard deviation $$\sigma$$ is known or not: if it is, compute a z score; if it isn't, compute a t score
+2. Check whether the population standard deviation$$\sigma$$is known or not: if it is, compute a z score; if it isn't, compute a t score
 
 The margin of error will be given by
 
@@ -37,7 +39,7 @@ $$
 (z/t) \frac{\sigma/s}{\sqrt{n}} ,
 $$
 
-where if $$\sigma$$ is known you'd use $\sigma$ and $z$, otherwise you'd use $s$ \(the sample mean\) and $t$. It will then, and quite intuitively, depend on how many data points you've got. The result is meant to be interpreted as _you are, at the chosen confidence level CL, CL% confident that the estimate of your variable lies within the error margin_.
+where if$$\sigma$$is known you'd use $$\sigma$$ and $$z$$ , otherwise you'd use $$s$$ \(the sample mean\) and $$t$$ . It will then, and quite intuitively, depend on how many data points you've got. The result is meant to be interpreted as _you are, at the chosen confidence level CL, CL% confident that the estimate of your variable lies within the error margin_.
 
 ## An application: the minimum sample size in the binomial parameter
 

@@ -22,13 +22,13 @@ The Monte Carlo method is fundamentally based on the law of large numbers \(see 
 
 A notebook with the code presented here can be seen [here](https://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/probability-statistics-and-data-analysis/methods-theorems-and-laws/notebooks/monte-carlo-pi.ipynb).
 
-This is a pedagogical example, cited in many places, for instance [Wikipedia](monte-carlo.md#references). Because of the relation linking $$\pi$$ to the area $$A$$ of a circle of radius $$r$$, namely
+This is a pedagogical example, cited in many places, for instance [Wikipedia](monte-carlo.md#references). Because of the relation linking $$\pi$$ to the area $$A$$ of a circle of radius$$r$$, namely
 
 $$
 A = \pi r^2 \ ,
 $$
 
-we can easily estimate $$\pi$$ via considering a circle inscribed in a square. The area of the square would simply be $$r^2$$ , hence the ratio of the two areas comes down to $$\pi$$ . With a similar argument, we can consider a quarter of a circle inscribed in a square of side 1. The ratio of the areas would be $$\frac{\pi}{4}$$ , so this ratio, found numerically, multiplied by 4 would give us the sought estimate of $$\pi$$ .
+we can easily estimate$$\pi$$via considering a quarter-circle inscribed in a square. The area of the square would simply be$$r^2$$, hence the ratio of the two areas comes down to$$\pi$$if the radius is 1, which is how we would estimate $$\pi$$.
 
 For other examples, see the [reference below](monte-carlo.md#references).
 

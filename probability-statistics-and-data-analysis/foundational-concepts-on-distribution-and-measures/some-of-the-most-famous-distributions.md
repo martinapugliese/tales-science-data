@@ -6,7 +6,7 @@ Let's go look at some of the most famous/common distributions you can see around
 
 Now that we're at it, let's also calculate expected value and variance \(at least\) for these ones. 
 
-Given a continuous variable $$X $$ taking values in interval $$[a, b]$$, a _uniform_ distribution is one where every possible value has the same probability. Its pdf is simply
+Given a continuous variable$$X $$taking values in interval$$[a, b]$$, a _uniform_ distribution is one where every possible value has the same probability. Its pdf is simply
 
 
 
@@ -32,7 +32,7 @@ $$
 
 ## Success or failure: the Bernoulli
 
-Let's consider a binary variable  $$X \in \{0, 1\}$$, so that it can take the two values 1 \(which we'll call the _success_\) or 0 \(which we'll call the _failure_\). The prototype of this is the result of flipping of a coin. Let's also call $$\mu$$ the probability of the success so that, by definition
+Let's consider a binary variable $$X \in \{0, 1\}$$, so that it can take the two values 1 \(which we'll call the _success_\) or 0 \(which we'll call the _failure_\). The prototype of this is the result of flipping of a coin. Let's also call $$\mu$$ the probability of the success so that, by definition
 
 $$
 P(X=1) = \mu \ ; P(X=0) = 1 - \mu \ ,
@@ -62,13 +62,13 @@ The Bernoulli distribution is a special case of a binomial distribution for a si
 
 ## More successes and more failures: the Binomial
 
-The binomial distribution describes the probability of observing $$k$$ occurrences of $$x=1$$ in a set of $$n$$ samples from a Bernoulli distribution. $$\mu$$ is the probability of observing $$x=1$$ . The pmf will be then
+The binomial distribution describes the probability of observing $$k$$ occurrences of$$x=1$$in a set of$$n$$samples from a Bernoulli distribution.$$\mu$$is the probability of observing$$x=1$$. The pmf will be then
 
 $$
 p(x;\mu) = {{n}\choose{k}} \mu^k (1-\mu)^{n-k} \ ,
 $$
 
-because we have $${{n}\choose{k}}$$ ways of creating groups of $$k$$ from $$n$$ values and because each extraction is a Bernoulli.
+because we have$${{n}\choose{k}}$$ways of creating groups of$$k$$from$$n$$values and because each extraction is a Bernoulli.
 
 The expected value is
 
@@ -86,9 +86,9 @@ Head to [Wikipedia](https://en.wikipedia.org/wiki/Binomial_distribution) for the
 
 ## Extending all that^: the Multinomial
 
-It is a multivariate generalisation of the binomial and gives the distribution over counts $$m_k$$ for a $$k$$ -state discrete variable to be in state $$k$$ given a total of observations $$n$$.
+It is a multivariate generalisation of the binomial and gives the distribution over counts$$m_k$$for a$$k$$-state discrete variable to be in state$$k$$given a total of observations$$n$$.
 
-An example is the extraction of $$n$$ balls of $$k$$ different colours from a bag, replacing the extracted ball after each draw. The pmf reads
+An example is the extraction of$$n$$balls of$$k$$different colours from a bag, replacing the extracted ball after each draw. The pmf reads
 
 $$
 p(m_1, m_2, \ldots, m_k, \mu_1, \mu_2, \ldots, \mu_k, n) = {{n}\choose{m_1 m_2 \ldots m_k}} \mu_1^{m_1} \mu_2^{m_2} \ldots \mu_k^{m_k}
@@ -144,7 +144,7 @@ The beta distribution is the conjugate prior of the Bernoulli distribution for w
 
 _Student_ was the pseudonym of W Gosset, which we can all consider ourselves very grateful to, given all his seminal work in Statistics. He was working at the Guinness brewery in Dublin and produced various intellectual findings while working with beer data, but had to publish under a false name due to company's regulations, and he chose "Student".
 
-This distribution arises when estimating the mean of a normally distributed population in situations where the sample size is mall and the population standard deviation is unknown. Hence, it describes a sample extracted from said population: the larger the sample, the more the distribution resembles the normal.
+This distribution arises when estimating the mean of a normally distributed population in situations where the sample size is small and the population standard deviation is unknown. Hence, it describes a sample extracted from said population: the larger the sample, the more the distribution resembles the normal.
 
 $$
 p(x; \nu) = \frac{\Gamma(\frac{\nu+1}{2})}{\sqrt{\nu \pi} \Gamma(\frac{\nu}{2})} \Big(1 + \frac{x^2}{\nu}\Big)^{-\frac{\nu+1}{2}}
@@ -154,7 +154,7 @@ $$\nu$$ is the number of degrees of freedom. For $$\nu=1$$, the distribution red
 
 ## The elegant Chi-squared, $$\chi^2$$
 
-It is the distribution \(with $$k$$degrees of freedom\) of the sum of the squares of $$k$$independent standardised normal variables $$z_i$$ \(that is, normal variables standardised to have mean 0 and standard deviation 1\). It is a special case of the $$\Gamma$$ distribution.
+It is the distribution \(with$$k$$degrees of freedom\) of the sum of the squares of$$k$$independent standardised normal variables$$z_i$$\(that is, normal variables standardised to have mean 0 and standard deviation 1\). It is a special case of the$$\Gamma$$distribution.
 
 $$
 Q = \sum_1^k z_i^2 \ ,
@@ -266,7 +266,7 @@ plt.show();
 
 Newman's paper in [\[1\]](some-of-the-most-famous-distributions.md#References) is a great source about the topic and lots of what will be presented here is re-elaborated from there. It is also a very clearly written and enjoyable paper. The Wikipedia page [\[3\]](some-of-the-most-famous-distributions.md#References) on the topic is also quite well written.
 
-We talk of data distributed power law when the quantity we are measuring has a probability which is a power of the quantity itself, so that a power-law distribution has a probability density function typically written as
+We talk of data distributed as a power law when the quantity we are measuring has a probability which is a power of the quantity itself, so that a power-law distribution has a probability density function typically written as
 
 $$
 p(x) = A x^{-\alpha} \ ,
@@ -276,7 +276,7 @@ where $$A$$ is the normalisation constant.
 
 We put a minus sign in front of the exponent \(with respect to what we wrote above for a generic power-law function\) as we're thinking of a decreasing relation.
 
-There must be a minimum value $$x_{min}$$, otherwise it wouldn't be normalisable \(the area under the curve would diverge, see figure above\).
+There must be a minimum value$$x_{min}$$, otherwise it wouldn't be normalisable \(the area under the curve would diverge, see figure above\).
 
 As for the exponent, we need to have $$\alpha>1$$ for it to be a pdf, hence integrable, because by definition,
 

@@ -2,7 +2,9 @@
 
 Monty Hall was the presenter of an American TV show which popularised this tricky brain teaser. The original problem, a probability brain teaser, was posed in a letter to the American Statistician in 1975; M vos Savant solved the problem in a letter to readers in her column in 1990, initially receiving harsh criticism.
 
-\_\_![](../../.gitbook/assets/montyhall.png) _You are given a choice of three doors: behind one there is a car and behind the others there are goats._
+\_\_![](../../.gitbook/assets/montyhall.png) 
+
+_You are given a choice of three doors: behind one there is a car and behind the others there are goats._
 
 _The host knows what's behind each door. Let's say you pick door A. The host then opens door C which shows a goat. He then gives you the option to change your decision. The question is: is it advantageous to switch your choice from A to B?_
 

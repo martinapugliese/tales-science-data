@@ -4,9 +4,11 @@
 
 {% page-ref page="../foundational-concepts-on-distribution-and-measures/some-of-the-most-famous-distributions.md" %}
 
-The $$\chi^2$$ test is a statistical hypothesis test in which the distribution of the test statistic calculated on the data is a $$\chi^2$$ distribution \(see page above\) under null hypothesis. The assumption is that data is normally distributed and independent so the $$\chi^2$$ test can also be used to reject the hypothesis that data are independent.
+The $$\chi^2$$ test is a statistical hypothesis test in which the distribution of the test statistic calculated on the data is a$$\chi^2$$distribution \(see page above\) under null hypothesis. The assumption is that data is normally distributed and independent so the$$\chi^2$$test can also be used to reject the hypothesis that data are independent.
 
-![](../../.gitbook/assets/chisquared.jpg) It is used with categorical data to see if the number of individuals in each category is consistent with the expected values. In practice, the test is used to determine if there is a significant difference between the expected frequencies and the observed frequencies of the outcomes of an experiment in one or more categories, that is, if the observed differences are due to chance. The idea is: is the number of individuals falling into each category significantly different from the number you would expect under the null hypothesis? Is this difference between expected and observed data due to sampling or is it real?
+![](../../.gitbook/assets/chisquared.jpg) 
+
+It is used with categorical data to see if the number of individuals in each category is consistent with the expected values. In practice, the test is used to determine if there is a significant difference between the expected frequencies and the observed frequencies of the outcomes of an experiment in one or more categories, that is, if the observed differences are due to chance. The idea is: is the number of individuals falling into each category significantly different from the number you would expect under the null hypothesis? Is this difference between expected and observed data due to sampling or is it real?
 
 The $$\chi^2$$ is defined as
 

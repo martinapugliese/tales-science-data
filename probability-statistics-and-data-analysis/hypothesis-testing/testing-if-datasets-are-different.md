@@ -4,7 +4,7 @@
 
 ### The $$z$$-score
 
-Let $$x$$ be the value taken by a random variable $$X$$ with a probability distribution whose mean is $$\mu$$ and whose standard deviation is $$\sigma$$\(population values\). The _z-score_, also called _standard score_, is defined as
+Let $$x$$ be the value taken by a random variable$$X$$with a probability distribution whose mean is$$\mu$$and whose standard deviation is $$\sigma$$\(population values\). The _z-score_, also called _standard score_, is defined as
 
 $$
 z = \frac{x - \mu}{\sigma} \ ,
@@ -34,7 +34,9 @@ It was originally published by W S Gosset, known as Student, in [Biometrika](tes
 
 ### The gist of it
 
-![](../../.gitbook/assets/distrib-spreads.jpg) The test statistic used in this test is distributed according to Student's t distribution under the null hypothesis, which means it would follow a normal distribution if the sample size were bigger. When the data cannot be assumed to be normally distributed, the t-test can't be used, but the [Mann-Whitney U test](https://en.wikipedia.org/wiki/Mann–Whitney_U_test) covers for this case.
+![](../../.gitbook/assets/distrib-spreads.jpg) 
+
+The test statistic used in this test is distributed according to Student's t distribution under the null hypothesis, which means it would follow a normal distribution if the sample size were bigger. When the data cannot be assumed to be normally distributed, the t-test can't be used, but the [Mann-Whitney U test](https://en.wikipedia.org/wiki/Mann–Whitney_U_test) covers for this case.
 
 The t-test evaluates the difference between the means of the distributions with respect to their spread \(variability\). In the figure, the distributions have the same means difference but very different variabilities.
 
@@ -44,7 +46,7 @@ In the following, the null hypothesis will be indicated with $$H_0$$.
 
 #### **Two samples t-test**
 
-Given two sets of data indicated by indices 1 and 2, whose means are respectively $$m_1$$ and $$m_2$$ and whose standard deviations $$s_1$$ and $$s_2$$ \(we use $$m$$and $$s$$ to stress these are sample and not population values\) the $$t$$ statistics is calculated as
+Given two sets of data indicated by indices 1 and 2, whose means are respectively$$m_1$$and$$m_2$$and whose standard deviations$$s_1$$and$$s_2$$\(we use$$m$$and$$s$$to stress these are sample and not population values\) the $$t$$statistics is calculated as
 
 $$
 t = \frac{m_1 - m_2}{s_{m_1 - m_2}} \ ,

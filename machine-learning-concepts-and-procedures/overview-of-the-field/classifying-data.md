@@ -4,7 +4,7 @@
 
 ## Multiclass classification
 
-The methods here exposed are used in multiclass classification when the algorithm does not support it naturally \(it is suited to binary classification\).
+The methods here exposed are used in multiclass classification when the algorithm does not support it naturally \(because it is suited to binary classification\).
 
 ### One-vs.-all
 
@@ -16,7 +16,7 @@ The problem with this approach is that the single classifiers are trained on unb
 
 ### One-vs.-one
 
-In this technique, $\frac{k\(k-1\)}{2}$ classifiers get trained, where $k$ is the number of classes: each classifier receives a pair of classes from the set and learns to distinguish between them.
+In this technique,$$\frac{k(k-1)}{2}$$classifiers get trained, where$$k$$is the number of classes: each classifier receives a pair of classes from the set and learns to distinguish between them.
 
 For an unseen data point, a voting scheme is applied where all the classifiers are used on it and then the class with the highest number of positives gets predicted.
 

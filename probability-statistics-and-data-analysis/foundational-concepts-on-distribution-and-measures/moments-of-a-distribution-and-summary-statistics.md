@@ -1,8 +1,8 @@
 # Moments of a distribution and summary statistics
 
-In the following, we will use $$X$$ to represent a random variable living in sample space \(the space of all possible values it can assume\) $$\Omega$$.
+In the following, we will use$$X$$to represent a random variable living in sample space \(the space of all possible values it can assume\)$$\Omega$$.
 
-In the discrete case, the probability of each value $$x_i$$ will be represented as $$p_i$$ \(probability mass function\); in the continuous case $$p(x) = P(X=x)$$ will be the probability density function. See [the note on probability functions](probability-functions-and-displaying-data.md).
+In the discrete case, the probability of each value$$x_i$$will be represented as$$p_i$$\(probability mass function\); in the continuous case $$p(x) = P(X=x)$$ will be the probability density function. See [the note on probability functions](probability-functions-and-displaying-data.md).
 
 Let's start with mean and variance and then we'll then give the general definitions. Also, we'll then switch to other quantities beyond moments which help drawing a comprehensive picture of how data is distributed.
 
@@ -28,7 +28,7 @@ $$
 \mathbb{E}[X] = \sum_i^N p_i x_i \ ,
 $$
 
-The expectation is the average of all the possible values the random variable can assume. It is the arithmetic mean in the case of discrete variables. This is easy to see if the distribution is uniform, that is, all $$N$$ values have the same probability $$\frac{1}{N}$$: the expectation becomes $$\frac{1}{N}\sum_i x_i$$ , which is the exact definition of arithmetic mean. When the distribution is not uniform, the probability is not the same for each value, but the end result is still the arithmetic mean as each different value will be weighted with its probability of occurrence, that is, the count of them over the total of values.
+The expectation is the average of all the possible values the random variable can assume. It is the arithmetic mean in the case of discrete variables. This is easy to see if the distribution is uniform, that is, all$$N$$ values have the same probability$$\frac{1}{N}$$: the expectation becomes $$\frac{1}{N}\sum_i x_i$$, which is the exact definition of arithmetic mean. When the distribution is not uniform, the probability is not the same for each value, but the end result is still the arithmetic mean as each different value will be weighted with its probability of occurrence, that is, the count of them over the total of values.
 
 The expected value is typically indicated with $$\mu$$.
 
@@ -93,7 +93,7 @@ $$
 Var[X] = \mathbb{E}[(X - \mathbb{E}[X])^2] =  \int_{\Omega_X} \text{d} x \ (x - \mathbb{E}[X])^2 p(x)
 $$
 
-The variance is the second moment around the mean. It is typically indicated as $$\sigma^2$$, $$\sigma$$ being the **standard deviation**, which gives the measure of error of values from the mean.
+The variance is the second moment around the mean. It is typically indicated as$$\sigma^2$$,$$\sigma$$being the **standard deviation**, which gives the measure of error of values from the mean.
 
 ### Rewriting the variance
 
@@ -139,21 +139,21 @@ Var[aX + bY] &= \mathbb{E}[(aX + bY)^2] - \big( \mathbb{E}[aX+bY] \big)^2 \\
 \end{align}
 $$
 
-\( $$\text{cov}$$ is the covariance\).
+\($$\text{cov}$$is the covariance\).
 
 ### The unbiased estimator of variance and standard deviation
 
 ![Statistical population and sample - yes, handdrawn!](../../.gitbook/assets/pop-sample.jpg)
 
-If we have $$n$$data points, extracted from a population \(so we have a sample, refer to figure\) and we want to calculate its variance \(or standard deviation\), using $$n$$in the denominator would lead to a biased estimation. We would in fact use $$n$$in the case we had the full population, in the case of a sample we have to use $$n-1$$ and this is because the degrees of freedom are $$n-1$$as the mean is computed from $$n$$data points so there is one less.
+If we have$$n$$data points, extracted from a population \(so we have a sample, refer to figure\) and we want to calculate its variance \(or standard deviation\), using$$n$$in the denominator would lead to a biased estimation \(this is following the definition of variance as the expected value of the sum of squared differences of each point to the mean\). We would in fact use$$n$$in the case we had the full population, in the case of a sample we have to use$$n-1$$and this is because the degrees of freedom are$$n-1$$as the mean is computed from$$n$$data points so there is one less.
 
-For the mean, if $$\mu$$is the one computed with the full population and $$\bar x$$ the one computed with the sample, which is the estimator of $$\mu$$ ,
+For the mean, if$$\mu$$is the one computed with the full population and $$\bar x$$ the one computed with the sample, which is the estimator of$$\mu$$,
 
 $$
 \bar x = \frac{\sum_{i=1}^{i=n} x_i}{n}
 $$
 
-For the variance, calling $$\sigma^2$$ the one computed with the full population and $$s^2$$the one computed with the sample, we have
+For the variance, calling$$\sigma^2$$the one computed with the full population and $$s^2$$the one computed with the sample, we have
 
 $$
 s_n^2 = \frac{\sum_{i=1}^{i=n} (x_i - \bar x)^2}{n}
@@ -165,9 +165,9 @@ $$
 s_{n-1}^2 = \frac{\sum_{i=1}^{i=n} (x_i - \bar x)^2}{n-1}
 $$
 
-with subscript $$n$$ or $$n-1$$ indicating, respectively, with which denominator they are calculated.
+with subscript$$n$$or$$n-1$$indicating, respectively, with which denominator they are calculated.
 
-$$s_n^2$$ _is a biased estimator of the population variance \(it contains the mean, which itself eats one degree of freedom\) and we have_ $$s_n^2<s_{n-1}^2$$ __. This last one is the correct estimator of the population variance when you have a sample.
+$$s_n^2$$ is a biased estimator of the population variance \(it contains the mean, which itself eats one degree of freedom\) and we have$$s_n^2<s_{n-1}^2$$. This last one is the correct estimator of the population variance when you have a sample.
 
 ## Standard deviation and standard error
 
@@ -175,9 +175,9 @@ Refer again to the above about sample and population. The population follows a c
 
 In general, following definition, what the standard deviation quantifies is the variability of individuals from the mean. Having the sample, the sample standard deviation tells how far away each sample point is from the sample mean.
 
-Now because we're using the sample mean to estimate the mean \(expected value\) of the population, and because if we had another sample extracted from the same population this sample mean would likely be different, in general this sample mean follows its distribution. The _standard error_ \(of the mean, as it can be related to other statistics\), typically indicated by _SE_, is the standard deviation of these means.
+Now, because we're using the sample mean to estimate the mean \(expected value\) of the population, and because if we had another sample extracted from the same population this sample mean would likely be different, in general this sample mean follows a distribution. The _standard error_ \(of the mean, as it can be related to other statistics\), typically indicated by _SE_, is the standard deviation of these means.
 
-The standard error is usually estimated by the sample standard deviation $$s$$ divided by the square root of the sample size $$n$$:
+The standard error is usually estimated by the sample standard deviation$$s$$divided by the square root of the sample size $$n$$:
 
 $$
 SE = \frac{s}{\sqrt{n}} \ ,
@@ -185,13 +185,13 @@ $$
 
 under the assumption of statistical independence of observations in the sample.
 
-In fact, let $$x_1, \ldots, x_n$$ be the sample points extracted from a population whose mean and standard deviation are, respectively, $$\mu$$ and $$\sigma$$, the sample mean is
+In fact, let$$x_1, \ldots, x_n$$be the sample points extracted from a population whose mean and standard deviation are, respectively, $$\mu$$ and$$\sigma$$, the sample mean is
 
 $$
 m = \frac{x_1 + \cdots + x_n}{n} \ .
 $$
 
-The variance of this sample mean $$m$$, telling how far away the sample mean is from the population mean, is
+The variance of this sample mean$$m$$, telling how far away the sample mean is from the population mean, is
 
 $$
 Var[m] = Var \left[\frac{\sum_i x_i}{n}\right] = 
@@ -200,13 +200,13 @@ Var[m] = Var \left[\frac{\sum_i x_i}{n}\right] =
 = \frac{1}{n} \sigma^2 \ ,
 $$
 
-because each point has the same variance and the points are independent. See above for the non-linearity of the variance for the details on this calculation. Following this, the standard deviation of $$m$$ is then $$\frac{\sigma}{\sqrt{n}}$$ and we will use $$s$$ as an estimate for $$\sigma$$, which is, again, unknown.
+because each point has the same variance and the points are independent. See above for the non-linearity of the variance for the details on this calculation. Following this, the standard deviation of $$m$$ is then$$\frac{\sigma}{\sqrt{n}}$$ and we will use $$s$$ as an estimate for$$\sigma$$, which is, again, unknown.
 
 ### When to use which
 
 The Standard Error tells how far the sample mean is from the population mean so it is the error to attribute to a sample mean. The standard deviation again is about the individual data points and it tells how far away they are from the sample mean.
 
-While the standard error goes to 0 when $$n \to \infty$$, the standard deviation goes to $$\sigma$$.
+While the standard error goes to 0 when$$n \to \infty$$, the standard deviation goes to$$\sigma$$.
 
 ## Moments: general definition
 
@@ -218,7 +218,7 @@ $$
 
 The expected value is then the first raw moment.
 
-The $$n$$ -th **central moment** around the mean is defined as
+The$$n$$-th **central moment** around the mean is defined as
 
 $$
 \boxed{\mu_n = \int \text{d} x (x-\mu)^n p(x)}
@@ -226,7 +226,7 @@ $$
 
 The variance is the second central moment around the mean.
 
-Moments get standardises \(normalised\) by dividing for the appropriate power of the standard deviation. The $$n$$ -th **standardised moment** is the central moment divided by standard deviation with the same order power:
+Moments get standardises \(normalised\) by dividing for the appropriate power of the standard deviation. The$$n$$-th **standardised moment** is the central moment divided by standard deviation with the same order power:
 
 $$
 \boxed{\tilde \mu_n = \frac{\mu_n}{\sigma^n}}
@@ -250,7 +250,7 @@ $$
 \kappa = \frac{\mu_4}{\sigma^4}
 $$
 
-It measures how heavy the tail of a distribution is with respect to a gaussian with the same $$\sigma$$.
+It measures how heavy the tail of a distribution is with respect to a gaussian with the same$$\sigma$$.
 
 ## Further results
 
@@ -442,7 +442,7 @@ np.percentile(p, q=[0, 25 , 50, 75, 100])
 It is the difference between the third and first quartile and gives a measure of dispersion of the data. It is also sometimes called _midspread_. Note that it is a robust measure of dispersion specifically because it works on quartiles.
 
 $$
-IQR = Q_3 - Q-1
+IQR = Q_3 - Q_1
 $$
 
 The IQR can be used to _test the normality of a distribution_ at a simple level, because the quartiles of a normal \(standardised\) distribution are known so calculated ones can be compared to them.

@@ -12,7 +12,7 @@ $$
 E[\bar w] = \sum_i^n (y_i - \bar w \cdot x_i)^2 \ .
 $$
 
-Here \(sum goes over all observations in the dataset\), w is the vector of parameters of the line, the dot product is intended to assume a value of 1 for observational independent variable $$x$$ , so that we would have the slope and the intercept of the line as parameters, in the parameters vector; $$y$$ is the actual observed dependent variable. The Gradient Descent method is a first order optimisation method in that it deals with the first derivative of the function to be minimised. The gradient of the function is indeed used to identify the direction of maximum growth of the function, hence a descent is implemented, whereby the parameters get, starting from an initial state, diminished following the updating rule:
+Here \(sum goes over all observations in the dataset\),$$\bar w$$is the vector of parameters, the dot product is intended to assume a value of 1 for observational independent variable$$x$$, so that we would have the slope and the intercept of the line as parameters, in the parameters vector;$$y$$is the actual observed dependent variable. The Gradient Descent method is a first order optimisation method in that it deals with the first derivative of the function to be minimised. The gradient of the function is indeed used to identify the direction of maximum growth of the function, hence a descent is implemented, whereby the parameters get, starting from an initial state, diminished following the updating rule:
 
 $$
 w := w - \alpha \nabla f(w) = w - \alpha \nabla \left( \sum_i^n f_i(w) \right) \ .
@@ -23,6 +23,15 @@ At each iteration step, a Standard Gradient Descent needs to update the paramete
 This method is also typically called the _standard_ gradient descent, to distinguish it from the _stochastic_ variant, which we'll describe later on.
 
 ## Standard Gradient Descent: finding the minimum of a function
+
+For the code exposed in the following, you can find the relative notebook [here](https://nbviewer.jupyter.org/github/martinapugliese/tales-science-data/blob/master/machine-learning-concepts-and-procedures/learning-algorithms/notebooks/gradient-descent.ipynb).
+
+To start with and follow through here, you need some imports
+
+```python
+import numpy as np
+from scipy.spatial.distance import euclidean
+```
 
 ![Figure from Wikipedia, public domain.](../../.gitbook/assets/vectorfield.jpg)
 
@@ -36,7 +45,7 @@ the vector field given by its gradient is graphically represented as per figure 
 
 Obviously we know, from calculus, that the \(global\) minimum will be in the origin. The gradient vector field is furnishing the direction of maximum growth of the paraboloid, hence a descent \(a negative sign in the parameter update\) will lead us towards the desired minimum.
 
-In the following part, we will code the a Gradient Descent towards the minimum of a 1D parabola from a starting point $$x=7$$ and using a learning rate equal to $$10^{-1}$$ . The computation is stopped when the difference between the iteration updates was below a threshold value for the precision set to $$10^{-4}$$ .
+In the following part, we will code the a Gradient Descent towards the minimum of a 1D parabola from a starting point$$x=7$$and using a learning rate equal to$$10^{-1}$$. The computation is stopped when the difference between the iteration updates was below a threshold value for the precision set to$$10^{-4}$$.
 
 ### Minimising a 1D parabola with Standard Gradient Descent
 
@@ -130,7 +139,7 @@ which yields a local minimum of $$(3.6 \cdot 10^{-4}, 3.6 \cdot 10^{-4})$$ .
 
 ## Standard Gradient Descent: implementing a Linear Regression
 
-As we said, this method is used in a Ordinary Least Squares calculation in a Linear Regression to find the line which best fits a series of observation points. Let's "manually" implement it.
+As we said, this method is used in an Ordinary Least Squares calculation for a Linear Regression to find the line which best fits a series of observation points. Let's "manually" implement it.
 
 ### Minimising an objective function for Linear Regression with Standard Gradient Descent
 
@@ -163,7 +172,7 @@ def obj_f(w, x, y):
     return sum([squared_diff(f(np.array([1, x[i]]), w), y[i]) for i in range(len(x))])
 ```
 
-Then we perform a linear regression \(manually, that is, without making use of existing routines\):
+Then we perform a linear regression \(manually, that is, without making use of existing routines\). Note that `euclidean` is a function, imported from `scipy` \(see above\) that allows us to calculate a euclidean distance.
 
 ```python
 def obj_f_der(w, x, y):
@@ -253,17 +262,17 @@ plt.show();
 
 Gradient Descent, when features live on very different scales \(for instance if you have, say, the number of seats in a car and its price as features\), may be quite slow to converge due to the fact that the parameters will draw very skewed curves. Normalising the features to the same scale, as $$\frac{x_i - \mu_i}{\sigma_i}$$ will make the procedure faster.
 
-About the learning rate instead, we said that a too small one will slow down the process but a too big one may make it not converge as the minimum doesn't get hit. The ideal situation is obtained when $$E(w)$$ goes down monothonically with the number of iterations.
+About the learning rate instead, we said that a too small one will slow down the process but a too big one may make it not converge as the minimum doesn't get hit. The ideal situation is obtained when$$E(w)$$ goes down monothonically with the number of iterations.
 
 ## The Normal Equation
 
-The Normal Equation allows for solving for $$w$$ analytically, without the need to choose a learning rate and to iterate. What we want to solve is
+The Normal Equation allows for solving for$$w$$analytically, without the need to choose a learning rate and to iterate. What we want to solve is
 
 $$
 \frac{\partial E}{\partial w_j} = 0 \ \ \ \forall j \ .
 $$
 
-We have the training set in a matrix $$X$$ , where columns are the features and rows the samples, and the target values in a vector $$y$$ . The problem to solve can be written as
+We have the training set in a matrix$$X$$, where columns are the features and rows the samples, and the target values in a vector$$y$$. The problem to solve can be written as
 
 $$
 \frac{\partial E}{\partial w_j} = 2 \sum_i X^j_i (f_w(x_i) - y_i) \ ,
@@ -301,6 +310,6 @@ $$
 
 ## References
 
-1.  I've explained these same things, in the same way, on my blog [here](https://martinapugliese.github.io/dissecting-the-gradient-descent-method/)
+1.  I've explained these same things, in the same way, on my blog [here](https://martinapugliese.github.io/data/dissecting-the-gradient-descent-method/)
 2.  The usual [Wikipedia](https://en.wikipedia.org/wiki/Gradient_descent)
 

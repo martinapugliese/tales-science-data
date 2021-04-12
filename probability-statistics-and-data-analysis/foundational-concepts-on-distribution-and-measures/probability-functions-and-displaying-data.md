@@ -2,7 +2,7 @@
 
 How probability is best formalised and represented, mathematically as well as visually, depends on the type of data you have.
 
-In the following, we will use $$X$$to indicate a random variable taking values in space $$\Omega$$ . To mathematically express probabilities attached to certain values in $$\Omega$$, people use the _probability mass function_ in the case of discrete variables and _probability density functions_ in the case of continuous variables. Let's see them both in the following. We will also illustrate how to draw _histograms_ of data extracted from some distributions and what are _boxplots_.
+In the following, we will use$$X$$to indicate a random variable taking values in the space of events$$\Omega$$. To mathematically express probabilities attached to certain values in$$\Omega$$, people use the _probability mass function_ in the case of discrete variables and _probability density functions_ in the case of continuous variables. Let's see them both in the following. We will also illustrate how to draw _histograms_ of data extracted from some distributions and what are _boxplots_.
 
 For the code, run these imports first:
 
@@ -14,7 +14,7 @@ from matplotlib import pyplot as plt
 
 ## The Probability Mass Function
 
-The _probability mass function_, aka **pmf**, expresses, at each possible value of a discrete random variable, the probability related to it. We'll call it $$p_m$$. So, the pfm expresses the probability that $$X$$takes a given value $$x$$ :
+The _probability mass function_, aka **pmf**, expresses, at each possible value of a discrete random variable, the probability related to it. We'll call it$$p_m$$. So, the pfm expresses the probability that $$X$$takes a given value $$x$$ :
 
 $$
 p_m(x) = P(X=x) \ ,
@@ -28,7 +28,7 @@ $$
 
 ## The Probability Density Function
 
-The **pdf**, _probability density function_, which we'll here call $$p_d(x)$$, expresses the probability for a _continuous_ random variable $$X$$to take values within a certain range, so it is effectively a density of probability.
+The **pdf**, _probability density function_, which we'll here call $$p_d(x)$$, expresses the probability for a _continuous_ random variable$$X$$to take values within a certain range, so it is effectively a density of probability.
 
 What this means is that taken range of values $$[x_a, x_b]$$, we have
 
@@ -44,7 +44,7 @@ $$
 
 ## Some distributions and using histograms
 
-Histogramming data means segmenting it into ranges \(_bins_\) and counting how many data points fall in each range. It is what you typically do when you have some real-world data and you need to understand how it is distributed. We'll show all this in code, which you can also look in the repo notebook linked at the [bottom](probability-functions-and-displaying-data.md#references).
+Histogramming data means segmenting it into ranges \(_bins_\) and counting how many data points fall in each range. It is what you typically do when you have many data points and you need to understand how they are is distributed. We'll show all this in code, which you can also look in the repo notebook linked at the [bottom](probability-functions-and-displaying-data.md#references).
 
 ### A uniform distribution
 
@@ -102,7 +102,7 @@ which gives 1. Success. Then we can easily plot them to obtain the PMF histogram
 
 ### A gaussian distribution
 
-Now let's consider a gaussian distribution instead, taking the same amount \($10^5$\) of numbers and plotting the bins counts again. This time we extract float numbers, randomly sampled from a gaussian distribution of mean 0 and standard deviation 1. We then separate the range in 20 bins and plot the histogram of the counts of each bin as above. We use a line to signify that effectively our variable is meant to be continuous.
+Now let's consider a gaussian distribution instead, taking the same amount \($$10^5$$\) of numbers and plotting the bins counts again. This time we extract float numbers, randomly sampled from a gaussian distribution of mean 0 and standard deviation 1. We then separate the range in 20 bins and plot the histogram of the counts of each bin as above. We use a line to signify that effectively our variable is meant to be continuous.
 
 We attribute counts for a bin to the middle point of the bin.
 
@@ -168,7 +168,7 @@ hist_vals[0]
 
 Another very useful and quite comprehensive way to display distributions is through the use of _boxplots_. Boxplots let you see, in one go, the quartiles, the mean and the potential outliers in a distribution.
 
-To start off with, let's generate $$10^5$$ random numbers extracting them from a \(in order\):
+To start off with, let's generate$$10^5$$random numbers extracting them from a \(in order\):
 
 * uniform distribution
 * gaussian distribution with mean 0 and standard deviation 1

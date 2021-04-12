@@ -2,7 +2,7 @@
 
 ## The Likelihood
 
-Imagine you have a statistical model, that is, a mathematical description of your data which depends on some parameters $$\theta$$ . The _likelihood function_, usually indicated as $$\mathcal L$$ , is a function of these parameters and represents the probability of observing evidence \(observed data\) $$E$$ given said parameters:
+Imagine you have a statistical model, that is, a mathematical description of your data which depends on some parameters$$\theta$$. The _likelihood function_, usually indicated as$$\mathcal L$$, is a function of these parameters and represents the probability of observing evidence \(observed data\) $$E$$ given said parameters:
 
 $$
 \mathcal{L} = P(E \ | \  \theta)
