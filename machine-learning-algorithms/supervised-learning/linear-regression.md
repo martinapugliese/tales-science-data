@@ -20,23 +20,23 @@ $$
 y = \alpha + \beta x \ ,
 $$
 
-$$\alpha$$ \(the slope of the line\) and $$\beta$$ \(the intercept\) being the coefficients we want to compute. What we mean by this is that in reality we assume
+$$\alpha$$\(the slope of the line\) and$$\beta$$\(the intercept\) being the coefficients we want to compute. What we mean by this is that in reality we assume
 
 $$
 y = \alpha + \beta x + \epsilon \ ,
 $$
 
-expecting the error $$\epsilon$$ to be "small".
+expecting the error$$\epsilon$$to be "small".
 
 ### Multiple
 
-In the case of a multiple linear regression, we would have the line \(let's say we have $$p$$ variables, that is, features\):
+In the case of a multiple linear regression, we would have the line \(let's say we have$$p$$variables, that is, features\):
 
 $$
 y = w_0 + \mathbf{w} \cdot \mathbf{x} \ ,
 $$
 
-where $$\mathbf{w}$$ is the vector of parameters
+where$$\mathbf{w}$$is the vector of parameters
 
 $$
 \mathbf w = [w_1, w_2, \ldots, w_p] \ ,
@@ -62,7 +62,7 @@ $$
 
 where we have set $$x_0 = 1$$ .
 
-Because we would have several \(let's say $$n$$ \) observations \(sample data points\), each $$x_j$$ and each $$y_j$$ , where $$j \in {1, \ldots ,p}$$, is a vector in $$\mathbb R^n$$, so we will denote the $$j$$-th feature of the $$i$$-th sample by $$x_i^j$$ , the $$j$$-th coefficient by $$w_j$$ and the target variable of the $$i$$-th sample by $$y_i$$.
+Because we would have several \(let's say$$n$$\) observations \(sample data points\), each$$x_j$$and each$$y_j$$, where$$j \in {1, \ldots ,p}$$, is a vector in$$\mathbb R^n$$, so we will denote the $$j$$-th feature of the $$i$$-th sample by$$x_i^j$$, the $$j$$-th coefficient by$$w_j$$and the target variable of the$$i$$-th sample by$$y_i$$.
 
 ## Estimators: Ordinary Least Squares \(OLS\)
 
@@ -96,7 +96,7 @@ which can be tackled via Gradient Descent \(see page\).
 
 {% page-ref page="../../machine-learning-concepts-and-procedures/learning-algorithms/the-gradient-descent-method.md" %}
 
-If for the sake of simplicity we put ourselves in just one dimension \(one feature, so that $$x$$ is a single variable\), we would have
+If for the sake of simplicity we put ourselves in just one dimension \(one feature, so that$$x$$is a single variable\), we would have
 
 $$
 E(\alpha, \beta) = \sum_{i=0}^{i=n} (y_i - (\alpha x_i + \beta))^2
@@ -126,9 +126,7 @@ We will use a classic dataset, head size and brain weight, which you can find [h
 df = pd.read_csv('head_size_brain_weight.csv')
 ```
 
-Let's then run a linear regression \(using the routine in sklearn\), plotting the resulting line and giving the fitted parameters:
-
-
+Let's then run a linear regression \(using the routine in sklearn and trying to predict the brain weight given the head size\), plotting the resulting line and giving the fitted parameters:
 
 ```python
 # Num samples

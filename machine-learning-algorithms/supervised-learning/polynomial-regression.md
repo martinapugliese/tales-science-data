@@ -6,7 +6,7 @@ $$
 y(x) = \sum_{i=0}^{i=m}a_i x^i = a_0 + a_1x + a_2x^2 + \ldots + a_mx^m
 $$
 
-The problem can be reduced to that of a multiple linear regression where the features are the polynomials of $$x$$ :
+The problem can be reduced to that of a multiple linear regression where the features are the polynomials of$$x$$:
 
 $$
 \begin{cases}

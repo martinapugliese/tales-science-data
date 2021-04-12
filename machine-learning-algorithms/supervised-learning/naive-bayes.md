@@ -8,15 +8,15 @@ The Naive Bayes is a probabilistic classifier based on \(surprise surprise!\) th
 
 In a nutshell, its properties are:
 
-* It assumes independence among features used for the classification.  
-* It is usually used for text classification
-* Is fast
-* Requires small training data
-* The probability of the outcome classification is unreliable
+* It assumes independence among features used for the classification;
+* It is usually used for text classification;
+* Is fast;
+* Requires small training data;
+* The probability of the outcome classification is unreliable.
 
 ## How does it work
 
-Given a target variable$$y$$\(the class\) and features $$x_1, x_2, \ldots, x_n$$, by Bayes' theorem we can write
+Given a target variable$$y$$\(the class\) and features$$x_1, x_2, \ldots, x_n$$, by Bayes' theorem we can write
 
 $$
 P(y \ | \  x_1, x_2, \ldots, x_n) = \frac{P(x_1, x_2, \ldots, x_n \ | \ y) P(y)}{P(x_1, x_2, \ldots, x_n)} \ ,
@@ -24,7 +24,7 @@ $$
 
 $$P(y)$$being the frequency of the class$$y$$.
 
-The _naive_ assumption of the algorithm is that features are independent of each other, that is, the likelihood at the second member can be factorised into the product of the likelihood of single feature:
+The _naive_ assumption of the algorithm is that features are independent of each other, that is, the likelihood at the second member can be factorised into the product of the likelihoods of single features:
 
 $$
 P(x_i | y, x_1, \ldots, x_{i-1}, x_{i+1}, \ldots, x_n) = P(x_i | y) \ \ \ \forall i \ .
@@ -104,7 +104,9 @@ where $$\alpha$$ is a chosen factor and $$n$$ the number of possible values for 
 
 ## An example: sex classification
 
-This small example, as well as the ones below are taken and reworked from [the Wikipedia page on the topic](https://en.wikipedia.org/wiki/Naive_Bayes_classifier#Sex_classification). The problem is about classifying if a person is a male \(M\) or a female \(F\) based on height \(h, in feet\), weight \(w, in pounds\) and foot size \(f, in inches\). This is the training data we assume to have collected:
+This small example, as well as the ones below are taken and reworked from [the Wikipedia page on the topic](https://en.wikipedia.org/wiki/Naive_Bayes_classifier#Sex_classification). 
+
+The problem is classifying if a person is a male \(M\) or a female \(F\) based on height \(h, in feet\), weight \(w, in pounds\) and foot size \(f, in inches\). This is the training data we assume to have collected:
 
 | Gender | h \(feet\) | w \(lbs\) | f \(inches\) |
 | :--- | :---: | :---: | :---: |
@@ -130,7 +132,7 @@ and we estimate the parameters of said gaussians via MLE \(see page\), obtaining
 | M | 5.86 |  $$3.5 \cdot 10^{-2}$$  | 176.25 |  $$1.23 \cdot 10^2$$  | 11.25 |  $$9.19 \cdot 10^{-1}$$  |
 | F | 5.42 |  $$9.72 \cdot 10^{-2}$$  | 132.5 |  $$5.58 \cdot 10^2$$  | 7.5 | 1.67 |
 
-The two classes are equiprobable because we got the same number of training points for each, so $$a = b$$ , and these are the priors for each class. Note that we could also give the priors from the population, assuming that each gender is equiprobable.
+The two classes are equiprobable because we got the same number of training points for each, so$$a = b$$, and these are the priors for each class. Note that we could also give the priors from the population, assuming that each gender is equiprobable.
 
 Now, given a new sample point whose height is 6 feet, weight 130 lbs and foot size 8 inches, we want to classify its gender, so we determine which class maximises the posterior:
 
@@ -156,7 +158,7 @@ $$
 P(h | M) = \frac{1}{\sqrt{2 \pi \sigma^2}} e^{- \frac{(6 - \mu)^2}{2 \sigma^2}} \approx 1.5789
 $$
 
-In the same way we compute $$P(w | M) = 5.9881 \cdot 10^{-6}$ and $P(f | M) = 1.3112 \cdot 10^{-3}$$, so that in the end we obtain $$P(M | h, w, f) = 6.1984 \cdot 10^{-9}$$. Similarly we get $$P(F | h, w, f) = 5.3779 \cdot 10^{-4}$$, which is larger so we predict that the sample is a female.
+In the same way we compute $$P(w | M) = 5.9881 \cdot 10^{-6}$$and$$P(f | M) = 1.3112 \cdot 10^{-3}$$, so that in the end we obtain$$P(M | h, w, f) = 6.1984 \cdot 10^{-9}$$. Similarly we get$$P(F | h, w, f) = 5.3779 \cdot 10^{-4}$$, which is larger so we predict that the sample is a female.
 
 ## Other examples, on classifying text
 
@@ -166,19 +168,19 @@ This is a common application of a Naive Bayes classifier and it is a case of tex
 
 Some words are more frequent than others in spam e-mails \(for example "Viagra" is definitely a recurring word in spam e-mails\). The user manually and continuously trains the filter of their e-mail provider by indicating whether a mail is spam or not. For all words in each training mail, the filter then adjusts the probability that it will appear in a spam or legitimate e-mail.
 
-Let $S$ be the event that an e-mail is spam and $$w$$ a word, then we compute the probability that an e-mail is spam given that it contains $$w$$ as \( $$\neg S$$ is the event that mail is not spam, or "ham"\):
+Let S be the event that an e-mail is spam and$$w$$a word, then we compute the probability that an e-mail is spam given that it contains$$w$$as \( $$\neg S$$ is the event that mail is not spam, or "ham"\):
 
 $$
 P(S | w) = \frac{P(w | S) P(S)}{P(w | S) P(S) + P(w | \neg S) P(\neg S)} \ ,
 $$
 
-where $$P(S)$$, the prior, is the probability that a message is spam in general, and $$P(w | S)$$is the probability that$$w$$appears in spam messages.
+where$$P(S)$$, the prior, is the probability that a message is spam in general, and$$P(w | S)$$is the probability that$$w$$appears in spam messages.
 
-A non biased filter will assume $$P(S) = P(\neg S) = 0.5$$, biased filters will assume higher probability for mail being spam.$$P(S | w)$$is approximated by the frequency of mails containing word $$w$$and being identified as spam in the learning phase, and similarly for $$P(w | \neg S)$$.
+A non biased filter will assume$$P(S) = P(\neg S) = 0.5$$, biased filters will assume higher probability for mail being spam.$$P(S | w)$$is approximated by the frequency of mails containing word$$w$$and being identified as spam in the learning phase, and similarly for $$P(w | \neg S)$$.
 
 Now, this is valid for a single word, but a functional spam classifier uses several words and a Naive Bayes hypothesis, assuming that the presence of each word is an independent event. Note that this is a crude assumption as in reality in natural language words co-occurrence is key. Nevertheless, it is a useful idealisation, useful for the calculation in the Naive Bayes fashion.
 
-So, with more words considered \(see [references](naive-bayes.md#references)\),
+So, with more words considered and asusming the priors are the same \(see [references](naive-bayes.md#references)\),
 
 $$
 P(S | w_1, \ldots, w_n) = \frac{P(w_1 | S) \cdots P(w_N | S)}{P(w_1 | S) \cdots P(w_N | S) + P(w_1 | \neg S) \cdots P(w_N | \neg S)}
@@ -192,15 +194,15 @@ $$
 P(C | w_1, \ldots, w_n) = \frac{\Pi_{i=1}^n P(w_i | C) P(C)}{\mathcal{N}}
 $$
 
-with $$C$$ being the genre, $$w_i$$ the words and the denominator is an irrelevant factor.
+with$$C$$being the genre,$$w_i$$the words and the denominator is an irrelevant factor.
 
-With a bag of words approach, if we have a training set$$D$$and a vocabulary $$V$$containing all the words in the documents, considering $$D_i$$ the subset of texts in category $$C_i$$ , then
+With a bag of words approach, if we have a training set$$D$$and a vocabulary$$V$$containing all the words in the documents, considering$$D_i$$the subset of texts in category$$C_i$$, then
 
 $$
 P(C_i) = \frac{|D_i|}{|D|}
 $$
 
-\(fraction of samples in category $$C_i$$\). Now, we concatenate all documents in $$D_i$$ , obtaining $$n_i$$ words and $$\forall w_j \in V$$ we call $$n_{ij}$$ the number of occurrences of $$w_j$$ in $$D_i$$ , so
+\(fraction of samples in category$$C_i$$\). Now, we concatenate all documents in$$D_i$$, obtaining$$n_i$$words and $$\forall w_j \in V$$ we call$$n_{ij}$$the number of occurrences of$$w_j$$in$$D_i$$, so
 
 $$
 P(w_j | C_i) = \frac{n_{ij} + 1}{n_i + |V|}

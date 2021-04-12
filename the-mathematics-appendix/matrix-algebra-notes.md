@@ -1,10 +1,10 @@
 # Matrix Algebra notes
 
-Capital letters, like$$A$$ will indicate matrices.
+Capital letters, like$$A$$, indicate matrices.
 
 ## Transpose of a matrix
 
-Transposing a matrix$$A$$, of elements $$[A]{ij} = a{ij}$$ , is the operation which switches the row and column positions of each element:
+Transposing a matrix$$A$$, of elements $$[A]_{ij} = a_{ij}$$ , is the operation which switches the row and column positions of each element:
 
 $$
 [A^t]_{ij} = a_{ji}
@@ -22,7 +22,7 @@ The first one follows straightly from definition.
 
 The second one is straightforward just because the elements of$$(A+B)^t$$are the sums of elements in$$A^t$$and$$B^t$$.
 
-The third one is easily proven using the fact that $$[AB]{ij} = \sum_k a_{ik} b_{kj}$$_,_ so that we can say $$[(AB)^t]_{ij} = [AB]_{ji} = \sum_k a_{jk} b_{ki}, $$and $$[B^t A^t]{ij} = \sum_k b^t_{ik} a^t_{kj} = \sum_k b_{ki} a_{jk}$$ , so the two things are the same.
+The third one is easily proven using the fact that $$[AB]_{ij} = \sum_k a_{ik} b_{kj}$$_,_ so that we can say $$[(AB)^t]_{ij} = [AB]_{ji} = \sum_k a_{jk} b_{ki}, $$and $$[B^t A^t]_{ij} = \sum_k b^t_{ik} a^t_{kj} = \sum_k b_{ki} a_{jk}$$ , so the two things are the same.
 
 ## Special types of matrices
 
@@ -52,7 +52,7 @@ $$
 their convolution is obtained via the multiplication of locationally similar entries and summing:
 
 $$
-\mathcal{C} = \sum_{i=0}^{i=} \sum_{j=1}^{j=} Bij A_{n-in-j}
+\mathcal{C} = \sum_{i=0}^{i=} \sum_{j=1}^{j=} B_{ij} A_{n-in-j}
 $$
 
 This procedure is loosely related to mathematical convolution.

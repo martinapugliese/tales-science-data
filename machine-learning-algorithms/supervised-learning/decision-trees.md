@@ -8,23 +8,23 @@ A decision tree builds \(like, literally\) a tree of decisions where at each spl
 
 This algorithm is the core of decision tree learning and the original paper outlining it dates back from the [sixties](decision-trees.md#references).
 
-Let us briefly outline its procedure. Given a training set $C$ and classes $1/0$ \(so we refer to a binary classification problem\), the algorithm follows this routine:
+Let us briefly outline its procedure. Given a training set$$C$$and classes 1/0 \(so we refer to a binary classification problem\), the algorithm follows this routine:
 
-1. * If $$c > 0  \forall c \in C$$ , build a 1 node and halt;
-   * If $$c < 0  \forall c \in C$$ , build a 0 node and halt;
+1. * If$$c > 0  \ \forall c \in C$$, build a 1 node and halt;
+   * If$$c < 0  \ \forall c \in C$$, build a 0 node and halt;
    * Otherwise, choose feature$$f$$of data and create a decision node    
-2. Partition$$C$$into $$C_1, C_2, \ldots, C_n$$ , a group for each value of feature $$f$$ 
-3. Apply 1. recursively $$\forall C_i$$ 
+2. Partition$$C$$into $$C_1, C_2, \ldots, C_n$$, a group for each value of feature$$f$$ 
+3. Apply step 1 recursively$$\forall C_i$$ 
 
 ### Iterative Dichotomiser 3 \(ID3\)
 
 This one, whose original paper is by [Quinlan](decision-trees.md#references), adds a feature selection heuristics to CLS, where the idea is selecting the feature which best separates the data.
 
-The best thing is, as in many cases, to use an example to illustrate how it works. The example we'll use is the same authentic one Quinlan uses in his paper, and can also be found in many places online, like \[here\].
+The best thing is, as in many cases, to use an example to illustrate how it works. The example we'll use is the same authentic one Quinlan uses in his paper, and can also be found in many places online, see references.
 
 #### **An example**
 
-Suppose we want to build a tree to determine if tomorrow the weather is going to be good to play football. We are in possess of data for the last 2 weeks where the weather has been described by 4 attributes and where we recorder if we went to play or not:
+Suppose we want to build a tree to determine if tomorrow the weather is going to be good to play football. We are in possess of data for the last 2 weeks where the weather has been described by 4 attributes and where we record if we went to play or not:
 
 * the _outlook_: was it sunny/overcast/rainy?
 * the _temperature_: was is hot/mild/cold?
@@ -62,13 +62,13 @@ $$
 H(S) = -\frac{9}{14} \log(\frac{9}{14}) - \frac{5}{14} \log(\frac{5}{14}) = 0.94
 $$
 
-Now, given attribute $$A$$ , the _Information Gain_ $$G(S, A)$$ of S on it is defined as the difference in entropy before and after splitting the data on $$A$$ :
+Now, given attribute$$A$$, the _Information Gain_$$G(S, A)$$of S on it is defined as the difference in entropy before and after splitting the data on$$A$$:
 
 $$
 G(S, A) = H(S) - \sum_{t \in A} p(t) H(t) \ ,
 $$
 
-where the sum goes over all the values of attribute $$A$$, $$p(t)$$ represents the fraction of the data with value $$t$$ for attribute $$A$$ and $$H(t)$$ is the entropy of the subset of data with value $$t$$ for attribute $$A$$ .
+where the sum goes over all the values of attribute$$A$$,$$p(t)$$represents the fraction of the data with value $$t$$for attribute$$A$$and$$H(t)$$is the entropy of the subset of data with value$$t$$for attribute$$A$$.
 
 As an example, if we want to compute the gain in splitting the data on attribute **Wind**, which has two possible values, we consider that we have $$p_{strong} = 6/14$$ __and __$$p_{weak} = 8/14$$ , then
 
@@ -92,7 +92,7 @@ $$
 
 We see that the **Outlook** is the attribute with the highest gain and this means that it gets chosen at the first node. It has branches for _sunny_, _overcast_ and _rainy_ which furnish the next level in the tree. So the next question is "what attribute should be checked at the _sunny_ branch node?"
 
-At this point the dataset to be considered is that including _sunny_, which is $$S{"sunny"} = {D_1, D_2, D_8, D_9, D{11}}$$ and so we calculate the information gains
+At this point the dataset to be considered is that including _sunny_, which is $$S{"sunny"} = {D_1, D_2, D_8, D_9, D{11}}$$and so we calculate the information gains
 
 $$
 G(S_{sunny}, T) = 0.570 \ ; G(S_{sunny}, Humidity) = 0.970 \ ; G(S_{sunny}, Wind) = 0.019
@@ -129,7 +129,7 @@ $$
 I = \sum p(1-p) \ ,
 $$
 
-where the first factor \($$p$$\) expresses the probability of an item being chosen and the second the probability of a mistake in the classification of the item. $$I$$ is maximal in the same point where the entropy $$H = -\sum p \log p$$ is maximal. The Gini impurity, named after the statistician and demographer C Gini, tells how often an element randomly chosen from the set would be incorrectly labelled if it were randomly labelled according to the distribution of labels in the set, hence furnishing a criterion to minimise the probability of a misclassification.
+where the first factor \($$p$$\) expresses the probability of an item being chosen and the second the probability of a mistake in the classification of the item. $$I$$ is maximal in the same point where the entropy$$H = -\sum p \log p$$is maximal. The Gini impurity, named after the statistician and demographer C Gini, tells how often an element randomly chosen from the set would be incorrectly labelled if it were randomly labelled according to the distribution of labels in the set, hence furnishing a criterion to minimise the probability of a misclassification.
 
 The Gini impurity can be used in the information gain in place of the entropy. See Raschka's post for a discussion on the difference.
 

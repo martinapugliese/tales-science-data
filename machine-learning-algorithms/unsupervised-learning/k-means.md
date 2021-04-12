@@ -30,13 +30,13 @@ $$
 
 where$$\mathbb{\mu}_k$$is the mean of the points falling in cluster$$C_k$$\(the so-called _centroid_ of the cluster\), itself a vector in$$\mathbb{R}^d$$, each of its coordinates being the mean for that feature in the cluster.
 
-In this horrible figure I did here,$$K$$is two and the red crosses indicate the centroids.
+In this horrible figure I did above,$$K$$is two and the red crosses indicate the centroids.
 
 ## The standard algorithm
 
 The standard$$K$$-means algorithm is [that of Lloyds](k-means.md#references) \(dated 1957, was only published outside of Bell Labs in 1982\).
 
-In brief, the algorithms starts by initialising the$$K$$centroids with points picked randomly from the sample. It then proceeds iteratively, until convergence, through steps called
+In short, the algorithms starts by initialising the$$K$$centroids with points picked randomly from the sample. It then proceeds iteratively, until convergence, through steps called
 
 1. _assignment_
 2. _update_  
@@ -116,7 +116,7 @@ The _rule of thumb_ method suggests choosing $$k \sim \sqrt{n/2}$$. This is a \(
 
 The _elbow method_ is a heuristic method consisting in looking at when adding a new cluster does not model the data any better.
 
-By plotting $$W$$ as a function of $$k$$, it should be clear where the contribution of another cluster gives minimal further gain \(the "elbow" point of the curve\). It is clear that the choice of this point is kind of subjective anyway, as it depends on the situation and on the what we, in that situation, consider a minimal further gain not worth pursuing.
+By plotting$$W$$as a function of$$k$$, it should be clear where the contribution of another cluster gives minimal further gain \(the "elbow" point of the curve\). It is clear that the choice of this point is kind of subjective anyway, as it depends on the situation and on the what we, in that situation, consider a minimal further gain not worth pursuing.
 
 See the [reference about Stack Overflow](k-means.md#references) for a computational answer.
 

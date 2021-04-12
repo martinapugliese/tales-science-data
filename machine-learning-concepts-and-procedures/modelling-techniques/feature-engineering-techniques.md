@@ -29,7 +29,5 @@ Let's do an example with a proper categorical variable. Let's say one of the fea
 | cloudy | 010 |
 | rainy | 100 |
 
-At the end, from one feature with 3 states, you end up with 3 features. This procedure adds dimensionality because there will be one feature per each of the states of the categorical variable, containing either a 0 pr a 1. In general, we go from $$n$$ observations in $$d$$ values to $$d$$ binary variables with $$n$$ observations each.
-
-
+At the end, from one feature with 3 states, you end up with 3 features. This procedure adds dimensionality because there will be one feature per each of the states of the categorical variable, containing either a 0 pr a 1. In general, we go from$$n$$observations in$$d$$values to$$d$$binary variables with$$n$$observations each.
 

@@ -38,7 +38,7 @@ $$
 
 ### Manhattan
 
-Also called _cityblock_, the Manhattan distance between two points is the norm$$l_1$$of the shortest path a car would take between these two points in Manhattan \(has a grid layout\):
+Also called _cityblock_, the Manhattan distance between two points is the norm$$l_1$$of the shortest path a car would take between these two points in Manhattan \(which has a grid layout\):
 
 $$
 d = \sum_i |u_i - v_i|

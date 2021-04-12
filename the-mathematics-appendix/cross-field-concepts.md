@@ -21,7 +21,7 @@ In _statistical mechanics_, Boltzmann gave the definition as a measure of uncert
 
 _the entropy quantifies the degree to which the probability of the system is spread over different microstates and is proportional to the logarithm of the number of possible microconfigurations which give rise to the macrostate._
 
-Which written down is
+Which, written down, is
 
 $$
 S = -k_B \sum_i p_i log \, p_i
@@ -90,7 +90,7 @@ where$$p_i$$is the probability of occupation of state i.
 The extreme situations are:
 
 1. If there is only one state, so that$$p_j = 1$$and$$p_i = 0 \ \forall i \neq 0$$, then   $$I = 1$$ 
-2. If there is an even distribution, so that $$p_j = 1/N  \forall j \in {1, \ldots N}$$ where N is the number of states, then$$I = N$$ 
+2. If there is an even distribution, so that $$p_j = 1/N  \ \forall j \in {1, \ldots N}$$ where N is the number of states, then$$I = N$$ 
 
 With two states, we have
 
@@ -114,7 +114,7 @@ plt.show();
 
 ## The "no free lunch" theorem
 
-It is a concept originated in mathematics \(optimisation\) but often employed in Machine Learning and it asserts that the computational cost of finding a solution for a problem of a given class, averaged over all problems in the class, is the same for every method employed \[1\]. In short, you don't get anything for nothing \(the "free lunch"\). The phrasing seem to have its [origins](https://www.phrases.org.uk/meanings/tanstaafl.html) into an old practice of USA saloons where you could get food for free when purchasing drinks.
+It is a concept originated in mathematics \(optimisation\) but often employed in Machine Learning and it asserts that the computational cost of finding a solution for a problem of a given class, averaged over all problems in the class, is the same for every method employed \(see references\). In short, you don't get anything for nothing \(the "free lunch"\). The phrasing seem to have its [origins](https://www.phrases.org.uk/meanings/tanstaafl.html) into an old practice of USA saloons where you could get food for free when purchasing drinks.
 
 This means that there is no algorithm which is optimal on all possible problems, as its excellent performance on a problem is counterbalanced by bad performance on another problem.
 

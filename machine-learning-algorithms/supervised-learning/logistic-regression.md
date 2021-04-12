@@ -15,7 +15,7 @@ $$
 y = \frac{1}{1 + e^{-x}} \ ,
 $$
 
-in the plot here.
+see the plot down here.
 
 ```python
 x = np.arange(-10, 10, 1)
@@ -35,7 +35,7 @@ plt.show();
 
 This exposition is inspired and re-worked from these [notes](logistic-regression.md#references) from a Stanford course.
 
-The idea is: given a categorical variable $$y \in {0, 1}$$ and some independent variable $$x$$ which we want to use in order to classify $$y$$ , we could think of running a linear regression $$y = mx + b$$ followed by a classification \(say if $$mx \geq 0.5$$ we classify $$y$$ as 1 and if $$mx < 0.5$$ we classify it as 0\).
+The idea is: given a categorical variable$$y \in {0, 1}$$and some independent variable$$x$$which we want to use in order to classify$$y$$, we could think of running a linear regression$$y = mx + b$$followed by a classification \(say if$$mx \geq 0.5$$we classify$$y$$as 1 and if$$mx < 0.5$$ we classify it as 0\).
 
 ![yep, hand-drawn :D](../../.gitbook/assets/logregre.png)
 
@@ -47,13 +47,13 @@ $$
 h_{\theta}(x) = \frac{1}{1 + e^{- \theta x}}
 $$
 
-where $$0 \leq h \leq 1$$ can be interpreted as the probability that $$y=1$$ given $$x$$ as the input and $$\theta$$ the parameters:
+where$$0 \leq h \leq 1$$can be interpreted as the probability that$$y=1$$given$$x$$as the input and$$\theta$$the parameters:
 
 $$
 h_\theta(x) = P(y=1 \ | \ x; \theta)
 $$
 
-A logistic regression is a linear classifier: it predicts $$y=1$$ when $$h \geq 0.5$$ and $$y=0$$ otherwise, so the decision boundary is $$\theta x = 0$$.
+A logistic regression is a linear classifier: it predicts$$y=1$$when $$h \geq 0.5$$ and $$y=0$$ otherwise, so the decision boundary is$$\theta x = 0$$.
 
 ## An example
 
@@ -72,13 +72,13 @@ $$
 
 we would predict $$y=1$$ if $$-3+x_1+x_2 \geq 0$$ , that is, if $$x_1 + x_2 \geq 3$$ , and $$y=0$$ otherwise. See figure for a visual display of this.
 
-Note though, that ff the boundary, from training data is not linear, we should use a logistic regression with higher order polynomials, as in $$h_\theta(x) = g(\theta_0 + \theta_1 x_1 + \theta_2 x_2 + \theta_3 x_1^2 + \theta_4 x_2^2)$$ , with $$g$$ being the logistic function \(the sigmoid\). As in a polynomial regression\], higher order features can be treated as first order ones with a substitution.
+Note though, that if the boundary given by the training data is not linear, we should use a logistic regression with higher order polynomials, as in$$h_\theta(x) = g(\theta_0 + \theta_1 x_1 + \theta_2 x_2 + \theta_3 x_1^2 + \theta_4 x_2^2)$$, with$$g$$being the logistic function \(the sigmoid\). As in a polynomial regression, higher order features can be treated as first order ones with a substitution.
 
 ### Finding the parameters
 
-Now, how do we find the coefficients $$\bar{\theta}$$ ? We use a cost function as in the regular linear regression.
+Now, how do we find the coefficients$$\bar{\theta}$$? We use a cost function as in the regular linear regression.
 
-Given a training set with $$m$$ samples, in a multi-dimensional space, $${(\bar{x}^1, y^1), \cdots, ((\bar{x}^m, y^m)}$$ , where we have $$n$$ features for each sample, so $$\bar x$$ is a vector in $$\mathbb{R}^n$$ and $$y \in {0, 1}$$, the model is
+Given a training set with$$m$$samples, in a multi-dimensional space,$${(\bar{x}^1, y^1), \cdots, ((\bar{x}^m, y^m)}$$, where we have$$n$$features for each sample, so$$\bar x$$is a vector in$$\mathbb{R}^n$$and$$y \in {0, 1}$$, the model is
 
 $$
 h_\theta(\bar{x}) = \frac{1}{1 + e^{- \bar{\theta}^t \bar{x}}} \ .

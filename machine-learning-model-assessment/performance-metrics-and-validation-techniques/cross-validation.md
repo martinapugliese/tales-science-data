@@ -2,7 +2,7 @@
 
 ## What do you do in cross-validation?
 
-Cross validation is a technique for validation the performance of a model. In its basic form it basically consists in dividing the original data sample into sets, picking one of them as the training set and validating the performance on the other, the test set, repeating the procedure multiple times with different splits of the original set. Eventually, the results are averaged.
+Cross validation is a technique for validating the performance of a model. In its basic form it basically consists in dividing the original data sample into sets, picking one of them as the training set and validating the performance on the other, the test set, repeating the procedure multiple times with different splits of the original set. Eventually, the results are averaged.
 
 The procedure results in a better outcome than the simple training/test split because it allows for a control of the error by the averaging procedure.
 

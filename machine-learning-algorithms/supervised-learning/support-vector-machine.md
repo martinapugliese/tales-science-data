@@ -2,21 +2,21 @@
 
 ## What is
 
-A Support Vector Machine \(SVM\) is a non-probabilistic method used both to classification \(naturally\) and for regression \(see later\) which builds a hyperplane \(or a set of hyperplanes\) in a high dimensional space to separate the data.
+A Support Vector Machine \(SVM\) is a non-probabilistic method used both for classification \(naturally\) and for regression \(see later\) which builds a hyperplane \(or a set of hyperplanes\) in a high dimensional space to separate the data.
 
 ## In classification
 
 ![](../../.gitbook/assets/svm-class.jpg) 
 
-Given some labelled data, an SVM spits out the optimal hyperplane separating them: in$$D$$dimensions, this will have$$D-1$$ dimensions. Referring to the figure, where we are in$$D=2$$ so the hyperplanes are lines, and we have a binary classification problem \(colours indicate the class\), multiple possible lines can separate the data, but the optimal separation is achieved with the one line which is the farthest away from all points. The problem then is about finding the hyperplane which gives the largest minimum distance to all training samples, that is, which maximises the margin.
+Given some labelled data, an SVM spits out the optimal hyperplane separating them: in$$D$$dimensions, this will have$$D-1$$dimensions. Referring to the figure, where we are in$$D=2$$so the hyperplanes are lines, and we have a binary classification problem \(colours indicate the class\), multiple possible lines can separate the data, but the optimal separation is achieved with the one line which is the farthest away from all points. The problem then is about finding the hyperplane which gives the largest minimum distance to all training samples, that is, which maximises the margin.
 
-A hyperplane $$L$$ is given by
+A hyperplane$$L$$is given by
 
 $$
 f(x) = \beta_0 + \bar{\beta^t} \bar{x} = 0 \ ,
 $$
 
-where $$\beta_0$$ is called the _bias_ and $$\bar{\beta}$$ the _weight vector_. Properties are
+where$$\beta_0$$is called the _bias_ and$$\bar{\beta}$$the _weight vector_. Properties are
 
 * $$\forall \bar{x_1}, \bar{x_2} \in L$$, $$\bar{\beta}^t(\bar{x_1} - \bar{x_2}) = 0 \rightarrow \frac{\bar{\beta}}{p}$$ is the vector normal to the surface of $$L$$ 
 * $$\forall \bar{x_0} \in L$$, $$\bar{\beta}^t \bar{x_0} = - \bar{\beta_0}$$ 
@@ -56,7 +56,7 @@ $$
 \min_{\beta_0, \beta} \frac{1}{2} ||\beta||^2 \text{subject to} y_i (x_i^t \beta + \beta_0) \geq 1 \forall i = 1, \ldots, N
 $$
 
-The SVM problem can be solved using Lagrange multipliers. This was a brief round up of the linear case, but SVMs can be used in several problems, including non-linearly separable data.
+The SVM problem can be solved using Lagrange multipliers. This was a brief round-up of the linear case, but SVMs can be used in several problems, including non-linearly separable data.
 
 The hyperplane defining the margin are
 
@@ -105,9 +105,9 @@ $$
 0 = \sum_{i=1}^N \alpha_i y_i
 $$
 
-so that the hyperplane becomes $$f(x) = \sum{i=1}^N \alpha_i y_i x_i x + \beta_0$$ _,_ which in the case of a non-linear SVM translates to __$$\hat f(x) = \sum{i=1}^N \alpha_i y_i  + \beta_0$$ 
+so that the hyperplane becomes$$f(x) = \sum{i=1}^N \alpha_i y_i x_i x + \beta_0$$_,_ which in the case of a non-linear SVM translates to __$$\hat f(x) = \sum{i=1}^N \alpha_i y_i  + \beta_0$$ 
 
-$$h(x)$$ is only involved via inner products. There is no need to specify the transformation $$h(x)$$ at all, but only require knowledge of the kernel function
+$$h(x)$$ is only involved via inner products. There is no need to specify the transformation$$h(x)$$at all, but only require knowledge of the kernel function
 
 $$
 K(x, x') = <h(x), h(x_i)>
@@ -123,7 +123,7 @@ The effectiveness of a SVM depends on the selection of kernel and its parameters
 
 ## SVM for Regression: SVR
 
-Given a tolerance level $$\epsilon$$ , the idea is finding the optimal hyperplane with some fault tolerance. The SVR is trained solving
+Given a tolerance level$$\epsilon$$, the idea is finding the optimal hyperplane with some fault tolerance. The SVR is trained solving
 
 $$
 \min_{\beta_0, \beta} \frac{||\beta||^2}{2}

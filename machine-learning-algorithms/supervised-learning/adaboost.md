@@ -2,11 +2,11 @@
 
 ### The gist
 
-AdaBoost, shortening for _adaptive boosting_ is a boosting ensemble method used both in classification and in regression problems. The authors won the Goedel prize for the work in 2003, whose original paper is in the [first reference](adaboost.md#references) but a nice reading over the general idea, by the same authors is the paper in the [second reference](adaboost.md#references).
+AdaBoost, shortening for _adaptive boosting_ is a boosting ensemble method used both in classification and in regression problems. The authors won the Goedel prize for the work in 2003, whose original paper is in the [first reference](adaboost.md#references) but a nice reading over the general idea, by the same authors, is the paper in the [second reference](adaboost.md#references).
 
 The idea is to fit a sequence of weak learners \(a weak learner is one that is just slightly better than a random guesser\) on repeatedly modified versions of the training set, then combine their predictions through a weighted majority voting system.
 
-In the first iteration, you give the same weight to all $$n$$ training samples, $$w_i = \frac{1}{n}$$ ; in successive iterations the weights are modified in such a way that the training samples which were incorrectly predicted in the previous iteration will see their weights increased while those which were correctly predicted will see their weights decreased. This way, the weak learner is forced to focus on the points more difficult to predict: this is the adaptive part of the idea. The resulting combination of these weak learners will be a strong learner.
+In the first iteration, you give the same weight to all$$n$$training samples, $$w_i = \frac{1}{n}$$; in successive iterations the weights are modified in such a way that the training samples which were incorrectly predicted in the previous iteration will see their weights increased while those which were correctly predicted will see their weights decreased. This way, the weak learner is forced to focus on the points more difficult to predict: this is the adaptive part of the idea. The resulting combination of these weak learners will be a strong learner.
 
 As per current literature, AdaBoost with decision trees is considered a pretty strong classifier.
 

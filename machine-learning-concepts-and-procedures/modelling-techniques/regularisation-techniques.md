@@ -18,17 +18,17 @@ $$
 A x = b
 $$
 
-While OLS minimises the function $$||Ax - b||^2$$ , Ridge regression minimises $$||Ax - b||^2 + ||\Gamma x||^2$$ , where $$\Gamma$$ is called the _Tikhonov matrix_, usually chosen as a multiple of the identity $$\mathbb{1}$$, and serves the purpose of giving preference to solutions with small norms. The explicit solution is
+While OLS minimises the function $$||Ax - b||^2$$ , Ridge regression minimises $$||Ax - b||^2 + ||\Gamma x||^2$$ , where$$\Gamma$$is called the _Tikhonov matrix_, usually chosen as a multiple of the identity$$\mathbb{1}$$, and serves the purpose of giving preference to solutions with small norms. The explicit solution is
 
 $$
 x = (A^t A + \Gamma^t \Gamma)^{-1} A^t b
 $$
 
-and the effect of the regularisation may be varied via the scale of the matrix $$\Gamma$$ . For $$\Gamma = 0$$ , we fall back on the OLS solution, provided $$A^t A$$ exists.
+and the effect of the regularisation may be varied via the scale of the matrix$$\Gamma$$. For$$\Gamma = 0$$, we fall back on the OLS solution, provided$$A^t A$$exists.
 
 ### In linear regression
 
-In the context of linear regression, where $$w$$ are the parameters, the Ridge regularisation solves the problem
+In the context of linear regression, where$$w$$are the parameters, the Ridge regularisation solves the problem
 
 $$
 \min_w ||wx - y||^2 + \beta ||w||^2 \ \ , \ \ \beta \geq 0
@@ -42,15 +42,15 @@ $$
 ||w||^2 < c \ ,
 $$
 
-for some $$c > 0$$ , which means constraining the sizes of the coefficients. Therefore, Ridge regression is equivalent to putting a threshold on the size of the parameters. The trade-off is that a large $$w$$ would give a better RSS but the penalty term would be higher. A small $$w$$ instead, would given a lower RSS and is preferable.
+for some$$c > 0$$, which means constraining the sizes of the coefficients. Therefore, Ridge regression is equivalent to putting a threshold on the size of the parameters. The trade-off is that a large$$w$$would give a better RSS but the penalty term would be higher. A small$$w$$instead, would given a lower RSS and is preferable.
 
-The larger the $$\beta$$used, the more we want the coefficients close to 0.
+The larger the$$\beta$$used, the more we want the coefficients close to 0.
 
 ![](../../.gitbook/assets/ridge.jpg)
 
 The figure shows the relation between an OLS and a Ridge solution, in the case of 2 dimensions. The ellipses are the contours of the residual sum of squares: the inner ellipse has the smallest RSS, which is minimised at the estimate point. The constraint in ridge regression corresponds to a circle. We are trying to minimise the ellipse size and the circle simultaneously so the estimate is the point of contact between the ellipse and the circle.
 
-Ridge shrinks coefficients but does not nullify any. The solutions of a Ridge regression have to be found by solving \( $$E$$ is the error function\)
+Ridge shrinks coefficients but does not nullify any. The solutions of a Ridge regression have to be found by solving \($$E$$ is the error function\)
 
 $$
 \frac{\partial E}{\partial w_j} = 2 \sum_i (y_i - w_j X_{ij})(-X_{ij}) + 2 \beta w_j = 0 \ ,
@@ -62,7 +62,7 @@ $$
 w_j = \frac{-\sum_i X_{ij} y_i}{\sum_i X_{ij}^2 + \beta} = \frac{w_j^0}{\sum_i X_{ij}^2 + \beta} \ ,
 $$
 
-$$w^0$$ being the solution of a normal regression and the denominator being a function of $$\beta$$. So it's apparent that Ridge scales the coefficients by a constant factor.
+$$w^0$$ being the solution of a normal regression and the denominator being a function of$$\beta$$. So it's apparent that Ridge scales the coefficients by a constant factor.
 
 ## LASSO: $$L_1$$ 
 
@@ -74,9 +74,9 @@ $$
 ||w x - y||^2 + \alpha ||w||_1 \ .
 $$
 
-This is equivalent \(thinking in terms of Lagrange multipliers\) to minimising $$||w x - y||^2$$ subject to constraint $$||w|| < c$$ with $$c$$ being a tuning parameter.
+This is equivalent \(thinking in terms of Lagrange multipliers\) to minimising$$||w x - y||^2$$subject to constraint$$||w|| < c$$with$$c$$being a tuning parameter.
 
-If $$c$$ is large enough, the regularisation has no effect and the solution is the OLS one; for a sufficiently small $$c$$ instead, the solutions are the shrunken versions of the OLS ones. LASSO shrinks some coefficients and sets some to 0.
+If$$c$$is large enough, the regularisation has no effect and the solution is the OLS one; for a sufficiently small$$c$$instead, the solutions are the shrunken versions of the OLS ones. LASSO shrinks some coefficients and sets some to 0.
 
 LASSO solves
 

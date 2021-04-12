@@ -17,6 +17,7 @@ Topic-specific resources are already reported in every page for details, more in
 
 * \*\*\*\*[Notes](http://cs229.stanford.edu/syllabus.html) from the **Stanford CS229 Course on Machine Learning** \(all lecture notes are open-access\)
 * [**R2D3**](http://www.r2d3.us/), a visual introduction to Machine Learning, project by S Yee and T Chu
+* \*\*\*\*[**Explained Visually**](https://setosa.io/ev/), a project by V Powell and L Lehe
 
 ## Neural Networks
 

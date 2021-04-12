@@ -10,31 +10,31 @@ $$
 \hat y = F(x)
 $$
 
-by minimising a loss function $$L$$ \(can be for instance the mean squared error averaged over the training set\):
+by minimising a loss function$$L$$\(can be for instance the mean squared error averaged over the training set\):
 
 $$
 L = ||\hat y - y||^2
 $$
 
-where $$y$$ are the true values.
+where$$y$$are the true values.
 
-Let's say we have a total of $$M$$ stages. At each stage$$1 \leq m \leq M$$, we use a weak learner$$F_m$$: an example of a \(very\) weak learner could be one that predicts the mean of all the sample points as the target.
+Let's say we have a total of$$M$$stages. At each stage$$1 \leq m \leq M$$, we use a weak learner$$F_m$$: an example of a \(very\) weak learner could be one that predicts the mean of all the sample points as the target.
 
-At the following stage, the GBM improves the learner by adding an estimator $$h$$ so that
+At the following stage, the GBM improves the learner by adding an estimator$$h$$so that
 
 $$
 F_{m+1}(x) = F_m(x) + h(x)
 $$
 
-The point is how to choose the estimator $$h$$ .
+The point is how to choose the estimator$$h$$ .
 
-A perfect $$h$$ would give
+A perfect$$h$$would give
 
 $$
 F_{m+1}(h) = F_m(x) + h(x) = y \Leftrightarrow h(x) = y - F_m(x)
 $$
 
-so $$h$$ represents the residual. As a matter of fact, the GBM fits $$h$$ to the residual.
+so$$h$$represents the residual. As a matter of fact, the GBM fits $$h$$ to the residual.
 
 This way, like in other boosting methods, each learner learns to correct its predecessor.
 
@@ -72,13 +72,13 @@ $$
 \phi(F(\mathbf x)) = \mathbb{E}_y[L(y, F(\mathbf x)) | \mathbf x] \ .
 $$
 
-This functional of $$F$$ has to be minimised over $$F$$, which is considered as a parameter. In numerical optimization, we will assume the form of the solution to be
+This functional of$$F$$has to be minimised over$$F$$, which is considered as a parameter. In numerical optimization, we will assume the form of the solution to be
 
 $$
 F(\mathbf x) = \sum_{m=0}^{M} f_m(\mathbf x)
 $$
 
-$$h_0$$ is an initial guess and the subsequent $$f_m$$ are the incremental boosts we perform at each step.
+$$h_0$$is an initial guess and the subsequent$$f_m$$are the incremental boosts we perform at each step.
 
 The optimisation method utilised will be the gradient descent, whereby we compute the gradient at each step as
 
@@ -86,7 +86,7 @@ $$
 \mathbf g_m (\mathbf x) = \Big [ \frac{\partial \phi(F(\mathbf x))}{\partial F(\mathbf x)} \Big ]_{F(\mathbf x) = F_{m-1}(\mathbf x)}
 $$
 
-and $F_{m-1}\(\mathbf x\) = \sum_{i=0}^{m-1} f\_i\(\mathbf x\)$.
+and$$F{m-1}(\mathbf x) = \sum{i=0}^{m-1} f_i(\mathbf x)$$.
 
 Assuming enough regularity that derivative and integration can be exchanged, we compute
 
@@ -106,9 +106,9 @@ $$
 \rho_m = arg \min_\rho \mathbb{E}_{y, \mathbf x} [L(y, F_{m-1}(\mathbf x)) - \rho \mathbf g_m(\mathbf x)]
 $$
 
-In practice though, we have finite data, our training set. This means that $$\phi(F(\mathbf x))$$ cannot be estimated accurately by its value at each $$\mathbf x_i$$ , because we'd only be using the training set to estimate it. We'd need to use other points.
+In practice though, we have finite data, our training set. This means that$$\phi(F(\mathbf x))$$cannot be estimated accurately by its value at each$$\mathbf x_i$$, because we'd only be using the training set to estimate it. We'd need to use other points.
 
-This problem gets typically addressed by using a parametric form for $$F$$:
+This problem gets typically addressed by using a parametric form for$$F$$:
 
 $$
 F(\mathbf x, \{\beta_m, \mathbf a_m\}_1^M) = \sum_{m=1}^M \beta_m h_m(\mathbf x; \mathbf a_m)
@@ -196,7 +196,7 @@ so it clearly appears that the update rule is that of the Gradient Descent.
 
 When used with a decision tree as the weak learner \(usual case\), the algorithm is called Gradient Tree Boosting.
 
-Note that with respect with normal GB, GTB does not use the same $$\rho_m$$ __for the whole tree but rather a __$$\rho_{mj}$$ for each leaf j.
+Note that with respect with normal GB, GTB does not use the same$$\rho_m$$for the whole tree but rather a$$\rho_{mj}$$for each leaf j.
 
 ## References
 

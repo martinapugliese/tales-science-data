@@ -19,13 +19,13 @@ import pandas as pd
 
 ## What are the residuals
 
-For each point labelled $$(x_i, y_i)$$ __in the data set, where$$x_i$$is the independent variable and$$y_i$$the dependent variable, its **residual**$$r_i$$is the difference between the _observed_ value of the dependent variable $$y_i$$ __and the _predicted_ value $$\hat y_i$$ \(the point on the fitting curve\):
+For each point $$(x_i, y_i)$$in the data set, where$$x_i$$is the independent variable and$$y_i$$the dependent variable, its **residual**$$r_i$$is the difference between the _observed_ value of the dependent variable$$y_i$$and the _predicted_ value$$\hat y_i$$\(the point on the fitting curve\):
 
 $$
 r = y_i - \hat y_i \ .
 $$
 
-Residuals represent the variation not captured by the fit. The concept of _residual_ and that of _error_ are similar and easy to confuse; the error has in fact the same definition except for the fact that the difference is computed between the _observed_ value of the independent variable and the _real_ one, that is, the unknown population value of which the _observed_ one is an observation. Residuals have the role of an _estimate_ of the errors.
+Residuals represent the variation not captured by the fit. The concept of _residual_ and that of _error_ are similar and easy to confuse; the error has in fact the same definition except for the fact that the difference is computed between the _observed_ value of the dependent variable and the _real_ one, that is, the unknown population value of which the _observed_ one is an observation. Residuals have the role of an _estimate_ of the errors.
 
 Note that we framed this in one dimension here, but the definition is general to any number of dimensions.
 
@@ -92,7 +92,7 @@ plt.show();
 
 ![](../../.gitbook/assets/res-hist.png)
 
-In this silly dataset, residuals are normally distributed but they display a pattern with the independent variable \(well, _we_ have imposed it!\). In fact, if we plot a scatter of them against $$x$$, this appears very clearly: points in the middle have larger errors.
+In this silly dataset, residuals are normally distributed but they display a pattern with the independent variable \(well, _we_ have imposed it!\). In fact, if we plot a scatter of them against$$x$$, this appears very clearly: points in the middle have larger errors.
 
 This because we have imposed this feature to our data so it is an obvious "discovery", but in a general case the analysis of the trend of residuals can lead to interesting considerations which the sole histogram would hide. See the treatment in the [first reference](whats-in-the-residuals-of-a-regression.md#references) for a vivid example.
 
