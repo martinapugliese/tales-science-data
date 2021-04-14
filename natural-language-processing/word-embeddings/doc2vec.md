@@ -2,13 +2,13 @@
 
 ## What's this and how does it relate to word2vec
 
-doc2vec is a sentence embedding extension of word2vec, also sometimes referred to as paragraph2vec. It came out of the same group at Google in the year following word2vec, 2014. doc2vec is a general embedding methos capable of learning vector representations for pieces of texts: sentences, paragraphs, and also full documents.
+doc2vec is a sentence embedding extension of word2vec, also sometimes referred to as paragraph2vec. It came out of the same group at Google in the year following word2vec, 2014. doc2vec is a general embedding method capable of learning vector representations for pieces of texts: sentences, paragraphs, and also full documents.
 
 The simplest way to represent documents as vectors from the word composing them is to averaging the word vectors, but the weakness of this approach is in losing the word order which is essential for the syntactical structure. doc2vec solves the problem.
 
 Note that a Bag of Words model with N-grams tries to solve the problem of word order, but ends up creating high-dimensional and very sparse vectors, the vectors produced by word2vec are dense instead.
 
-doc2vec has been proposed with two possible architectures: the distributed memory model \(related to the CBOW in owrd2vec\) and the distributed bag of words model \(related to the skip-gram in word2vec\).
+doc2vec has been proposed with two possible architectures: the distributed memory model \(related to the CBOW in word2vec\) and the distributed bag of words model \(related to the skip-gram in word2vec\).
 
 ## Distributed memory model
 

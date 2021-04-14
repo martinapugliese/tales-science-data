@@ -13,7 +13,7 @@ The perceptron is \(one of?\) the very first algorithms for artificial neural ne
 
 ![Image from Nielsen&apos;s book, which inspired most of the writing here.](../../.gitbook/assets/perceptron.png)
 
-The way a perceptron works is rather simple, yet quite ingenious. You have the representation of a neuron as per figure, where a series of binary input values$$(x_1, x_2, \ldots, x_n)$$come in and an output is out. Inputs can be weighted differently, so that weights $$(w_1, w_2, \ldots, w_n)$$ are given. The output will depend on inputs and weights, the inputs being the values which determine a decision, the weights the how important each value is.
+The way a perceptron works is rather simple, yet quite ingenious. You have the representation of a neuron as per figure, where a series of binary input values$$(x_1, x_2, \ldots, x_n)$$come in and an output is out. Inputs can be weighted differently, so that weights$$(w_1, w_2, \ldots, w_n)$$are given. The output will depend on inputs and weights, the inputs being the values which determine a decision, the weights the how important each value is.
 
 The neuron is equipped with a threshold value$$t$$, or alternatively a bias value$$b=-t$$, such that the output$$o$$follows rules
 

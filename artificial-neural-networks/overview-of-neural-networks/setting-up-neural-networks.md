@@ -10,7 +10,7 @@ $$
 C \propto (y-f(wx+b))^2 \ ,
 $$
 
-$$f$$being the network prediction and$$y$$the actual value, has derivatives $$\frac{\partial C}{\partial w} \propto (y-f) f' x$$and$$\frac{\partial f}{\partial b} = (y-f)f'$$. Now, with sigmoid neurons we have the derivative of the sigmoid which is very small when the output if close to 1, as the curve flattens, and this makes the learning quite slow.
+$$f$$being the network prediction and$$y$$the actual value, has derivatives $$\frac{\partial C}{\partial w} \propto (y-f) f' x$$and$$\frac{\partial C}{\partial b} \propto  (y-f)f'$$. Now, with sigmoid neurons we have the derivative of the sigmoid which is very small when the output if close to 1, as the curve flattens, and this makes the learning quite slow.
 
 A typical way to do better on this is to use a different cost function. A choice can be the cross-entropy,
 
@@ -30,7 +30,7 @@ What you do is starting with the whole network as is and then removing half of t
 
 The easiest way to initialise the network weights is to extract them at random from a Gaussian distribution. If you choose a Gaussian with standard deviation 1 for all neurons, you end up with the variable $$\sum_j w_j x_j + b$$being distributed with a Gaussian which is very broad. This will make for easy saturation in several neurons as due to this broadness the probability to have large values is not so small and so the result of the sigmoid function will be easily close to 0 or 1.
 
-To prevent this, the usual choice is to extract the weights from a Gaussian with standard deviation equal to $$\frac{a}{\sqrt{n_{in}}}$$, $$n_{in}$$being the number of input weights in the neuron.
+To prevent this, the usual choice is to extract the weights from a Gaussian with standard deviation equal to $$\frac{a}{\sqrt{n_{in}}}$$,$$n_{in}$$being the number of input weights in the neuron.
 
 ## Augmenting the training set
 

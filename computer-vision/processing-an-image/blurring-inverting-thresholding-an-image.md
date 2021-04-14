@@ -273,7 +273,7 @@ plt.show();
 
 ### Otsu's Binarization Thresholding
 
-This see the OpenCV [docs](blurring-inverting-thresholding-an-image.md#references) is a global thresholding method but the value of the threshold is computed as the mean value in between the two peaks of a bimodal image \(see page\). For this reason, it is not good on non-bimodal images. It minimises the weighted within-class variance where a class is the set of pixels around a peak.
+This \(see the OpenCV [docs](blurring-inverting-thresholding-an-image.md#references)\) is a global thresholding method but the value of the threshold is computed as the mean value in between the two peaks of a bimodal image \(see page\). For this reason, it is not good on non-bimodal images. It minimises the weighted within-class variance where a class is the set of pixels around a peak.
 
 {% page-ref page="../intro-quantifying-images-and-some-glossary/" %}
 

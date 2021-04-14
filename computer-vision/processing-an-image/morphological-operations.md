@@ -4,7 +4,7 @@
 
 {% page-ref page="../intro-quantifying-images-and-some-glossary/" %}
 
-_Morphological operations_ on a image take as input a binary image \(see page\) and a _structuring element_ \(usually a $$3 \times 3$$matrix, also known as _kernel_\) and use it to transform the image into another one.
+_Morphological operations_ on a image take as input a binary image \(see page\) and a _structuring element_ \(usually a$$3 \times 3$$matrix, also known as _kernel_\) and use it to transform the image into another one.
 
 ![](../../.gitbook/assets/kernel.png) 
 

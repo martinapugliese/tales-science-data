@@ -4,7 +4,7 @@ The backpropagation algorithm is the core of how artificial neural networks mana
 
 ## What is it
 
-The backpropagation algorithm is a brilliant way to train a network by perturbing each weight iteratively with an amount proportional to the partial derivative of the cost function with respect to it, propagating these derivatives backwards in the network. This is done to aid gradient descent and eventually train the network by reducing the error between what gets predicted and what is actually.
+The backpropagation algorithm is a brilliant way to train a network by perturbing each weight iteratively with an amount proportional to the partial derivative of the cost function with respect to it, propagating these derivatives backwards in the network. This is done to aid gradient descent and eventually train the network by reducing the error between what gets predicted and what the value is actually.
 
 The idea per se is simple, the implementation is hard though and it took some research to figure out an efficient mechanism for it. Mechanism that arrived with the [Rumelhart & co. paper](the-backpropagation-mechanism.md#references) in 1986.
 
@@ -22,13 +22,13 @@ The notes here will follow both the original paper cited above and [this very he
 
 Let's consider the transmission of information to a neuron$$k$$in the $$l$$-th layer, we will use$$i$$to indicate an input and$$o$$to indicate an output, and will make use of this note to factor the bias inside the transfer function as a further weight. 
 
-The neuron receives input from all the neurons in the previous, $$l-1$$-th layer as a weighted combination of their outputs as per activation function:
+The neuron receives input from all the neurons in the previous,$$l-1$$-th layer as a weighted combination of their outputs as per activation function:
 
 $$
 i_k^l = \sum_i o_i^{l-1} w_{ik}^{l-1,l}
 $$
 
-where the apex indicates the layer we are referring to. Note that the weight $$w_{ik}^{l-1,l}$$ is meant to represent the weight of the connection between neuron$$i$$in layer$$l-1$$and our reference neuron$$k$$in layer $$l$$ .
+where the apex indicates the layer we are referring to. Note that the weight $$w_{ik}^{l-1,l}$$ is meant to represent the weight of the connection between neuron$$i$$in layer$$l-1$$and our reference neuron$$k$$in layer$$l$$ .
 
 As per output function, the output of$$k$$is \(using a sigmoid output function as per tradition, this will prove to be a very convenient choice later on\):
 

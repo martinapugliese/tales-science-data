@@ -1,6 +1,6 @@
 # Intro
 
-Topic models are statistical techniques used in NLP to discover the "topics" in a collection of documents. The basic idea is that words related to a topic will appear frequently in documents about that topic. There are several of these techniques, all stemming from this same basic idea and all based on algebraic manipulations of matrices where text features are encoded.
+Topic models are statistical techniques used in NLP to discover the "topics" in a collection of documents. The basic idea is that words related to a topic will appear frequently in documents about that topic. There are several of these techniques, all originating from this same basic idea and all based on algebraic manipulations of matrices where text features are encoded.
 
 The first paper which introduced the ideas behind these methods dates back from 1990 \(see [Deerwester](intro.md#references)\) and introduces a technique called _Latent Semantic Analysis_ which works on features extracted from text \(for instance tf-idf values by identifying subspaces of features with most variance, then resumed in [Papadimitriou et al](intro.md#references). In 1999, another [paper](intro.md#references) was published which was an extension/improvement of the first one \(_Probabilistic Latent Semantic Indexing_\) and in 2003 the [paper](intro.md#references) about _Latent Dirichlet Allocation_ came out, which is the simplest proper topic model. All three techniques are described in the notebooks of these folder.
 

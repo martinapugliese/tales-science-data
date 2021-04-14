@@ -4,7 +4,7 @@
 
 ![The parse tree for sentence &quot;John hit the ball&quot;.](../../.gitbook/assets/parse.jpg)
 
- Parsing is the process of separating the syntactical structure of a sentence into the hierarchical relationships of the components. The structure determines a tree with a root which is the whole sentence level and then the more you go down the more granular it gets. A parser is a program that uses a [CFG](../concepts-tasks/notions-linguistics.ipynb#Context-free-grammar) to generate such tree. What is does is searching in the space of trees allowed by the grammar to select the one which fits the sentence under scrutiny. There are different types of parsers.
+ Parsing is the process of separating the syntactical structure of a sentence into the hierarchical relationships of the components. The structure determines a tree with a root which is the whole sentence level and then the more you go down the more granular it gets. A parser is a program that uses a [CFG](../general-concepts-and-tasks-in-nlp/some-concepts-and-basic-tasks-in-linguistics.md#context-free-grammar) to generate such tree. What it does is searching in the space of trees allowed by the grammar to select the one which fits the sentence under scrutiny. There are different types of parsers.
 
 ### Types of parsers
 

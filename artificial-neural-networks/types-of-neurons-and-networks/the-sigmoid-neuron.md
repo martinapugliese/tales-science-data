@@ -8,7 +8,7 @@ Most of the material in this notebook has been re-elaborated from the great [boo
 
 A sigmoid neuron \(sometimes called _logistic neuron_\) is one which has three main differences with respect to a perceptron \(see page\):
 
-* it allows for non-binary input values, which means the values $$(x_1, x_2, \ldots, x_n)$$ with which it is fed are real numbers between 0 and 1;
+* it allows for non-binary input values, which means the values$$(x_1, x_2, \ldots, x_n)$$ with which it is fed are real numbers between 0 and 1;
 * its output function is not a step but a sigmoid \(logistic function\);
 * as a consequence, the output is also non binary but real
 

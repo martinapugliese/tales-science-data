@@ -8,10 +8,10 @@ It is a technique mostly used in NLP, that is, for text, but not only. Apart fro
 
 ## How it works
 
-Given words indexed in a vocabulary $${1, \ldots, V}$$,
+Given words indexed in a vocabulary$${1, \ldots, V}$$,
 
-* represent _words_ as vectors with the only component equal to 1 being the one at the word index, that is, such that $$w^i = 1$$ for word i in the vocabulary and $$w^j = 0$$ for all the rest of words
-* represent _documents_ as sequences of N words $$\bar w = (w_1, \ldots, w_N)$$ so that$$w_i$$is the i-th word in it 
+* represent _words_ as vectors with the only component equal to 1 being the one at the word index, that is, such that$$w^i = 1$$for word i in the vocabulary and$$w^j = 0$$for all the rest of words
+* represent _documents_ as sequences of N words $$\bar w = (w_1, \ldots, w_N)$$so that$$w_i$$is the i-th word in it 
 * represent a _corpus_ as a collection of M documents$$D = { \bar w_1, \ldots, \bar w_M }$$ 
 
 We look for a probabilistic model that assigns high probability to members of the corpus and also to other similar documents; the LDA is a generative model of a corpus, based on the idea that documents are random mixtures over latent topics and topics are distributions over words.
@@ -20,9 +20,9 @@ We look for a probabilistic model that assigns high probability to members of th
 
 For each document$$\bar w \in D$$, the following generative process is assumed \(see the linked page for the distributions mentioned\):
 
-1. Choose N from a Poisson distribution $$P(\xi)$$ \(other assumptions are allowed\)
-2. Choose $$\theta$$ from a Dirichlet distribution $$D(\alpha)$$ 
-3. For each of the N words $$w_i$$, 
+1. Choose N from a Poisson distribution$$P(\xi)$$\(other assumptions are allowed\)
+2. Choose $$\theta$$ from a Dirichlet distribution$$D(\alpha)$$ 
+3. For each of the N words$$w_i$$, 
    * Choose a topic $$c_i$$ from a Multinomial distribution$$M(\theta)$$ 
    * Choose a word$$w_i$$from$$P(w_i | c_i, \beta)$$, a multinomial conditioned on topic $$c_i$$ 
 
@@ -42,7 +42,7 @@ $$
 P(\theta, \bar c, \bar w | \alpha, \beta) = P(\theta | \alpha) \Pi_{i=1}^N P(c_i | \theta) P(w_i | c_i, \beta) \ ,
 $$
 
-where the first is the joint distribution of topic mixture$$\theta$$, set of N topics $$\bar c$$ and N words$$\bar w$$; $$P(c_i | \theta)$$ is equal to$$\theta_j$$for the unique j such that$$c_i^j=1$$.
+where the first is the joint distribution of topic mixture$$\theta$$, set of N topics $$\bar c$$ and N words$$\bar w$$;$$P(c_i | \theta)$$is equal to$$\theta_j$$for the unique j such that$$c_i^j=1$$.
 
 Integrating over$$\theta$$and summing over the topics, we get the marginal distribution of a document
 

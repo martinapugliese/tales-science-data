@@ -87,17 +87,17 @@ print('First sentence in BoW: ', s3_bow)
 
 TF-IDF stands for _term frequency - inverse document frequency_ and it is an improvement over the BoW model.
 
-There are two main ingredients in the framework. Suppose we are considering a word \(or _term_\)$$t$$and its presence in a set of documents \(texts\) $$D = {d}$$ \(corpus\). We have:
+There are two main ingredients in the framework. Suppose we are considering a word \(or _term_\)$$t$$and its presence in a set of documents \(texts\)$$D = {d}$$\(corpus\). We have:
 
 * the _term frequency_ $$tf(t)$$ : a function of the number of times $$t$$ appears in a document$$d$$, quantifies the relevance of$$t$$in$$d$$ 
 * the _inverse document frequency_ $$idf(d, D)$$: an inverse function of the number of documents in the corpus in which$$t$$appears, it quantifies how spread$$t$$is across$$D$$, so that it will be used to scale down words which are very frequent across the texts
 
-The idea behind the $$idf$$ is that words which are very common in the whole corpus \(say articles, for instance\) carry little specific information and need to be weighted down.
+The idea behind the$$idf$$is that words which are very common in the whole corpus \(say articles, for instance\) carry little specific information and need to be weighted down.
 
 The TF-IDF is given as the product of these two components:
 
 $$
-tf-idf(t, d, D) = tf(t, d) \cdot idf(t, D)
+tf \ idf(t, d, D) = tf(t, d) \cdot idf(t, D)
 $$
 
 The term frequency$$tf$$can be given as either of:
@@ -107,13 +107,13 @@ The term frequency$$tf$$can be given as either of:
 3. log-scaled frequency$$1 + \log(f_{t, d})$$or 0 if$$t \not \in d$$
 4. augmented frequency: $$\frac{f{t, d}}{\max{f{t',d'} : t'\in D}}$$ \(the augmentation is intended as the division by the max of the raw frequencies in the document, so that we control for the bias towards very frequent words in a text\)
 
-The inverse document frequency $$idf$$ \(see the [third reference](text-as-numerical-features.md#references) for the original idea of scaling down words by their presence in the corpus\) is given as
+The inverse document frequency$$idf$$\(see the [third reference](text-as-numerical-features.md#references) for the original idea of scaling down words by their presence in the corpus\) is given as
 
 $$
 idf(t, D) = \log \left[ \frac{\left|D\right|}{\left|\{d \in D: t \in d\}\right|} \right] \ ,
 $$
 
-but typically a 1 is added at the denominator to control for those cases where term does not exist in document so it is zero. So the $$idf$$ is the logarithm of ratio of the total number of document in corpus and the number of documents containing the term.
+but typically a 1 is added at the denominator to control for those cases where term does not exist in document so it is zero. So the$$idf$$is the logarithm of ratio of the total number of document in corpus and the number of documents containing the term.
 
 The probabilistic interpretation of this choice \(see [Wikipedia](text-as-numerical-features.md#references)\) is given by the fact that the probability that a given document$$d$$contains term$$t$$is written as
 
@@ -121,7 +121,7 @@ $$
 P(t | d) = \frac{\left|\{d \in D: t \in d\}\right|}{\left|D\right|} \ ,
 $$
 
-so that the$$idf$$contains the inverse of this probability. Furthermore, the choice of a logarithm is a natural one in Information Retrieval, where scoring function are sought to be additive, and also because of the [Zipf's law](https://en.wikipedia.org/wiki/Zipf%27s_law) \(see the [fifth reference](text-as-numerical-features.md#references)\).
+so that the$$idf$$is a function of the inverse of this probability. Furthermore, the choice of a logarithm is a natural one in Information Retrieval, where scoring function are sought to be additive, and also because of the [Zipf's law](https://en.wikipedia.org/wiki/Zipf%27s_law) \(see the [fifth reference](text-as-numerical-features.md#references)\).
 
 $$
 idf(t, D) = -\log(P(t | d))

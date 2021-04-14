@@ -86,7 +86,7 @@ An **hapax legomenon** is a word or expression which appears only once in a text
 
 ### Hypernyms & Hyponyms
 
-An word $$w_1$$ is a **hypernym** of another word$$w_2$$if$$w_2$$ is a kind of$$w_1$$, that is, if there is a downward hierarchical relation from$$w_1$$to$$w_2$$.
+An word$$w_1$$is a **hypernym** of another word$$w_2$$if$$w_2$$is a kind of$$w_1$$, that is, if there is a downward hierarchical relation from$$w_1$$to$$w_2$$.
 
 _Examples_:
 

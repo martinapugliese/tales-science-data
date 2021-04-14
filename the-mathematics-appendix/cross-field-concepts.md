@@ -56,7 +56,7 @@ $$
 
 which at the denominator has the weighted geometric mean of the $$p_i$$.
 
-* If all types are equally occupied,$$p_i = 1/k  \forall i$$, then$$H = log(k)$$ \(H max\)
+* If all types are equally occupied,$$p_i = 1/k  \ \forall i$$, then$$H = log(k)$$ \(H max\)
 * If only one type is present$$p_i = 0  \forall i \in {1, \ldots, n-1}$$and$$p_n = 1$$ , then H=0
 
 ## Cross-entropy and Kullback-Leibler divergence
