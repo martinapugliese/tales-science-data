@@ -22,11 +22,20 @@ A stack is a data structure where you put elements in one on top of the other an
 
 A queue is similar, but uses the FIFO philosophy: "first in first out", basically elements come out from the other end than the one you've inserted them in.
 
-## Graphs
+## Graphs \(and trees, and heaps\)
 
-Graphs have nodes and connections between them which determine their relation. There is a whole branch of mathematics devoted to their study \(graph theory\). A tree is a special type of graph where there is a clear relation between a parent node and a child node, so no cycles appear \(there are hierarchical relations\).
+Graphs have nodes and connections between them which determine their relation. There is a whole branch of mathematics devoted to their study \(graph theory\). 
 
-There are several subtypes of graphs, identified by their main characteristics.
+A _tree_ is a special type of graph where there is a clear relation between a parent node and a child node, so no cycles appear \(there are hierarchical relations\).
+
+There are several subtypes of graphs, identified by their main characteristics, e.g. binary graphs \(trees\) are those where each node as at most 2 children nodes.
+
+A _heap_ is a type of tree structure where data is stored in a way that a parent node either:
+
+* always contains values greater than its children nodes \(_max heap_\), so that the root node is the maximum
+* always contains values smaller than its children nodes \(_min heap_\), so that the root node is the minimum
+
+These features make heaps data structures that are partially ordered \(the ordering is in the vertical direction, not in the horizontal one\). In a binary heap  where each node has 2 children nodes, because at level$$x $$there are$$2^x$$nodes - this means that the length of a binary heap with$$n$$nodes is $$\log_2 n$$.
 
 ## Objects
 
