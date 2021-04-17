@@ -272,7 +272,7 @@ $$
 p(x) = A x^{-\alpha} \ ,
 $$
 
-where $$A$$ is the normalisation constant.
+where$$A$$is the normalisation constant.
 
 We put a minus sign in front of the exponent \(with respect to what we wrote above for a generic power-law function\) as we're thinking of a decreasing relation.
 
@@ -284,7 +284,7 @@ $$
 \begin{align} 1 &= \int_{x_{min}}^\infty p(x) \text{d} x \\ &= A \int_{x_{min}}^\infty x^{-\alpha} \text{d} x \\ &= \frac{A}{-\alpha + 1} \Big[x^{-\alpha + 1}\Big]_{x_{min}}^\infty \\ \end{align}
 $$
 
-which is only non-diverging when $$\alpha>1$$. From here, the normalisation constant is $$A=(\alpha-1)\ x_{min}^{\alpha-1}$$.
+which is only non-diverging when$$\alpha>1$$. From here, the normalisation constant is$$A=(\alpha-1)\ x_{min}^{\alpha-1}$$.
 
 #### Where you find them <a id="Where-you-find-them"></a>
 
