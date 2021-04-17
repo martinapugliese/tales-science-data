@@ -154,7 +154,7 @@ The binary classification case would just be a special case of this so we though
 
 ### Precision and specificity
 
-The precision, referred to a class, is defined as
+The precision, referred to a class, is defined as:
 
 $$
 p = \frac{TP}{TP + FP} \ ,
@@ -235,7 +235,7 @@ $$
 a = \frac{\sum_c^C TP_c}{N} \ ,
 $$
 
-and measures the total number of correct predictions over the total of data points \(N is the total of points and the sum runs over the classes, summing the counts of true positives in each\). It would be the first thing which comes to mind \(I mean, the simplest thing to do\) when assessing a classifier's performance and indeed gives insight on how good it is to class points. But, its weak spot is that it gives no insight on the difference between the two types of errors: false positives and false negatives, treating them on the same ground. Plus it hides all information on which classes is doing better/worse.
+and measures the total number of correct predictions over the total of data points \(N is the total of points and the sum runs over the classes, summing the counts of true positives in each\). It would be the first thing which comes to mind \(the simplest thing to do\) when assessing a classifier's performance and indeed gives insight on how good it is to class points. But, its weak spot is that it gives no insight on the difference between the two types of errors: false positives and false negatives, treating them on the same ground. Plus it hides all information on which classes is doing better/worse.
 
 ```python
 accuracy_score(y_test, y_pred)
@@ -264,4 +264,5 @@ $$
 
 1. A nice detailed [document](http://www.clips.uantwerpen.be/~vincent/pdf/microaverage.pdf) on classification metrics from the University of Antwerp
 2. [Wikipedia](https://en.wikipedia.org/wiki/Precision_and_recall) on precision and recall
+3. G Varoquaux, [**Understanding and diagnosing your machine-learning models**](http://gael-varoquaux.info/interpreting_ml_tuto/content/01_how_well/01_metrics.html#classification-settings) \(classification setting\)
 

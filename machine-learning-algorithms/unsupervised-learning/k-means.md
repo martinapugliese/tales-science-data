@@ -18,7 +18,7 @@ from scipy.spatial.distance import euclidean
 
 ## How it works
 
-The K-means clustering algorithm needs you, the user, to choose$$K$$, which is the number of clusters you want to end up with. It is the fastest of the clustering methods and it always converges, though it may do to a local minimum.
+The k-means clustering algorithm needs you, the user, to choose$$K$$, which is the number of clusters you want to end up with. It is the fastest of the clustering methods and it always converges, though it may do to a local minimum.
 
 ![](../../.gitbook/assets/kmeans.jpg) 
 
@@ -34,7 +34,7 @@ In this horrible figure I did above,$$K$$is two and the red crosses indicate the
 
 ## The standard algorithm
 
-The standard$$K$$-means algorithm is [that of Lloyds](k-means.md#references) \(dated 1957, was only published outside of Bell Labs in 1982\).
+The standard k-means algorithm is [that of Lloyds](k-means.md#references) \(dated 1957, was only published outside of Bell Labs in 1982\).
 
 In short, the algorithms starts by initialising the$$K$$centroids with points picked randomly from the sample. It then proceeds iteratively, until convergence, through steps called
 
@@ -57,7 +57,7 @@ $$
 \boxed{c = \sum_{k=1}^K \frac{1}{2n_k} d_k} \ .
 $$
 
-To expand on the above,$$n_k$$is the number of points in cluster $$\mathcal{C}_k$$ identified by index$$k$$, with $$k \in {1, \ldots, K}$$ , and $$d_k$$ is the sum of distances within the cluster:
+To expand on the above,$$n_k$$is the number of points in cluster $$\mathcal{C}_k$$ identified by index$$k$$, with $$k \in {1, \ldots, K}$$, and $$d_k$$ is the sum of distances within the cluster:
 
 $$
 d_k = \sum_{\mathbf{x} \in \mathcal{C}_k} \sum_{\mathbf{y} \in \mathcal{C}_k} || \mathbf{x} - \mathbf{y} ||^2 \ ,
@@ -71,7 +71,7 @@ $$
 
 #### **Proof**
 
-By definition, we have \($$\mu_k$$ is the centroid of $$\mathcal{C}_k$$\)
+By definition, we have \($$\mu_k$$is the centroid of$$\mathcal{C}_k$$\)
 
 $$
 \mathbf{\mu}_k = \frac{\sum_{\mathbf{x} \in \mathcal{C}_k} \mathbf{x}}{n_k}
@@ -79,7 +79,7 @@ $$
 
 because each component of$$\mathbf{\mu}_k$$is the mean of the corresponding components of the points in the cluster.
 
-The first member is \(we use the fact, in the second line, that $$\sum_{\mathbf{x}} 1 = n_k$$\):
+The first member is \(we use the fact, in the second line, that$$\sum_{\mathbf{x}} 1 = n_k$$\):
 
 $$
 \begin{align}
@@ -110,13 +110,13 @@ There can be \(at least\) three ways: one rule of thumb, one heuristic and one m
 
 ### The rule of thumb
 
-The _rule of thumb_ method suggests choosing $$k \sim \sqrt{n/2}$$. This is a \(very\) hand-waving method, and gives an "approximate" clustering \(it typically gives too many clusters\). The justification behind it comes from the fact that it runs in linear time so it really should only be taken as an indication when wanting to reduce dataset size.
+The _rule of thumb_ method suggests choosing $$K \sim \sqrt{n/2}$$. This is a \(very\) hand-waving method, and gives an "approximate" clustering \(it typically gives too many clusters\). The justification behind it comes from the fact that it runs in linear time so it really should only be taken as an indication when wanting to reduce dataset size.
 
 ### The elbow method
 
 The _elbow method_ is a heuristic method consisting in looking at when adding a new cluster does not model the data any better.
 
-By plotting$$W$$as a function of$$k$$, it should be clear where the contribution of another cluster gives minimal further gain \(the "elbow" point of the curve\). It is clear that the choice of this point is kind of subjective anyway, as it depends on the situation and on the what we, in that situation, consider a minimal further gain not worth pursuing.
+By plotting$$W$$as a function of$$K$$, it should be clear where the contribution of another cluster gives minimal further gain \(the "elbow" point of the curve\). It is clear that the choice of this point is kind of subjective anyway, as it depends on the situation and on the what we, in that situation, consider a minimal further gain not worth pursuing.
 
 See the [reference about Stack Overflow](k-means.md#references) for a computational answer.
 
