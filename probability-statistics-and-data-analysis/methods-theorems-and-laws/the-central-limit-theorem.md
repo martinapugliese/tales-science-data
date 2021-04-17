@@ -1,4 +1,4 @@
-# The Central Limit Theorem
+# The central limit theorem
 
 ## The gist of it
 

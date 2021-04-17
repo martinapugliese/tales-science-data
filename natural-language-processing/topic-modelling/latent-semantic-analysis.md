@@ -1,4 +1,4 @@
-# Latent Semantic Analysis
+# Latent semantic analysis
 
 ## What is in a nutshell
 

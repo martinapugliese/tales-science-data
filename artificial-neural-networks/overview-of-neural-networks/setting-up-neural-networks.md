@@ -1,4 +1,4 @@
-# Setting up Neural Networks
+# Setting up neural networks
 
 The way neural networks get set up changes the way they perform. Note that in general these algorithms have lots of parameters \(all the weights and biases\) and it's well known that with lots of parameters you can fit everything. Overfitting is a very common problem with neural networks. The discussion here loosely follows the brilliant chapter 2 of the wonderful [Nielsen's book](setting-up-neural-networks.md#references).
 
@@ -10,7 +10,7 @@ $$
 C \propto (y-f(wx+b))^2 \ ,
 $$
 
-$$f$$being the network prediction and$$y$$the actual value, has derivatives $$\frac{\partial C}{\partial w} \propto (y-f) f' x$$and$$\frac{\partial C}{\partial b} \propto  (y-f)f'$$. Now, with sigmoid neurons we have the derivative of the sigmoid which is very small when the output if close to 1, as the curve flattens, and this makes the learning quite slow.
+$$f$$being the network prediction and$$y$$the actual value, has derivatives$$\frac{\partial C}{\partial w} \propto (y-f) f' x$$and$$\frac{\partial C}{\partial b} \propto  (y-f)f'$$. Now, with sigmoid neurons we have the derivative of the sigmoid which is very small when the output if close to 1, as the curve flattens, and this makes the learning quite slow.
 
 A typical way to do better on this is to use a different cost function. A choice can be the cross-entropy,
 

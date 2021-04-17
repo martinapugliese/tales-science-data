@@ -1,4 +1,4 @@
-# Deep Neural Networks
+# Deep neural networks
 
 Deep neural networks are those with multiple hidden layers. They are super-powerful beasts in that they allow us to solve very complicated problems with astonishing performance results, but also quite delicate due to their nature, so some care has to be taken to set them up in the best possible way.
 

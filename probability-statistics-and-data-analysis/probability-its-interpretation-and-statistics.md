@@ -1,4 +1,4 @@
-# Probability, its interpretation, and Statistics
+# Probability, its interpretation, and statistics
 
 _Just an introduction over the main concepts: what are probability and statistics?_ 
 

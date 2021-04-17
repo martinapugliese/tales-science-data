@@ -1,4 +1,4 @@
-# Feature Selection Techniques
+# Feature selection techniques
 
 ## Subset selection methods
 

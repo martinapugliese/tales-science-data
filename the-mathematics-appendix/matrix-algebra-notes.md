@@ -1,4 +1,4 @@
-# Matrix Algebra notes
+# Matrix algebra notes
 
 Capital letters, like$$A$$, indicate matrices.
 

@@ -1,4 +1,4 @@
-# Logistic Regression
+# Logistic regression
 
 For the code here, you need a few imports:
 

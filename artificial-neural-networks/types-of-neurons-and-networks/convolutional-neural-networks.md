@@ -1,4 +1,4 @@
-# Convolutional Neural Networks
+# Convolutional neural networks
 
 Convolutional neural networks \(aka _CNNs_\) are networks such that they are not fully connected: not every neuron is connected to every other one. They are usually built as deep networks \(see page\). These types of networks are particularly suited for working on _images_ data as you can map regions of the image to specific neurons. Their architecture is indeed specifically designed to deal with image input data, and in fact neurons are arranges to follow the geometrical distributions of images data: there are the width and height dimensions, plus the one for the colour channel. The reason to build convolutional networks \(whose specifics follow here\) to deal with images is that "regular" fully connected nets would not replicate the geometry of the input data and would, more importantly, need too many parameters to be trained with success in a typical case.
 

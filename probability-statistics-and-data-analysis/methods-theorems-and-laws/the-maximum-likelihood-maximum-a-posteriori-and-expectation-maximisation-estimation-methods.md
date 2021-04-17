@@ -1,8 +1,8 @@
-# The Maximum Likelihood, Maximum a Posteriori and Expectation-maximisation estimation methods
+# The maximum likelihood, maximum a posteriori and expectation-maximisation estimation methods
 
 ## The Likelihood
 
-Imagine you have a statistical model, that is, a mathematical description of your data which depends on some parameters$$\theta$$. The _likelihood function_, usually indicated as$$\mathcal L$$, is a function of these parameters and represents the probability of observing evidence \(observed data\) $$E$$ given said parameters:
+Imagine you have a statistical model, that is, a mathematical description of your data which depends on some parameters$$\theta$$. The _likelihood function_, usually indicated as$$\mathcal L$$, is a function of these parameters and represents the probability of observing evidence \(observed data\)$$E$$given said parameters:
 
 $$
 \mathcal{L} = P(E \ | \  \theta)
@@ -14,7 +14,7 @@ $$
 \mathcal{L}(\theta \  | \ E) = P(E \ | \  \theta)
 $$
 
-The difference between _probability_ and _likelihood_ is quite subtle in that in common language they are be casually swapped, but they represent different things. The probability measures the outcomes observed as a function of the parameters $$\theta$$ of the underlying model. But in reality $$\theta$$ are unknown and in fact, we go through the reverse process: estimating the parameters given the evidence we observe. For this, we use the likelihood, which is defined as above because we maximise it in such a way to respond to the equality above. This is exactly what the ML estimation does, as per below.
+The difference between _probability_ and _likelihood_ is quite subtle in that in common language they are be casually swapped, but they represent different things. The probability measures the outcomes observed as a function of the parameters$$\theta$$of the underlying model. But in reality$$\theta$$are unknown and in fact, we go through the reverse process: estimating the parameters given the evidence we observe. For this, we use the likelihood, which is defined as above because we maximise it in such a way to respond to the equality above. This is exactly what the ML estimation does, as per below.
 
 Bear in mind that the likelihood is a function of $$\theta$$.
 
@@ -30,7 +30,7 @@ Refer to the page about distributions
 
 {% page-ref page="../foundational-concepts-on-distribution-and-measures/some-of-the-most-famous-distributions.md" %}
 
-The likelihood function for a Bernoulli distribution \( $$x_i \in {0, 1}$$ \) is, for parameter $$p$$ :
+The likelihood function for a Bernoulli distribution \($$x_i \in {0, 1}$$\) is, for parameter $$p$$ :
 
 $$
 \begin{align} \mathcal{L}(x_1, x_2, \ldots, x_n  |  p) &= P(X_1 = x_1, X_2 = x_2, \ldots, X_n = x_n  |  p) \\ &= p^{x_1}(1-p)^{1-x_1} \cdot \ldots \cdot p^{x_n}(1-p)^{1-x_n} \\ &= p^{\sum_i x_i}(1-p)^{\sum_i(1-x_i)} \\ &= p^{\sum_i x_i}(1-p)^{n -\sum_i x_i} \end{align}
@@ -62,7 +62,7 @@ $$
 
 ### Example: estimating the best mean of some data
 
-This example is reported from [here](the-maximum-likelihood-maximum-a-posteriori-and-expectation-maximisation-estimation-methods.md#references). Let us assume we know the weights of women are normally distributed with a mean $$\mu$$ and standard deviation $$\sigma$$. A random sample of 10 women gives measurements \(in pounds\):
+This example is reported from [here](the-maximum-likelihood-maximum-a-posteriori-and-expectation-maximisation-estimation-methods.md#references). Let us assume we know the weights of women are normally distributed with a mean$$\mu$$and standard deviation$$\sigma$$. A random sample of 10 women gives measurements \(in pounds\):
 
 $$
 115, 122, 130, 124, 149, 160, 152, 138, 149, 180
@@ -100,7 +100,7 @@ $$
 \mu = \frac{\sum_i x_i}{n}
 $$
 
-and so the maximum likelihood estimate for a given sample is 142.2 and we can could do the same to estimate $$\sigma$$ , obtaining \(can be proven through second derivative that it is a maximum\)
+and so the maximum likelihood estimate for a given sample is 142.2 and we can could do the same to estimate$$\sigma$$, obtaining \(can be proven through second derivative that it is a maximum\)
 
 $$
 \sigma^2 = \frac{\sum_i (x_i - \mu)^2}{n}
@@ -116,7 +116,7 @@ $$
 P(\theta \ | \ x) = \frac{P(x \ | \ \theta) P(\theta)}{\int d \theta' P(x \ | \ \theta') P(\theta')} \ ,
 $$
 
-with $$\theta$$ being the parameters of the statistical model and $$x$$ the observed data. The MAP method estimates $$\theta$$ as the one which maximises the posterior; note that the denominator is just a normalisation factor:
+with$$\theta$$being the parameters of the statistical model and$$x$$the observed data. The MAP method estimates$$\theta$$as the one which maximises the posterior; note that the denominator is just a normalisation factor:
 
 $$
 \hat{\theta}_{MAP}(x) = arg \max_\theta P(\theta \  | \  x) = arg \max_\theta P(x \ | \ \theta) P(\theta) \ .
@@ -142,25 +142,25 @@ While the ML method can be seen as responding to a frequentist approach, the MAP
 
 The EM algorithm can be used to find the solution of MLE or MAP when some data is missing, meaning there are some latent variables not observed.
 
-Let's say that for the random variable $$x$$ we have the $$n$$ observations
+Let's say that for the random variable$$x$$we have the$$n$$observations
 
 $$
 x_1, \ldots, x_n \ ,
 $$
 
-which depend on parameters $$\theta$$ , and that the goal is to find the parameter $$\theta$$ that maximises the likelihood which is of the form
+which depend on parameters$$\theta$$, and that the goal is to find the parameter$$\theta$$that maximises the likelihood which is of the form
 
 $$
 L = \sum_z P_\theta(x, z) \ ,
 $$
 
-meaning it is a sum over the latent variables $$z$$ ; this makes the problem difficult to solve analytically.
+meaning it is a sum over the latent variables$$z$$; this makes the problem difficult to solve analytically.
 
 The EM algorithm updates the parameters in steps, which means it risks obtaining a local rather than a global maximum.
 
 ### The E step
 
-In the E phase \(time $$t$$ \), the expected value of $$L$$ is computed with respect to the conditional distribution of $$z$$ given $$x$$ under the current estimate of parameters $$\theta$$ :
+In the E phase \(time $$t$$\), the expected value of$$L$$is computed with respect to the conditional distribution of$$z$$given$$x$$under the current estimate of parameters$$\theta$$ :
 
 $$
 \bar L(\theta | \theta^t) = \mathbb E_{z | x, \theta^t} [\log L (\theta, x)]
@@ -170,7 +170,7 @@ This means that the log-likelihood is evaluated using the current state of the p
 
 ### The M step
 
-In the M phase \(time $$t+1$$ \), we find the parameters which maximises the log-likelihood found in the E step:
+In the M phase \(time $$t+1$$\), we find the parameters which maximises the log-likelihood found in the E step:
 
 $$
 \theta^{t+1} = arg \max_{\theta} \bar L(\theta | \theta^t)

@@ -1,4 +1,4 @@
-# Object Detection without ANNs
+# Object detection without ANNs
 
 Object detection is the set of methodologies aimed at instructing a machine to understand if there is something in the image and where it is. These days Deep Learning approaches are the state-of-the-art silver bullets for these types of tasks, however the approaches described here are nevertheless brilliant and still useful in many cases.
 

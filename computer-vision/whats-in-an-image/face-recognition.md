@@ -1,4 +1,4 @@
-# Face Recognition
+# Face recognition
 
 ## What do we mean
 

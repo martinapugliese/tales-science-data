@@ -1,4 +1,4 @@
-# ANOVA: Analysis of Variance
+# ANOVA: analysis of variance
 
 ANOVA \(Analysis of Variance\) is a method proposed by Fisher in the late '10s of the twentieth century to analyse differences among means and variations in sets of data, the idea being that of separating the variance into components for each source of variation. It is a generalisation of the t-test to more than 2 groups and it follows the same logics: a result is called significant if it is proven to be unlikely to have occurred by chance; the null hypothesis being that all groups are random samples of the same population, so that their means are equal. ANOVA is cheaper to run than multiple t-tests and also more reliable.
 

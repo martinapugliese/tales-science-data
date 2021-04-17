@@ -1,4 +1,4 @@
-# Support Vector Machine
+# Support vector machine
 
 ## What is
 

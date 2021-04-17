@@ -1,4 +1,4 @@
-# Information Extraction
+# Information extraction
 
 _Information extraction_, a part of _information retrieval_, deals with the automatic extraction of structured information from unstructured data in the form of text, trying to get the meaning out of it. It is composed of several tasks. Examples are the recognition of certain words as entity names, like names of places, brands, or temporal expressions.
 

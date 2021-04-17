@@ -1,4 +1,4 @@
-# A Learning Machine
+# A learning machine
 
 _**DRAFT PAGE**_
 

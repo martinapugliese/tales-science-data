@@ -1,4 +1,4 @@
-# Gradient Boosting
+# Gradient boosting
 
 ## What is and the idea
 

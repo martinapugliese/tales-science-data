@@ -1,4 +1,4 @@
-# Overfitting & Underfitting
+# Overfitting and underfitting
 
 ## Overfitting
 

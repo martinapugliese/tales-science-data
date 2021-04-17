@@ -1,4 +1,4 @@
-# Decision Trees
+# Decision trees
 
 A decision tree builds \(like, literally\) a tree of decisions where at each split a decision is taken and is an algorithm which can be used both in regression and in classification problems.
 

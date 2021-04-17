@@ -4,9 +4,13 @@ _This section reports some bird's-eye notes about architecture & programming mod
 
 ## Contents
 
+{% page-ref page="computational-models-and-algorithmic-complexity.md" %}
+
 {% page-ref page="computer-architecture-and-programming-languages.md" %}
 
-{% page-ref page="computational-models-and-algorithmic-complexity.md" %}
+{% page-ref page="main-data-structures.md" %}
+
+{% page-ref page="algorithmic-efficiency.md" %}
 
 
 

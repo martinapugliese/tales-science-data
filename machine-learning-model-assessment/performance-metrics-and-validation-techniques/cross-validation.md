@@ -1,4 +1,4 @@
-# Cross-Validation
+# Cross-validation
 
 ## What do you do in cross-validation?
 

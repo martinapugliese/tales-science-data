@@ -1,4 +1,4 @@
-# Latent Dirichlet Allocation
+# Latent Dirichlet allocation
 
 ## What is
 

@@ -1,4 +1,4 @@
-# Random Forest
+# Random forest
 
 ## What is
 

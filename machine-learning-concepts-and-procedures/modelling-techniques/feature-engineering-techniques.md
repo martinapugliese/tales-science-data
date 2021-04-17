@@ -1,4 +1,4 @@
-# Feature Engineering Techniques
+# Feature engineering techniques
 
 ## Feature Hashing
 

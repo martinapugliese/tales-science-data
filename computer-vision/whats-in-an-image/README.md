@@ -14,3 +14,7 @@ You can find the code in this part [**here**](https://nbviewer.jupyter.org/githu
 
 {% page-ref page="object-detection-without-neural-networks.md" %}
 
+{% page-ref page="object-detection-with-anns.md" %}
+
+
+

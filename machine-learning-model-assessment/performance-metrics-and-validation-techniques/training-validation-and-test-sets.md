@@ -1,4 +1,4 @@
-# Training, Validation and Test sets
+# Training, validation and test sets
 
 When you have a task and want to evaluate a collection of models to eventually select the best-performing one, the way to go is to divide the original dataset into three parts:
 

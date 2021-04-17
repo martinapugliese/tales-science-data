@@ -1,4 +1,4 @@
-# Linear Regression
+# Linear regression
 
 ## What is it
 

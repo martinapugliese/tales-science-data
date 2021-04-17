@@ -1,4 +1,4 @@
-# Beautiful Web of Data Science
+# Beautiful web of data science
 
 _The web is a beautiful place, you can learn so much on it, for free. This document puts together some resources on \(or related to\) data science which are absolutely brilliant. We also list books, which might not be freely available, but that are definitely worth having._
 

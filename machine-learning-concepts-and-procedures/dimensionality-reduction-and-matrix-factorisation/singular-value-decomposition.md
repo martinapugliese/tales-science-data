@@ -1,4 +1,4 @@
-# Singular Value Decomposition
+# Singular value decomposition
 
 ## What is
 

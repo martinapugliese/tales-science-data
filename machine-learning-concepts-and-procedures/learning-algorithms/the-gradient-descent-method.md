@@ -1,4 +1,4 @@
-# The Gradient Descent method
+# The gradient descent method
 
 The Gradient Descent is a general mathematical optimisation method used to minimise functions in the form of a sum:
 

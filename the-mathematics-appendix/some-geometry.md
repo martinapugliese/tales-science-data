@@ -1,4 +1,4 @@
-# Some Geometry
+# Some geometry
 
 ## Voronoi tasselation
 

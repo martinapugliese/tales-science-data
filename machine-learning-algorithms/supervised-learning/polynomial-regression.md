@@ -1,4 +1,4 @@
-# Polynomial Regression
+# Polynomial regression
 
 A polynomial regression wants to model a non-linear, polynomial relationship within the data. It can be just reduced to a linear regression via variable substitution, reducing the features to linear ones. A generic polynomial model is
 

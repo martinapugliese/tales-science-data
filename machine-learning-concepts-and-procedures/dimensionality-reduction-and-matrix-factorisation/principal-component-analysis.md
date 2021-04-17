@@ -1,4 +1,4 @@
-# Principal Component Analysis
+# Principal component analysis
 
 Principal Component Analysis \(PCA\), whose original and pioneering paper is in [the references](principal-component-analysis.md#references), is a method for dimensionality reduction whose aim is to change the coordinate system via a linear transformation and switch to a new set of coordinates which explain most \(not all\) of the variance in the original dataset.
 

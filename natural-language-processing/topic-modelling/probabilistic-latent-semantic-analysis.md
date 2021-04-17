@@ -1,4 +1,4 @@
-# Probabilistic Latent Semantic Analysis
+# Probabilistic latent semantic analysis
 
 ## What is it and how it works
 

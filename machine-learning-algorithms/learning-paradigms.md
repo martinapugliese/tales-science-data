@@ -1,4 +1,6 @@
-# Learning paradigms
+---
+description: TODO
+---
 
-**DRAFT**
+# Learning paradigms
 

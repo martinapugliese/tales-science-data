@@ -1,4 +1,4 @@
-# Artificial Neural Networks in a nutshell
+# Artificial neural networks in a nutshell
 
 ## The gist of what they are
 
