@@ -18,8 +18,6 @@ Following [the first reference](artificial-neural-networks-in-a-nutshell.md#refe
 
 ## Artificial neurons and how they work
 
- 
-
 ![](../../.gitbook/assets/ann.jpg)
 
 This here in this figure is the generic and schematic model of an artificial neuron. Several input data$$(x_1, \ldots, x_n)$$are streamed into the neuron and a _transfer function_ \(which we indicate with$$f$$, note that it can also be called _activation function_\) combines them with weights$$(w_1, w_2, \ldots, w_n)$$\(usually in a linear combination\) to determine what the neuron computes. Then an _output function_ spits an output of the neuron based on a threshold$$t$$the neuron is equipped with.
@@ -42,7 +40,7 @@ Each layer can be composed of however many neurons you wish. This means that if 
 
 In much the same way as the transfer function uses a combination of weighted inputs into a neuron, the input to any neuron in a certain layer is a weighted sum of all outputs of the neurons of the previous layer. The way learning is evaluted is through a _loss function_ of the network, which is a way of telling whether its output matches the ground truth.
 
-### Types of ANNs and pills of history
+## Types of ANNs and pills of history
 
 This here is no more than a super-quick and very high-level introduction to several types of neural networks, the details of which are explored elsewhere in this chapter. You can find a more comprehensive outline of the different types of networks in the [Neural Network zoo](artificial-neural-networks-in-a-nutshell.md#references), with great and coloured illustrations by F Van Veen. The article also reports some important papers about the mentioned networks.
 

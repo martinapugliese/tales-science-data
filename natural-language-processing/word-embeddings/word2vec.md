@@ -44,7 +44,9 @@ In terms of performance, the denominator in the softmax computation is a $$O(V)$
 
 ![](../../imgs/word2vec.jpg)
 
-![](../../.gitbook/assets/word2vec.jpg) 
+ 
+
+![](../../.gitbook/assets/word2vec.jpg)
 
 In the figure, an example of a word2vec network. The weights are initialised at random, then the idea is to have the network show a high probability for "chases" when "cat" is in input \(cat being the context word in this case\). Errors are backpropagated.
 
