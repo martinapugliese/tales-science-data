@@ -6,7 +6,7 @@ _What exactly is this thing? Why did I even bother writing it? How come did I ch
 
 ### What's this
 
-This "book" is a personally elaborated collection of material on _Data Science_. The title refers to, without any intention of comparison, Poe's _Tales of Mystery and Imagination_. It's just an inspiration. Within the general public, _science_ has generally a reputation for being something cryptic and not necessarily accessible. However, the enormous and relatively recent rise in interest towards _data_ renders science a grandiose playground for imagination, so I thought the title would capture these two sides of the coin.
+This "book" is a personally elaborated collection of material on _Data Science_. The title refers to, without any intention of comparison, Poe's _Tales of Mystery and Imagination_. It's just an inspiration. Within the general public, _science_ has generally a reputation for being something cryptic and not easily accessible. However, the enormous and relatively recent rise in interest towards _data_ renders science a grandiose playground for imagination, so I thought of a the title that would capture these two sides of the coin.
 
 Data Science is an interdisciplinary field and a very broad one, somewhat ill-defined, and there is tons of good material in the web; I cannot read it all because I'm only human and my time is limited, there's also countless books I'd like to study, there's countless MOOCs I'd like to take. Because of this, collecting my own notes into a single place helps me a lot in both my own learning and in order to have one reference point to go to when in need of info. This is why this project is not meant to be exhaustive, nor finalised and set in stone: it is an ongoing effort, a perennial work in progress. 
 
@@ -16,9 +16,14 @@ I should definitely point out that none of this is a rigorous exposition of the 
 
 I just thought it might be useful to others as well so here goes.
 
-#### A bit on the genesis of this as I'm a big romantic
+#### A bit on the genesis of this
 
 This project has formerly existed in several forms throughout the years. The first form was a bunch of hand-written notes in several notebooks I had. This form lived long enough but eventually proved to be rather unfeasible to update - editing, adding notes and expanding something hand-written isn't the most practical thing to do, nor very scalable \(and note that I do love writing things by hand!\). Then, I had considered GitBook but at the time it didn't offer features I desired for this. So I had resorted to keep this as a GitHub repo of Jupyter notebooks, served with the nbviewer. It worked pretty well for a while. Then one day I sat down with the intention to refactor the whole thing, reconsidered GitBook which meantime had expanded a lot, and here we are now. The original notebooks repo still exists as the code support to this book \(you will see links to the notebooks in each page\). 
+
+#### How to use
+
+Use it as you please. I just want to stress that this book spans a large variety of topics in the space of "data science" and it is not necessarily the case that you would see all of these in a typical "data scientist" position - do not feel like you have to have expertise in all the areas outlined here \(I certainly do not\). Throughout my studies and career as researcher and data scientist, I had the opportunity \(and luck\) to deal with a large variety of topics and areas. I'm not an expert in any, though, I just learn along the way.  
+Data science is a very broad field - these notes just present various sub-areas and flavours of what it can mean.
 
 ### Structure of the book
 

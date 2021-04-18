@@ -1,6 +1,6 @@
 # Beautiful web of data science
 
-_The web is a beautiful place, you can learn so much on it, for free. This document puts together some resources on \(or related to\) data science which are absolutely brilliant. We also list books, which might not be freely available, but that are definitely worth having._
+_The web is a beautiful place, you can learn so much on it, for free. This document puts together some resources on \(or related to\) data science which are absolutely brilliant. We also list books, which might not be freely available, but that are definitely worth owning._
 
 Topic-specific resources are already reported in every page for details, more insight, citation purposes. Here, we list material which is comprehensively good: online courses, books, blogs, and which span several of the topics we touch on in the book. All the material listed here can be of any format.
 
@@ -18,6 +18,7 @@ Topic-specific resources are already reported in every page for details, more in
 * \*\*\*\*[Notes](http://cs229.stanford.edu/syllabus.html) from the **Stanford CS229 Course on Machine Learning** \(all lecture notes are open-access\)
 * [**R2D3**](http://www.r2d3.us/), a visual introduction to Machine Learning, project by S Yee and T Chu
 * \*\*\*\*[**Explained Visually**](https://setosa.io/ev/), a project by V Powell and L Lehe
+* C Molnar, [**Interpretable Machine Learning**](https://christophm.github.io/interpretable-ml-book/), a book, freely available
 
 ## Neural Networks
 
