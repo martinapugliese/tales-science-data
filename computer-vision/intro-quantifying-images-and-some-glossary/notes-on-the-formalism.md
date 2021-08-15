@@ -32,8 +32,10 @@ There are five major colour models:
 
 Colour spaces are:
 
-* **LMS** \(long/medium/short\), where long, medium and short refer to the wavelengths;
-* **XYZ**: humans perceive light in the green \(medium\) part of the electromagnetic spectrum as brighter than those in the red \(long\) and the blue \(short\) parts of the spectrum. Y is the _luminance_; Z the _blue stimulation_; X is a linear combination of the cone responses. So, at fixed X, the plane XZ contains all the  cromaticities at that luminance. The cromaticity is the quality of colour regardless of luminance and is given by hue and saturation
+* **LMS** \(long/medium/short\), where long, medium and short refer to the wavelengths of peak sensitivity of cone cells: L for long \(in the blue\), M for medium \(in the green\) and S for short \(in the red\);
+* **XYZ** \(tristimulus\): humans perceive light in the green \(medium\) part of the electromagnetic spectrum as brighter than those in the red \(long\) and the blue \(short\) parts of the spectrum. Y is the _luminance_; Z the _blue stimulation_; X is a linear combination of the cone responses. So, at fixed X, the plane XZ contains all the  cromaticities at that luminance. The cromaticity is the quality of colour regardless of luminance and is given by hue and saturation. This colour space encodes all colours that a typical human \(with no colour deficiencies\) can see.
+
+Note that we can pass from the LMS space to the XYZ one by virtue of a [transformation](https://en.wikipedia.org/wiki/CIE_1931_color_space#Meaning_of_X,_Y_and_Z), which surfaces the fact that Z is equivalent to S, Y is a linear combination of L and M, and X is a linear combination of all three. 
 
 ## Pixel connectivity
 
