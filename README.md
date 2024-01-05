@@ -1,5 +1,7 @@
 # Tales of Science and Data
 
+**WIP: The whole repo is under rework**
+
 A project by [**Martina Pugliese**](https://martinapugliese.github.io/).
 
 _This book is a collection of notes on Data Science, from Statistics to Machine Learning, passing through all sorts of related areas._
@@ -64,7 +66,7 @@ Mistakes happen. Inaccuracies and oversights as well, from the content point to 
 
 ## License
 
-\(C\) 2017-2021 Martina Pugliese
+\(C\) 2017-2024 Martina Pugliese
 
 This book is released under the [Creative Commons NoDerivatives 4.0 International \(CC BY-NC-ND 4.0\)](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
