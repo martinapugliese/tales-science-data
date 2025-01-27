@@ -8,8 +8,6 @@ Now that we're at it, let's also calculate expected value and variance \(at leas
 
 Given a continuous variable$$X $$taking values in interval$$[a, b]$$, a _uniform_ distribution is one where every possible value has the same probability. Its pdf is simply
 
-
-
 $$
 p(x) = \frac{1}{b-a} ,
 $$
@@ -28,76 +26,6 @@ The variance is
 
 $$
 \begin{align} Var[X] &= \int_a^b \text{d} x \ x \Big(x - \frac{1}{b-a}\Big)^2 \\ &= \int_a^b \text{d} x \ x^3 - 2x^2\frac{1}{b-a} + \frac{x}{(b-a)^2} \\ &= \frac{b^4 - a^4}{4} - \frac{2}{3} \frac{b^3 - a^3}{b-a} + \frac{b^2-a^2}{2(b-a)^2} \\ &= \frac{(b^2 - a^2)(b^2 + a^2)}{4} - \frac{2}{3} \frac{(b-a)(b^2 + ab + a^2)}{b-a} + \frac{b+a}{2(b-a)} \\ & = \ \frac{(b-a)^2}{12} \ . \end{align}
-$$
-
-## Success or failure: the Bernoulli
-
-Let's consider a binary variable $$X \in \{0, 1\}$$, so that it can take the two values 1 \(which we'll call the _success_\) or 0 \(which we'll call the _failure_\). The prototype of this is the result of flipping of a coin. Let's also call $$\mu$$ the probability of the success so that, by definition
-
-$$
-P(X=1) = \mu \ ; P(X=0) = 1 - \mu \ ,
-$$
-
-so that the pmf \(it is a discrete variable\) can be expressed as
-
-$$
-p(x;\mu) = \mu^x(1-\mu)^{1-x}
-$$
-
-because when we have $$x=1$$ we are left with $$\mu$$ and when we have $$x=0$$we are left with $$1-\mu$$.
-
-Said distribution has expected value
-
-$$
-\mathbb{E}[X] = \sum_{x \in \{0,1\}} x \mu^x(1-\mu)^{1-x} = 0 + 1\mu(1-\mu)^0 = \mu
-$$
-
-and variance
-
-$$
-Var[X] = \sum_{x \in \{0,1\}} x^2 \mu^x(1-\mu)^{1-x} - \mu^2 = \mu - \mu^2 = \mu(1-\mu)
-$$
-
-The Bernoulli distribution is a special case of a binomial distribution for a single observation, see below!
-
-## More successes and more failures: the Binomial
-
-The binomial distribution describes the probability of observing $$k$$ occurrences of$$x=1$$in a set of$$n$$samples from a Bernoulli distribution.$$\mu$$is the probability of observing$$x=1$$. The pmf will be then
-
-$$
-p(x;\mu) = {{n}\choose{k}} \mu^k (1-\mu)^{n-k} \ ,
-$$
-
-because we have$${{n}\choose{k}}$$ways of creating groups of$$k$$from$$n$$values and because each extraction is a Bernoulli.
-
-The expected value is
-
-$$
-\mathbb{E}[X] = n \mu
-$$
-
-and the variance is
-
-$$
-Var[X] = n \mu (1- \mu)
-$$
-
-Head to [Wikipedia](https://en.wikipedia.org/wiki/Binomial_distribution) for the proofs.
-
-## Extending all that^: the Multinomial
-
-It is a multivariate generalisation of the binomial and gives the distribution over counts$$m_k$$for a$$k$$-state discrete variable to be in state$$k$$given a total of observations$$n$$.
-
-An example is the extraction of$$n$$balls of$$k$$different colours from a bag, replacing the extracted ball after each draw. The pmf reads
-
-$$
-p(m_1, m_2, \ldots, m_k, \mu_1, \mu_2, \ldots, \mu_k, n) = {{n}\choose{m_1 m_2 \ldots m_k}} \mu_1^{m_1} \mu_2^{m_2} \ldots \mu_k^{m_k}
-$$
-
-and we have
-
-$$
-\mathbb{E}[m_k] = n \mu_k \ , Var[m_k] = n \mu_k(1-\mu_k)
 $$
 
 ## Her majesty the Gaussian
